@@ -27,15 +27,15 @@
       "name": "Pinguin",
       "type": "animatedentity",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pinguin",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
           "src/main/resources/data/chaosket/forge/biome_modifier/pinguin_biome_modifier.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java",
           "src/main/resources/assets/chaosket/models/item/pinguin_spawn_egg.json",
+          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java",
           "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java"
         ]
       },
@@ -50,8 +50,8 @@
       "registry_name": "travelanchor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java",
-          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
+          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java",
+          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java"
         ]
       },
       "path": "~/travel_anchor"
@@ -68,8 +68,8 @@
           "src/main/java/wuzu/ian/chaosket/block/TravelanchorblockBlock.java",
           "src/main/resources/assets/chaosket/blockstates/travelanchorblock.json",
           "src/main/java/wuzu/ian/chaosket/block/entity/TravelanchorblockBlockEntity.java",
-          "src/main/resources/assets/chaosket/models/block/travelanchorblock.json",
-          "src/main/resources/assets/chaosket/models/item/travelanchorblock.json"
+          "src/main/resources/assets/chaosket/models/item/travelanchorblock.json",
+          "src/main/resources/assets/chaosket/models/block/travelanchorblock.json"
         ]
       },
       "path": "~/travel_anchor"
