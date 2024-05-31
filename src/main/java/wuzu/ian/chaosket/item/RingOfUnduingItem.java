@@ -14,7 +14,7 @@ import java.util.List;
 
 public class RingOfUnduingItem extends Item implements ICurioItem {
 	public RingOfUnduingItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

@@ -11,7 +11,7 @@
     "baubleModel": "Default",
     "baubleModelTexture": "",
     "creativeTab": {
-      "value": "CUSTOM:ChaosKet"
+      "value": "No creative tab entry"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -26,7 +26,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
-    "addSlot": false,
+    "addSlot": true,
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": []
@@ -37,7 +37,7 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "slotAmount": 1,
+    "slotAmount": 2,
     "isFood": false,
     "friendlyPigs": false,
     "enderMask": false,
