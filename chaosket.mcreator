@@ -21,8 +21,17 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "world_edit",
+      "pehkui",
+      "geckolib",
+      "oculus",
+      "embeddium",
+      "craft_tweaker",
+      "jei"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "wuzu.ian.chaosket",
     "lockBaseModFiles": false
   },
