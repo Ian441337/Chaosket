@@ -50,8 +50,8 @@
       "registry_name": "travelanchor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java",
-          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java"
+          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java",
+          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
         ]
       },
       "path": "~/travel_anchor"
@@ -148,6 +148,7 @@
       "block.chaosket.jaildoor": "Jail door",
       "block.chaosket.travelanchorblock": "Travelanchorblock",
       "entity.chaosket.pinguin": "Pinguin",
+      "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg"
     }

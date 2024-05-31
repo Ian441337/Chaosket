@@ -71,6 +71,7 @@ public class TravelanchorScreen extends AbstractContainerScreen<TravelanchorMenu
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.chaosket.travelanchor.label_travel_anchor"), 51, 7, -12829636, false);
 	}
 
 	@Override
@@ -81,7 +82,7 @@ public class TravelanchorScreen extends AbstractContainerScreen<TravelanchorMenu
 	@Override
 	public void init() {
 		super.init();
-		travel_anchor_name = new EditBox(this.font, this.leftPos + 41, this.topPos + 9, 118, 18, Component.translatable("gui.chaosket.travelanchor.travel_anchor_name")) {
+		travel_anchor_name = new EditBox(this.font, this.leftPos + 43, this.topPos + 34, 118, 18, Component.translatable("gui.chaosket.travelanchor.travel_anchor_name")) {
 			@Override
 			public void insertText(String text) {
 				super.insertText(text);

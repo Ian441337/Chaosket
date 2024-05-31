@@ -24,8 +24,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 136,
-          "y": 46
+          "x": 141,
+          "y": 71
         }
       },
       {
@@ -35,8 +35,23 @@
           "name": "travel_anchor_name",
           "width": 120,
           "height": 20,
-          "x": 166,
-          "y": 45
+          "x": 168,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_travel_anchor",
+          "text": {
+            "fixedValue": "Travel Anchor"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 177,
+          "y": 44
         }
       }
     ],

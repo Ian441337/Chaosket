@@ -77,7 +77,7 @@ public class TravelanchorMenu extends AbstractContainerMenu implements Supplier<
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 11, 10) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
 			private final int slot = 0;
 		}));
 		for (int si = 0; si < 3; ++si)
