@@ -13,6 +13,10 @@
  */
 package wuzu.ian.chaosket;
 
+import wuzu.ian.chaosket.init.ChaosketModItems;
+import wuzu.ian.chaosket.init.ChaosketModBlocks;
+import wuzu.ian.chaosket.init.ChaosketModBlockEntities;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -46,6 +50,10 @@ public class ChaosketMod {
 	public ChaosketMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ChaosketModBlocks.REGISTRY.register(bus);
+		ChaosketModBlockEntities.REGISTRY.register(bus);
+		ChaosketModItems.REGISTRY.register(bus);
 
 	}
 
