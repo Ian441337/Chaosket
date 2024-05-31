@@ -4,6 +4,7 @@
  */
 package wuzu.ian.chaosket.init;
 
+import wuzu.ian.chaosket.block.TravelanchorblockBlock;
 import wuzu.ian.chaosket.block.JaildoorBlock;
 import wuzu.ian.chaosket.ChaosketMod;
 
@@ -16,4 +17,5 @@ import net.minecraft.world.level.block.Block;
 public class ChaosketModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ChaosketMod.MODID);
 	public static final RegistryObject<Block> JAILDOOR = REGISTRY.register("jaildoor", () -> new JaildoorBlock());
+	public static final RegistryObject<Block> TRAVELANCHORBLOCK = REGISTRY.register("travelanchorblock", () -> new TravelanchorblockBlock());
 }

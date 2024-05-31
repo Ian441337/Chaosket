@@ -3,6 +3,7 @@
     {
       "name": "Jaildoor",
       "type": "animatedblock",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jaildoor",
@@ -26,7 +27,7 @@
       "name": "Pinguin",
       "type": "animatedentity",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pinguin",
       "metadata": {
@@ -39,6 +40,39 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Travelanchor",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelanchor",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java",
+          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
+        ]
+      },
+      "path": "~/travel_anchor"
+    },
+    {
+      "name": "Travelanchorblock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelanchorblock",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/block/TravelanchorblockBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/travelanchorblock.json",
+          "src/main/java/wuzu/ian/chaosket/block/entity/TravelanchorblockBlockEntity.java",
+          "src/main/resources/assets/chaosket/models/block/travelanchorblock.json",
+          "src/main/resources/assets/chaosket/models/item/travelanchorblock.json"
+        ]
+      },
+      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
@@ -46,7 +80,9 @@
   "language_map": {
     "en_us": {
       "block.chaosket.jaildoor": "Jail door",
+      "block.chaosket.travelanchorblock": "Travelanchorblock",
       "entity.chaosket.pinguin": "Pinguin",
+      "gui.chaosket.travelanchor.travel_anchor_name": "NAME:",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg"
     }
   },
@@ -63,6 +99,10 @@
       },
       {
         "name": "doors",
+        "children": []
+      },
+      {
+        "name": "travel_anchor",
         "children": []
       }
     ]
