@@ -1,6 +1,10 @@
 package wuzu.ian.chaosket.entity.model;
 
-import software.bernie.geckolib.core.animation.AnimationState;
+import wuzu.ian.chaosket.entity.PinguinEntity;
+
+import software.bernie.geckolib.model.GeoModel;
+
+import net.minecraft.resources.ResourceLocation;
 
 public class PinguinModel extends GeoModel<PinguinEntity> {
 	@Override
