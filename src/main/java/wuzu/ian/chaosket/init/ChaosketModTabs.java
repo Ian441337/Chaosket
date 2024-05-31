@@ -32,6 +32,7 @@ public class ChaosketModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ChaosketModItems.PINGUIN_SPAWN_EGG.get());
+			tabData.accept(ChaosketModItems.RING_OF_UNDUING.get());
 		}
 	}
 }

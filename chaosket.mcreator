@@ -164,12 +164,28 @@
         ]
       },
       "path": "~/Bauble"
+    },
+    {
+      "name": "RingOfUnduing",
+      "type": "curiosbauble",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_unduing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json",
+          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java"
+        ]
+      },
+      "path": "~/Bauble"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "block.chaosket.jaildoor": "Jail door",
       "block.chaosket.travelanchorblock": "Travelanchorblock",
       "entity.chaosket.pinguin": "Pinguin",
