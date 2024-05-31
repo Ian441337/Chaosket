@@ -23,6 +23,7 @@ public class ChaosketModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ChaosketMod.MODID);
 	public static final RegistryObject<CreativeModeTab> CHAOS_KET = REGISTRY.register("chaos_ket",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.chaos_ket")).icon(() -> new ItemStack(ChaosketModBlocks.TRAVELANCHORBLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ChaosketModBlocks.JAILDOOR.get().asItem());
 				tabData.accept(ChaosketModBlocks.TRAVELANCHORBLOCK.get().asItem());
 			}).withSearchBar().build());
 
