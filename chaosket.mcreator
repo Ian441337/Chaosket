@@ -24,6 +24,7 @@
     "mcreatorDependencies": [
       "world_edit",
       "pehkui",
+      "curios_api",
       "geckolib",
       "oculus",
       "embeddium",
