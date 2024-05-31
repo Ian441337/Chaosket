@@ -4,21 +4,21 @@
       "name": "Jaildoor",
       "type": "animatedblock",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "jaildoor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/block/display/JaildoorDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorDisplayItemRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorTileRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/jaildoor.json",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorDisplayModel.java",
-          "src/main/resources/assets/chaosket/blockstates/jaildoor.json",
           "src/main/resources/assets/chaosket/models/custom/jaildoor_particle.json",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorBlockModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorDisplayModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorTileRenderer.java",
           "src/main/java/wuzu/ian/chaosket/block/entity/JaildoorTileEntity.java",
-          "src/main/java/wuzu/ian/chaosket/block/JaildoorBlock.java"
+          "src/main/java/wuzu/ian/chaosket/block/JaildoorBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/jaildoor.json",
+          "src/main/resources/assets/chaosket/models/item/jaildoor.json",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorDisplayItemRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/block/display/JaildoorDisplayItem.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorBlockModel.java"
         ]
       },
       "path": "~/doors"

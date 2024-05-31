@@ -2,8 +2,6 @@ package wuzu.ian.chaosket.block.model;
 
 import wuzu.ian.chaosket.block.entity.JaildoorTileEntity;
 
-import software.bernie.geckolib.model.GeoModel;
-
 import net.minecraft.resources.ResourceLocation;
 
 public class JaildoorBlockModel extends GeoModel<JaildoorTileEntity> {
