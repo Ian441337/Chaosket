@@ -160,8 +160,8 @@
       "registry_name": "ring_of_unduing",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java",
-          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json"
+          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json",
+          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java"
         ]
       },
       "path": "~/Bauble"
