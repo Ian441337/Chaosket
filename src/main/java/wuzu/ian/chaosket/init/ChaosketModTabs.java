@@ -25,6 +25,7 @@ public class ChaosketModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.chaos_ket")).icon(() -> new ItemStack(ChaosketModBlocks.TRAVELANCHORBLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ChaosketModBlocks.JAILDOOR.get().asItem());
 				tabData.accept(ChaosketModBlocks.TRAVELANCHORBLOCK.get().asItem());
+				tabData.accept(ChaosketModItems.STAFFOFTRAVELING.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

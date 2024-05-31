@@ -201,6 +201,36 @@
         ]
       },
       "path": "~/test"
+    },
+    {
+      "name": "Travelanchordirection",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelanchordirection",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/TravelanchordirectionProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/travel_anchor"
+    },
+    {
+      "name": "Staffoftraveling",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staffoftraveling",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/StaffoftravelingItem.java",
+          "src/main/resources/assets/chaosket/models/item/staffoftraveling.json"
+        ]
+      },
+      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
@@ -211,6 +241,7 @@
       "block.chaosket.jaildoor": "Jail door",
       "block.chaosket.travelanchorblock": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
+      "item.chaosket.staffoftraveling": "Staff of Traveling",
       "item_group.chaosket.chaos_ket": "Chaos Ket",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg"
@@ -228,15 +259,15 @@
         "children": []
       },
       {
+        "name": "test",
+        "children": []
+      },
+      {
         "name": "travel_anchor",
         "children": []
       },
       {
         "name": "doors",
-        "children": []
-      },
-      {
-        "name": "test",
         "children": []
       }
     ]
