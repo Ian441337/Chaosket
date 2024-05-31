@@ -7,7 +7,7 @@
     "mobModelTexture": "pinguin.png",
     "mobModelGlowTexture": "",
     "visualScale": {
-      "fixedValue": 0.5
+      "fixedValue": 1.0
     },
     "boundingBoxScale": {
       "fixedValue": 0.5
