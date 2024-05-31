@@ -126,12 +126,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRedstoneOn": {
-      "name": "JaildoorRedstoneOn"
-    },
-    "onRedstoneOff": {
-      "name": "JaildoorRedstoneOff"
-    },
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",
