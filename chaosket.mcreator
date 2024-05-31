@@ -165,6 +165,42 @@
         ]
       },
       "path": "~/Bauble"
+    },
+    {
+      "name": "Ada",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ada",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/AdaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
