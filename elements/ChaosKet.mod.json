@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Chaos Ket",
+    "icon": {
+      "value": "CUSTOM:Travelanchorblock"
+    },
+    "showSearch": true
+  }
+}
