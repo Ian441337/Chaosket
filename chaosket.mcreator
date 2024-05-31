@@ -73,6 +73,52 @@
         ]
       },
       "path": "~/travel_anchor"
+    },
+    {
+      "name": "Travelanchordisplayblock",
+      "type": "function",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelanchordisplayblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/functions/travelanchordisplayblock.mcfunction"
+        ]
+      },
+      "path": "~/travel_anchor"
+    },
+    {
+      "name": "TravelanchorblockUpdateTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelanchorblock_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/TravelanchorblockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
@@ -82,7 +128,7 @@
       "block.chaosket.jaildoor": "Jail door",
       "block.chaosket.travelanchorblock": "Travelanchorblock",
       "entity.chaosket.pinguin": "Pinguin",
-      "gui.chaosket.travelanchor.travel_anchor_name": "NAME:",
+      "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg"
     }
   },

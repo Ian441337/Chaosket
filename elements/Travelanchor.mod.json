@@ -31,7 +31,7 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "NAME:",
+          "placeholder": "NAME",
           "name": "travel_anchor_name",
           "width": 120,
           "height": 20,

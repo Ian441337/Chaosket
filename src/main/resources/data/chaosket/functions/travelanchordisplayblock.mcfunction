@@ -1,0 +1,3 @@
+execute unless entity @e[type=block_display,tag=travel_anchor_block_display,distance=..0.5] run summon block_display ~-0.00005 ~-0.00005 ~-0.00005 {Tags:["travel_anchor","travel_anchor_block_display"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.0001f,1.0001f,1.0001f]}}
+data merge entity @e[type=block_display,tag=travel_anchor_block_display,distance=..0.5,limit=1] {block_state:{Name:"minecraft:air"}}
+data modify entity @e[type=block_display,tag=travel_anchor_block_display,distance=..0.5,limit=1] block_state.Name set from block ~ ~ ~ Items[0].id

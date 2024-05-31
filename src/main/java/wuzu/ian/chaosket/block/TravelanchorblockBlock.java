@@ -2,13 +2,13 @@
 package wuzu.ian.chaosket.block;
 
 import wuzu.ian.chaosket.world.inventory.TravelanchorMenu;
+import wuzu.ian.chaosket.procedures.TravelanchorblockUpdateTickProcedure;
 import wuzu.ian.chaosket.block.entity.TravelanchorblockBlockEntity;
 
 import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootParams;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -26,7 +26,9 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
@@ -38,7 +40,7 @@ import io.netty.buffer.Unpooled;
 
 public class TravelanchorblockBlock extends Block implements EntityBlock {
 	public TravelanchorblockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f));
 	}
 
 	@Override
@@ -57,6 +59,15 @@ public class TravelanchorblockBlock extends Block implements EntityBlock {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		TravelanchorblockUpdateTickProcedure.execute(world, x, y, z);
 	}
 
 	@Override
