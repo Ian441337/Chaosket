@@ -42,10 +42,10 @@
   "workspaceSettings": {
     "modid": "chaosket",
     "modName": "Chaosket",
-    "version": "1.0.0",
-    "author": "Ian, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "0.0.1",
+    "author": "Ian, Wuzuket",
+    "websiteURL": "de.Paul2Craft.de",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -62,7 +62,6 @@
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "wuzu.ian.chaosket",
     "lockBaseModFiles": false
   },
