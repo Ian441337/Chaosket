@@ -79,6 +79,17 @@ dependencies {
 
 repositories {
   maven {
+      url = 'https://cursemaven.com/'
+  }
+}
+
+dependencies {
+  implementation fg.deobf('curse.maven:supplementaries-412082:5225134')
+}
+
+
+repositories {
+  maven {
       url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
   }
 }
