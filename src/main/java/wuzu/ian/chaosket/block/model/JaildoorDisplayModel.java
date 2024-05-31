@@ -2,6 +2,8 @@ package wuzu.ian.chaosket.block.model;
 
 import wuzu.ian.chaosket.block.display.JaildoorDisplayItem;
 
+import software.bernie.geckolib.model.GeoModel;
+
 import net.minecraft.resources.ResourceLocation;
 
 public class JaildoorDisplayModel extends GeoModel<JaildoorDisplayItem> {
