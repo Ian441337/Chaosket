@@ -1,6 +1,8 @@
 
 package wuzu.ian.chaosket.block;
 
+import wuzu.ian.chaosket.procedures.JaildoorRedstoneOnProcedure;
+import wuzu.ian.chaosket.procedures.JaildoorRedstoneOffProcedure;
 import wuzu.ian.chaosket.init.ChaosketModBlockEntities;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -20,6 +22,7 @@ import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.BaseEntityBlock;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.TooltipFlag;
@@ -103,5 +106,15 @@ public class JaildoorBlock extends BaseEntityBlock implements EntityBlock {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		if (world.getBestNeighborSignal(pos) > 0) {
+			JaildoorRedstoneOnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		} else {
+			JaildoorRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
 	}
 }

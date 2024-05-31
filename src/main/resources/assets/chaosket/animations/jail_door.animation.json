@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.Jail_door.open": {
+		"animation.Jail_door.0": {
 			"animation_length": 1,
 			"bones": {
 				"bone": {
@@ -25,7 +25,7 @@
 				}
 			}
 		},
-		"animation.Jail_door.close": {
+		"animation.Jail_door.1": {
 			"animation_length": 1,
 			"bones": {
 				"bone": {
@@ -39,7 +39,7 @@
 						"0.5": {
 							"vector": [0, 0, 2]
 						},
-						"1.0": {
+						"0.7917": {
 							"vector": [0, 0, 0]
 						}
 					},
