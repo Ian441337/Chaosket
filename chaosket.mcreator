@@ -174,8 +174,8 @@
       "registry_name": "ring_of_unduing",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json",
-          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java"
+          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java",
+          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json"
         ]
       },
       "path": "~/Bauble"
@@ -187,7 +187,7 @@
     "en_us": {
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "block.chaosket.jaildoor": "Jail door",
-      "block.chaosket.travelanchorblock": "Travelanchorblock",
+      "block.chaosket.travelanchorblock": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
       "item_group.chaosket.chaos_ket": "Chaos Ket",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
