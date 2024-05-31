@@ -119,6 +119,26 @@
         ]
       },
       "path": "~/travel_anchor"
+    },
+    {
+      "name": "Travelanchorblockdisplaykill",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelanchorblockdisplaykill",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/TravelanchorblockdisplaykillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
