@@ -1,7 +1,6 @@
 {
   "replace": "false",
   "values": [
-    "minecraft:air",
-    "chaosket:ring_of_unduing"
+    "minecraft:air"
   ]
 }

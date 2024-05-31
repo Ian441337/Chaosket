@@ -4,6 +4,7 @@
  */
 package wuzu.ian.chaosket.init;
 
+import wuzu.ian.chaosket.item.StaffoftravelingItem;
 import wuzu.ian.chaosket.item.RingOfUnduingItem;
 import wuzu.ian.chaosket.block.display.JaildoorDisplayItem;
 import wuzu.ian.chaosket.ChaosketMod;
@@ -23,6 +24,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> JAILDOOR = REGISTRY.register(ChaosketModBlocks.JAILDOOR.getId().getPath(), () -> new JaildoorDisplayItem(ChaosketModBlocks.JAILDOOR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> TRAVELANCHORBLOCK = block(ChaosketModBlocks.TRAVELANCHORBLOCK);
 	public static final RegistryObject<Item> RING_OF_UNDUING = REGISTRY.register("ring_of_unduing", () -> new RingOfUnduingItem());
+	public static final RegistryObject<Item> STAFFOFTRAVELING = REGISTRY.register("staffoftraveling", () -> new StaffoftravelingItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
