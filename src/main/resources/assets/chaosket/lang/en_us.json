@@ -2,7 +2,7 @@
   "block.chaosket.jaildoor": "Jail door",
   "block.chaosket.travelanchorblock": "Travelanchorblock",
   "entity.chaosket.pinguin": "Pinguin",
-  "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
+  "item_group.chaosket.chaos_ket": "Chaos Ket",
   "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
   "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg"
 }
