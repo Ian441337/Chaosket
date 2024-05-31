@@ -130,6 +130,26 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Travelanchorblockdisplaykill",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelanchorblockdisplaykill",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/TravelanchorblockdisplaykillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
@@ -156,11 +176,11 @@
         "children": []
       },
       {
-        "name": "doors",
+        "name": "travel_anchor",
         "children": []
       },
       {
-        "name": "travel_anchor",
+        "name": "doors",
         "children": []
       }
     ]
