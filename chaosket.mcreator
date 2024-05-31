@@ -210,7 +210,8 @@
       "registry_name": "ckowner",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
