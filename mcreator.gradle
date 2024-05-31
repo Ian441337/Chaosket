@@ -165,6 +165,17 @@ dependencies {
   }
 
 
+repositories {
+  maven {
+      url = 'https://cursemaven.com/'
+  }
+}
+
+dependencies {
+  implementation fg.deobf('curse.maven:farmers-delight-398521:5051242')
+}
+
+
 minecraft {
 	runs {
 		client {

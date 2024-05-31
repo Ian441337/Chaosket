@@ -177,7 +177,12 @@
         "files": [
           "src/main/java/wuzu/ian/chaosket/procedures/TravelanchordirectionProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/travel_anchor"
     },
@@ -257,6 +262,7 @@
       "geckolib",
       "embeddium",
       "oculus",
+      "farmers_delight",
       "craft_tweaker",
       "jei"
     ],
