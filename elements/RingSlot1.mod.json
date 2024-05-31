@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "ringslot.png",
+    "name": "Ring Slot",
+    "amount": 3
+  }
+}
