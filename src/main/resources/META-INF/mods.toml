@@ -20,13 +20,13 @@ authors="Ian, Wuzuket"
 
 
 [[dependencies.chaosket]]
-    modId="world_edit"
+    modId="pehkui"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.chaosket]]
-    modId="pehkui"
+    modId="world_edit"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
@@ -38,19 +38,25 @@ authors="Ian, Wuzuket"
     ordering="NONE"
     side="BOTH"
 [[dependencies.chaosket]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.chaosket]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.chaosket]]
-    modId="oculus"
+    modId="embeddium"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.chaosket]]
-    modId="embeddium"
+    modId="oculus"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

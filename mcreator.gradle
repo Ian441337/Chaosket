@@ -1,14 +1,3 @@
-repositories {
-    maven {
-        url "https://cursemaven.com"
-    }
-}
-
-dependencies {
-    implementation fg.deobf("curse.maven:worldedit-225608:4586218")
-}
-
-
 minecraft {
 	runs {
 		client {
@@ -38,6 +27,17 @@ dependencies {
 
 
 repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+}
+
+dependencies {
+    implementation fg.deobf("curse.maven:worldedit-225608:4586218")
+}
+
+
+repositories {
 maven {
   url = "https://maven.theillusivec4.top/"
   }
@@ -63,6 +63,17 @@ minecraft {
         property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
     }
   }
+}
+
+
+repositories {
+  maven {
+      url = 'https://cursemaven.com/'
+  }
+}
+
+dependencies {
+  implementation fg.deobf('curse.maven:create-328085:4835191')
 }
 
 
@@ -102,8 +113,8 @@ repositories {
 }
 
 dependencies {
-  compileOnly fg.deobf("curse.maven:oculus-581495:4767500")
-  runtimeOnly fg.deobf("curse.maven:oculus-581495:4767500")
+  compileOnly fg.deobf("curse.maven:embeddium-908741:4984832")
+  runtimeOnly fg.deobf("curse.maven:embeddium-908741:4984832")
 }
   minecraft {
     runs {
@@ -132,8 +143,8 @@ repositories {
 }
 
 dependencies {
-  compileOnly fg.deobf("curse.maven:embeddium-908741:4984832")
-  runtimeOnly fg.deobf("curse.maven:embeddium-908741:4984832")
+  compileOnly fg.deobf("curse.maven:oculus-581495:4767500")
+  runtimeOnly fg.deobf("curse.maven:oculus-581495:4767500")
 }
   minecraft {
     runs {
