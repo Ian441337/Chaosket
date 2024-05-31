@@ -21,24 +21,48 @@
         ]
       },
       "path": "~/doors"
+    },
+    {
+      "name": "Pinguin",
+      "type": "animatedentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinguin",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
+          "src/main/resources/data/chaosket/forge/biome_modifier/pinguin_biome_modifier.json",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/pinguin_spawn_egg.json",
+          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.chaosket.jaildoor": "Jail door"
+      "block.chaosket.jaildoor": "Jail door",
+      "entity.chaosket.pinguin": "Pinguin",
+      "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "doors",
+        "name": "Bauble",
         "children": []
       },
       {
-        "name": "Bauble",
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "doors",
         "children": []
       }
     ]

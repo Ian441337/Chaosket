@@ -1,3 +1,5 @@
 {
-  "block.chaosket.jaildoor": "Jail door"
+  "block.chaosket.jaildoor": "Jail door",
+  "entity.chaosket.pinguin": "Pinguin",
+  "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg"
 }

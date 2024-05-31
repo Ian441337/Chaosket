@@ -1,0 +1,21 @@
+package wuzu.ian.chaosket.entity.model;
+
+import software.bernie.geckolib.core.animation.AnimationState;
+
+public class PinguinModel extends GeoModel<PinguinEntity> {
+	@Override
+	public ResourceLocation getAnimationResource(PinguinEntity entity) {
+		return new ResourceLocation("chaosket", "animations/pinguin.animation.json");
+	}
+
+	@Override
+	public ResourceLocation getModelResource(PinguinEntity entity) {
+		return new ResourceLocation("chaosket", "geo/pinguin.geo.json");
+	}
+
+	@Override
+	public ResourceLocation getTextureResource(PinguinEntity entity) {
+		return new ResourceLocation("chaosket", "textures/entities/" + entity.getTexture() + ".png");
+	}
+
+}
