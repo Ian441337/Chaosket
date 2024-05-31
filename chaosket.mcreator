@@ -1,18 +1,5 @@
 {
-  "mod_elements": [
-    {
-      "name": "Ada",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ada",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/command/AdaCommand.java"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
