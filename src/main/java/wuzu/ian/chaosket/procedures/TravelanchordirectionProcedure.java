@@ -58,9 +58,9 @@ public class TravelanchordirectionProcedure {
 				for (Entity entityiterator : _entfound) {
 					if (entityiterator instanceof ArmorStand && (entityiterator.getPersistentData().getString("tag")).equals("travelAnchor")) {
 						if (entity instanceof Player _player && !_player.level().isClientSide())
-							_player.displayClientMessage(Component.literal((Math.round(((entityiterator.getX() * 10 - entity.getX() * 10) / (entity.getLookAngle().x * 10)) * 1000) + ";"
-									+ Math.round(((entityiterator.getY() * 10 - (entity.getY() + 1.5) * 10) / (entity.getLookAngle().y * 10)) * 1000) + ";"
-									+ Math.round(((entityiterator.getZ() * 10 - entity.getZ() * 10) / (entity.getLookAngle().z * 10)) * 1000))), true);
+							_player.displayClientMessage(Component.literal((Math.round(((entityiterator.getX() * 10 - entity.getX() * 10) / (entity.getLookAngle().x * 10)) * 0.1) + ";"
+									+ Math.round(((entityiterator.getY() * 10 - (entity.getY() + 2) * 10) / (entity.getLookAngle().y * 10)) * 0.1) + ";"
+									+ Math.round(((entityiterator.getZ() * 10 - entity.getZ() * 10) / (entity.getLookAngle().z * 10)) * 0.1))), true);
 					}
 				}
 			}
