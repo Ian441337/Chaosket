@@ -1,6 +1,7 @@
 package wuzu.ian.chaosket.procedures;
 
 import wuzu.ian.chaosket.init.ChaosketModBlocks;
+import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
@@ -43,6 +44,8 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 						}
 					}.with(ChaosketModBlocks.LASERBRIGE.get().defaultBlockState(), Direction.NORTH)), 3);
 					Scaling = Scaling + 1;
+					ChaosketMod.queueServerWork(5, () -> {
+					});
 				} else {
 					break;
 				}
@@ -72,6 +75,8 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 						}
 					}.with(ChaosketModBlocks.LASERBRIGE.get().defaultBlockState(), Direction.SOUTH)), 3);
 					Scaling = Scaling - 1;
+					ChaosketMod.queueServerWork(5, () -> {
+					});
 				} else {
 					break;
 				}
@@ -90,8 +95,8 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST) {
 			for (int index2 = 0; index2 < 100; index2++) {
-				if ((world.getBlockState(BlockPos.containing(scalingx - 1, y, z))).getBlock() == Blocks.AIR) {
-					world.setBlock(BlockPos.containing(scalingx - 1, y, z), (new Object() {
+				if ((world.getBlockState(BlockPos.containing(scalingx + 1, y, z))).getBlock() == Blocks.AIR) {
+					world.setBlock(BlockPos.containing(scalingx + 1, y, z), (new Object() {
 						public BlockState with(BlockState _bs, Direction newValue) {
 							Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
 							if (_prop instanceof DirectionProperty _dp && _dp.getPossibleValues().contains(newValue))
@@ -100,7 +105,9 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 							return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().contains(newValue.getAxis()) ? _bs.setValue(_ep, newValue.getAxis()) : _bs;
 						}
 					}.with(ChaosketModBlocks.LASERBRIGE.get().defaultBlockState(), Direction.WEST)), 3);
-					scalingx = scalingx - 1;
+					scalingx = scalingx + 1;
+					ChaosketMod.queueServerWork(5, () -> {
+					});
 				} else {
 					break;
 				}
@@ -119,8 +126,8 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.EAST) {
 			for (int index3 = 0; index3 < 100; index3++) {
-				if ((world.getBlockState(BlockPos.containing(scalingx + 1, y, z))).getBlock() == Blocks.AIR) {
-					world.setBlock(BlockPos.containing(scalingx + 1, y, z), (new Object() {
+				if ((world.getBlockState(BlockPos.containing(scalingx - 1, y, z))).getBlock() == Blocks.AIR) {
+					world.setBlock(BlockPos.containing(scalingx - 1, y, z), (new Object() {
 						public BlockState with(BlockState _bs, Direction newValue) {
 							Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
 							if (_prop instanceof DirectionProperty _dp && _dp.getPossibleValues().contains(newValue))
@@ -129,7 +136,9 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 							return _prop instanceof EnumProperty _ep && _ep.getPossibleValues().contains(newValue.getAxis()) ? _bs.setValue(_ep, newValue.getAxis()) : _bs;
 						}
 					}.with(ChaosketModBlocks.LASERBRIGE.get().defaultBlockState(), Direction.EAST)), 3);
-					scalingx = scalingx + 1;
+					scalingx = scalingx - 1;
+					ChaosketMod.queueServerWork(5, () -> {
+					});
 				} else {
 					break;
 				}

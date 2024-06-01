@@ -3,9 +3,9 @@
   "textures": {
     "down": "chaosket:block/gray",
     "up": "chaosket:block/gray",
-    "north": "chaosket:block/laserbrigeprojector",
+    "north": "chaosket:block/gray",
     "east": "chaosket:block/gray",
-    "south": "chaosket:block/gray",
+    "south": "chaosket:block/laserbrigeprojector",
     "west": "chaosket:block/gray",
     "particle": "chaosket:block/gray"
   },

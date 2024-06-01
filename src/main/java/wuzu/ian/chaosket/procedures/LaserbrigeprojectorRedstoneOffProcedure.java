@@ -1,6 +1,7 @@
 package wuzu.ian.chaosket.procedures;
 
 import wuzu.ian.chaosket.init.ChaosketModBlocks;
+import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -32,6 +33,8 @@ public class LaserbrigeprojectorRedstoneOffProcedure {
 				if ((world.getBlockState(BlockPos.containing(x, y, Scaling + 1))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
 					world.destroyBlock(BlockPos.containing(x, y, Scaling + 1), false);
 					Scaling = Scaling + 1;
+					ChaosketMod.queueServerWork(2, () -> {
+					});
 				} else {
 					break;
 				}
@@ -53,6 +56,8 @@ public class LaserbrigeprojectorRedstoneOffProcedure {
 				if ((world.getBlockState(BlockPos.containing(x, y, Scaling - 1))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
 					world.destroyBlock(BlockPos.containing(x, y, Scaling - 1), false);
 					Scaling = Scaling - 1;
+					ChaosketMod.queueServerWork(2, () -> {
+					});
 				} else {
 					break;
 				}
@@ -71,9 +76,11 @@ public class LaserbrigeprojectorRedstoneOffProcedure {
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST) {
 			for (int index2 = 0; index2 < 100; index2++) {
-				if ((world.getBlockState(BlockPos.containing(scalingx - 1, y, z))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
-					world.destroyBlock(BlockPos.containing(scalingx - 1, y, z), false);
-					scalingx = scalingx - 1;
+				if ((world.getBlockState(BlockPos.containing(scalingx + 1, y, z))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
+					world.destroyBlock(BlockPos.containing(scalingx + 1, y, z), false);
+					scalingx = scalingx + 1;
+					ChaosketMod.queueServerWork(2, () -> {
+					});
 				} else {
 					break;
 				}
@@ -92,9 +99,11 @@ public class LaserbrigeprojectorRedstoneOffProcedure {
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.EAST) {
 			for (int index3 = 0; index3 < 100; index3++) {
-				if ((world.getBlockState(BlockPos.containing(scalingx + 1, y, z))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
-					world.destroyBlock(BlockPos.containing(scalingx + 1, y, z), false);
-					scalingx = scalingx + 1;
+				if ((world.getBlockState(BlockPos.containing(scalingx - 1, y, z))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
+					world.destroyBlock(BlockPos.containing(scalingx - 1, y, z), false);
+					scalingx = scalingx - 1;
+					ChaosketMod.queueServerWork(2, () -> {
+					});
 				} else {
 					break;
 				}
