@@ -483,10 +483,10 @@
       "registry_name": "laserbrigeprojector",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
           "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java",
-          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json"
+          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json",
+          "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java"
         ]
       },
       "path": "~/laserbrige"

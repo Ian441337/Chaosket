@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.TooltipFlag;
@@ -78,5 +79,11 @@ public class LaserbrigeprojectorBlock extends Block {
 		} else {
 			LaserbrigeprojectorRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}
+	}
+
+	@Override
+	public void wasExploded(Level world, BlockPos pos, Explosion e) {
+		super.wasExploded(world, pos, e);
+		LaserbrigeprojectorRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

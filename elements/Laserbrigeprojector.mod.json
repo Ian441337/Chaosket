@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByExplosion": {
+      "name": "LaserbrigeprojectorRedstoneOff"
+    },
     "onRedstoneOn": {
       "name": "LaserbrigeprojectorRedstoneOn"
     },
