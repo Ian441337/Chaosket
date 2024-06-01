@@ -275,6 +275,23 @@
         ]
       },
       "path": "~/strohhut"
+    },
+    {
+      "name": "GreenStrohhut",
+      "type": "animatedarmor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_strohhut",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/model/GreenStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/item/GreenStrohhutItem.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json"
+        ]
+      },
+      "path": "~/strohhut"
     }
   ],
   "variable_elements": [],
@@ -283,13 +300,17 @@
     "en_us": {
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
+      "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
+      "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut Helmet",
       "item_group.chaosket.chaos_ket": "Chaos Ket",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
+      "item.chaosket.green_strohhut_helmet": "Red Strohhut Helmet",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
+      "item.chaosket.green_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.jaildoor": "Jail door",
       "painting.chaosket.ckowner.title": "Ckowner",
       "block.chaosket.travelanchorblock": "Travel Anchor",
@@ -344,6 +365,7 @@
       "world_edit",
       "curios_api",
       "create",
+      "supplementaries",
       "geckolib",
       "embeddium",
       "oculus",

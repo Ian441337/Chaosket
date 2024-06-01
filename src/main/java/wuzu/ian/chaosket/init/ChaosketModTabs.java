@@ -27,6 +27,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModBlocks.TRAVELANCHORBLOCK.get().asItem());
 				tabData.accept(ChaosketModItems.STAFFOFTRAVELING.get());
 				tabData.accept(ChaosketModItems.RED_STROHHUT_HELMET.get());
+				tabData.accept(ChaosketModItems.GREEN_STROHHUT_HELMET.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
