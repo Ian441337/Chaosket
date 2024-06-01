@@ -466,10 +466,10 @@
       "registry_name": "laserbrige",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/laserbrige.json",
-          "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java",
           "src/main/resources/assets/chaosket/models/block/laserbrige.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java"
+          "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/laserbrige.json"
         ]
       },
       "path": "~/laserbrige"
@@ -483,10 +483,10 @@
       "registry_name": "laserbrigeprojector",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
-          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json",
           "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java"
+          "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json"
         ]
       },
       "path": "~/laserbrige"
@@ -652,6 +652,123 @@
         ]
       },
       "path": "~/laserbrige"
+    },
+    {
+      "name": "StopshaderRightclicked",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stopshader_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/StopshaderRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Stopshader",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stopshader",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/stopshader.json",
+          "src/main/java/wuzu/ian/chaosket/item/StopshaderItem.java"
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "SobelRightclicked",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sobel_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/SobelRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Sobel",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sobel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/sobel.json",
+          "src/main/java/wuzu/ian/chaosket/item/SobelItem.java"
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "OutlineRightclicked",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outline_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/OutlineRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Outline",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outline",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/OutlineItem.java",
+          "src/main/resources/assets/chaosket/models/item/outline.json"
+        ]
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -662,6 +779,7 @@
       "item.chaosket.blue_strohhut_helmet": "Blue Strohhut",
       "block.chaosket.laserbrige": "Laserbrige",
       "item.chaosket.blue_strohhut_boots": "Red Strohhut Boots",
+      "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
@@ -669,11 +787,13 @@
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
+      "item.chaosket.outline": "Outline",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
+      "item.chaosket.sobel": "Sobel",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
