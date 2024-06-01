@@ -1,0 +1,9 @@
+{
+  "parent": "chaosket:custom/travel_anchor",
+  "textures": {
+    "all": "chaosket:block/travelanchor",
+    "particle": "chaosket:block/travelanchor",
+    "0": "chaosket:block/travelanchor"
+  },
+  "render_type": "solid"
+}

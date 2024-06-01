@@ -602,6 +602,24 @@
         ]
       },
       "path": "~/doors"
+    },
+    {
+      "name": "TravelAnchorblock",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_anchorblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/blockstates/travel_anchorblock.json",
+          "src/main/java/wuzu/ian/chaosket/block/TravelAnchorblockBlock.java",
+          "src/main/resources/assets/chaosket/models/block/travel_anchorblock.json",
+          "src/main/java/wuzu/ian/chaosket/block/entity/TravelAnchorblockBlockEntity.java",
+          "src/main/resources/assets/chaosket/models/item/travel_anchorblock.json"
+        ]
+      },
+      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
@@ -624,6 +642,7 @@
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
+      "block.chaosket.travel_anchorblock": "Travel Anchorblock",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut",

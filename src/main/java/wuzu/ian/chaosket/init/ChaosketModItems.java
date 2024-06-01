@@ -41,6 +41,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> LASERBRIGE = block(ChaosketModBlocks.LASERBRIGE);
 	public static final RegistryObject<Item> LASERBRIGEPROJECTOR = block(ChaosketModBlocks.LASERBRIGEPROJECTOR);
 	public static final RegistryObject<Item> JAIL_DOOR = doubleBlock(ChaosketModBlocks.JAIL_DOOR);
+	public static final RegistryObject<Item> TRAVEL_ANCHORBLOCK = block(ChaosketModBlocks.TRAVEL_ANCHORBLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
