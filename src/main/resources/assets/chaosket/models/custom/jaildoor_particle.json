@@ -1,6 +1,0 @@
-{
-  "parent": "chaosket:displaysettings/jail_door.item",
-  "textures": {
-    "particle": "chaosket:block/jail_door"
-  }
-}

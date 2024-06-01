@@ -5,7 +5,6 @@
 package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.block.entity.TravelanchorblockBlockEntity;
-import wuzu.ian.chaosket.block.entity.JaildoorTileEntity;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -17,7 +16,6 @@ import net.minecraft.world.level.block.Block;
 
 public class ChaosketModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ChaosketMod.MODID);
-	public static final RegistryObject<BlockEntityType<JaildoorTileEntity>> JAILDOOR = REGISTRY.register("jaildoor", () -> BlockEntityType.Builder.of(JaildoorTileEntity::new, ChaosketModBlocks.JAILDOOR.get()).build(null));
 	public static final RegistryObject<BlockEntityType<?>> TRAVELANCHORBLOCK = register("travelanchorblock", ChaosketModBlocks.TRAVELANCHORBLOCK, TravelanchorblockBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {

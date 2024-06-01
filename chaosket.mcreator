@@ -1,29 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Jaildoor",
-      "type": "animatedblock",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jaildoor",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/block/display/JaildoorDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorDisplayItemRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorTileRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/jaildoor.json",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorDisplayModel.java",
-          "src/main/resources/assets/chaosket/blockstates/jaildoor.json",
-          "src/main/resources/assets/chaosket/models/custom/jaildoor_particle.json",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorBlockModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/entity/JaildoorTileEntity.java",
-          "src/main/java/wuzu/ian/chaosket/block/JaildoorBlock.java"
-        ]
-      },
-      "path": "~/doors"
-    },
-    {
       "name": "Pinguin",
       "type": "animatedentity",
       "sortid": 1,
@@ -636,7 +613,6 @@
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
-      "block.chaosket.jaildoor": "Jail door",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
