@@ -17,7 +17,7 @@ public class ShrinkdeviceRightclickedProcedure {
 			if (world instanceof ServerLevel _level) {
 				System.out.println(entity.getStringUUID());
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"scale add pehkui:height 10 " + entity.getStringUUID());
+						"scale add pehkui:width 10 " + entity.getStringUUID());
 			}
 		} else if (entity.isShiftKeyDown()) {
 			if (world instanceof ServerLevel _level) {
