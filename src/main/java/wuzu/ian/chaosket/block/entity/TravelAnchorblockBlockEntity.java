@@ -94,7 +94,7 @@ public class TravelAnchorblockBlockEntity extends RandomizableContainerBlockEnti
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Travel Anchorblock");
+		return Component.literal("Travel Anchor");
 	}
 
 	@Override

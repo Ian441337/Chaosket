@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Travel Anchorblock",
+    "name": "Travel Anchor",
     "specialInformation": {
       "fixedValue": []
     },
@@ -58,7 +58,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
