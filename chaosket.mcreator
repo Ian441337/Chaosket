@@ -595,6 +595,30 @@
         ]
       },
       "path": "~/laserbrige"
+    },
+    {
+      "name": "StaffoftravelingRightclicked",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staffoftraveling_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/StaffoftravelingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
