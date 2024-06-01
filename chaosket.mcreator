@@ -197,6 +197,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -446,6 +450,45 @@
         ]
       },
       "path": "~/strohhut"
+    },
+    {
+      "name": "ShrinkdeviceRightclicked",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrinkdevice_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/ShrinkdeviceRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shrink device"
+    },
+    {
+      "name": "Shrinkdevice",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrinkdevice",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/ShrinkdeviceItem.java",
+          "src/main/resources/assets/chaosket/models/item/shrinkdevice.json"
+        ]
+      },
+      "path": "~/Shrink device"
     }
   ],
   "variable_elements": [],
@@ -464,6 +507,7 @@
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.jaildoor": "Jail door",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
+      "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
@@ -514,6 +558,10 @@
       },
       {
         "name": "strohhut",
+        "children": []
+      },
+      {
+        "name": "Shrink device",
         "children": []
       }
     ]
