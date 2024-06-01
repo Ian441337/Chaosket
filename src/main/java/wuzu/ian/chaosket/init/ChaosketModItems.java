@@ -13,6 +13,7 @@ import wuzu.ian.chaosket.item.LilaStrohhutItem;
 import wuzu.ian.chaosket.item.GreenStrohhutItem;
 import wuzu.ian.chaosket.item.BlueStrohhutItem;
 import wuzu.ian.chaosket.item.BlackStrohhutItem;
+import wuzu.ian.chaosket.block.display.TravelancherDisplayItem;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -41,6 +42,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> LASERBRIGE = block(ChaosketModBlocks.LASERBRIGE);
 	public static final RegistryObject<Item> LASERBRIGEPROJECTOR = block(ChaosketModBlocks.LASERBRIGEPROJECTOR);
 	public static final RegistryObject<Item> JAIL_DOOR = doubleBlock(ChaosketModBlocks.JAIL_DOOR);
+	public static final RegistryObject<Item> TRAVELANCHER = REGISTRY.register(ChaosketModBlocks.TRAVELANCHER.getId().getPath(), () -> new TravelancherDisplayItem(ChaosketModBlocks.TRAVELANCHER.get(), new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
