@@ -101,24 +101,7 @@
         "files": [
           "src/main/java/wuzu/ian/chaosket/procedures/TravelanchorblockdisplaykillProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/travel_anchor"
     },
