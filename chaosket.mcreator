@@ -497,6 +497,23 @@
         ]
       },
       "path": "~/Shrink device"
+    },
+    {
+      "name": "Laserbrige",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laserbrige",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java",
+          "src/main/resources/assets/chaosket/models/block/laserbrige.json",
+          "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/laserbrige.json"
+        ]
+      },
+      "path": "~/laserbrige"
     }
   ],
   "variable_elements": [],
@@ -505,6 +522,7 @@
     "en_us": {
       "item.chaosket.white_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.blue_strohhut_helmet": "Blue Strohhut",
+      "block.chaosket.laserbrige": "Laserbrige",
       "item.chaosket.blue_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
@@ -570,6 +588,10 @@
       },
       {
         "name": "Shrink device",
+        "children": []
+      },
+      {
+        "name": "laserbrige",
         "children": []
       }
     ]
