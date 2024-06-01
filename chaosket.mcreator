@@ -602,36 +602,12 @@
         ]
       },
       "path": "~/doors"
-    },
-    {
-      "name": "Travelancher",
-      "type": "animatedblock",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "travelancher",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/block/model/TravelancherDisplayModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/entity/TravelancherTileEntity.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/TravelancherBlockModel.java",
-          "src/main/resources/assets/chaosket/models/item/travelancher.json",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/TravelancherDisplayItemRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/block/display/TravelancherDisplayItem.java",
-          "src/main/resources/assets/chaosket/blockstates/travelancher.json",
-          "src/main/java/wuzu/ian/chaosket/block/TravelancherBlock.java",
-          "src/main/resources/assets/chaosket/models/custom/travelancher_particle.json",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/TravelancherTileRenderer.java"
-        ]
-      },
-      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.chaosket.travelancher": "Travel Ancher",
       "item.chaosket.white_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.blue_strohhut_helmet": "Blue Strohhut",
       "block.chaosket.laserbrige": "Laserbrige",
