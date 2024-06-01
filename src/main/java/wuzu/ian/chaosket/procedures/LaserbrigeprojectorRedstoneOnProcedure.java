@@ -1,7 +1,6 @@
 package wuzu.ian.chaosket.procedures;
 
 import wuzu.ian.chaosket.init.ChaosketModBlocks;
-import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
@@ -47,8 +46,6 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 				} else {
 					break;
 				}
-				ChaosketMod.queueServerWork(20, () -> {
-				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -78,8 +75,6 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 				} else {
 					break;
 				}
-				ChaosketMod.queueServerWork(20, () -> {
-				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -109,8 +104,6 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 				} else {
 					break;
 				}
-				ChaosketMod.queueServerWork(20, () -> {
-				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -140,8 +133,6 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 				} else {
 					break;
 				}
-				ChaosketMod.queueServerWork(20, () -> {
-				});
 			}
 		}
 	}
