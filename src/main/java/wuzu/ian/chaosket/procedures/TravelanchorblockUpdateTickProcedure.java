@@ -46,7 +46,7 @@ public class TravelanchorblockUpdateTickProcedure {
 			}
 		} else {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.BLOCK_DISPLAY.spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+				Entity entityToSpawn = EntityType.BLOCK_DISPLAY.spawn(_level, BlockPos.containing(x - 0.00005, y - 0.00005, z - 0.00005), MobSpawnType.MOB_SUMMONED);
 				if (entityToSpawn != null) {
 					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 				}
@@ -57,6 +57,19 @@ public class TravelanchorblockUpdateTickProcedure {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
 				}.compareDistOf(x, y, z)).findFirst().orElse(null)).getPersistentData().putString("tag", "travel_anchor_display");
+				{
+					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).stream().sorted(new Object() {
+						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+						}
+					}.compareDistOf(x, y, z)).findFirst().orElse(null));
+					if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(
+								new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
+										_ent.level().getServer(), _ent),
+								"data merge entity @s {brightness:{sky:10,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.0001f,1.0001f,1.0001f]}}");
+					}
+				}
 			}
 		}
 	}
