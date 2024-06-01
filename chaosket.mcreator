@@ -446,26 +446,6 @@
         ]
       },
       "path": "~/strohhut"
-    },
-    {
-      "name": "Tfgh",
-      "type": "procedure",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tfgh",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/TfghProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/test"
     }
   ],
   "variable_elements": [],
