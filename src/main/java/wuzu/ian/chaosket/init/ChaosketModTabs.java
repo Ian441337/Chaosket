@@ -34,7 +34,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.SHRINKDEVICE.get());
 				tabData.accept(ChaosketModBlocks.LASERBRIGE.get().asItem());
 				tabData.accept(ChaosketModBlocks.LASERBRIGEPROJECTOR.get().asItem());
-				tabData.accept(ChaosketModBlocks.TRAVEL_ANCHOR_BLOCK.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

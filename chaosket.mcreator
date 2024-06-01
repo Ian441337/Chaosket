@@ -9,15 +9,15 @@
       "registry_name": "jaildoor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorTileRenderer.java",
-          "src/main/resources/assets/chaosket/models/custom/jaildoor_particle.json",
           "src/main/java/wuzu/ian/chaosket/block/display/JaildoorDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorBlockModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorDisplayModel.java",
-          "src/main/resources/assets/chaosket/models/item/jaildoor.json",
-          "src/main/java/wuzu/ian/chaosket/block/entity/JaildoorTileEntity.java",
           "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorDisplayItemRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorTileRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/jaildoor.json",
+          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorDisplayModel.java",
           "src/main/resources/assets/chaosket/blockstates/jaildoor.json",
+          "src/main/resources/assets/chaosket/models/custom/jaildoor_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorBlockModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/entity/JaildoorTileEntity.java",
           "src/main/java/wuzu/ian/chaosket/block/JaildoorBlock.java"
         ]
       },
@@ -32,11 +32,11 @@
       "registry_name": "pinguin",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java",
-          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
           "src/main/resources/data/chaosket/forge/biome_modifier/pinguin_biome_modifier.json",
           "src/main/resources/assets/chaosket/models/item/pinguin_spawn_egg.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java"
+          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java"
         ]
       },
       "path": "~/Mobs"
@@ -50,8 +50,8 @@
       "registry_name": "travelanchor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java",
-          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
+          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java",
+          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java"
         ]
       },
       "path": "~/travel_anchor"
@@ -154,8 +154,8 @@
       "registry_name": "ring_of_unduing",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java",
-          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json"
+          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json",
+          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java"
         ]
       },
       "path": "~/Bauble"
@@ -252,10 +252,10 @@
       "registry_name": "red_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/model/RedStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java",
           "src/main/resources/assets/chaosket/models/item/red_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java"
+          "src/main/java/wuzu/ian/chaosket/item/model/RedStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java"
         ]
       },
       "path": "~/strohhut"
@@ -285,8 +285,8 @@
         "files": [
           "src/main/java/wuzu/ian/chaosket/item/model/GreenStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/item/GreenStrohhutItem.java",
-          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java"
+          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json"
         ]
       },
       "path": "~/strohhut"
@@ -300,9 +300,9 @@
       "registry_name": "lila_strohhut",
       "metadata": {
         "files": [
+          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/client/renderer/LilaStrohhutArmorRenderer.java",
           "src/main/resources/assets/chaosket/models/item/lila_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/LilaStrohhutModel.java"
         ]
       },
@@ -317,9 +317,9 @@
       "registry_name": "blue_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/BlueStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/client/renderer/BlueStrohhutArmorRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
           "src/main/resources/assets/chaosket/models/item/blue_strohhut_helmet.json"
         ]
       },
@@ -334,9 +334,9 @@
       "registry_name": "white_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/model/WhiteStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
           "src/main/resources/assets/chaosket/models/item/white_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/item/model/WhiteStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/item/WhiteStrohhutItem.java"
         ]
       },
@@ -351,10 +351,10 @@
       "registry_name": "black_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/model/BlackStrohhutModel.java",
+          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json",
           "src/main/java/wuzu/ian/chaosket/item/BlackStrohhutItem.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json"
+          "src/main/java/wuzu/ian/chaosket/item/model/BlackStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java"
         ]
       },
       "path": "~/strohhut"
@@ -506,10 +506,10 @@
       "registry_name": "laserbrigeprojector",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
-          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json",
           "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java"
+          "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json"
         ]
       },
       "path": "~/laserbrige"
@@ -678,7 +678,19 @@
         "children": []
       },
       {
+        "name": "Shrink device",
+        "children": []
+      },
+      {
+        "name": "laserbrige",
+        "children": []
+      },
+      {
         "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "strohhut",
         "children": []
       },
       {
@@ -691,18 +703,6 @@
       },
       {
         "name": "doors",
-        "children": []
-      },
-      {
-        "name": "strohhut",
-        "children": []
-      },
-      {
-        "name": "Shrink device",
-        "children": []
-      },
-      {
-        "name": "laserbrige",
         "children": []
       }
     ]

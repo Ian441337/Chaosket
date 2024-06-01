@@ -19,7 +19,6 @@ import wuzu.ian.chaosket.init.ChaosketModMenus;
 import wuzu.ian.chaosket.init.ChaosketModItems;
 import wuzu.ian.chaosket.init.ChaosketModEntities;
 import wuzu.ian.chaosket.init.ChaosketModBlocks;
-import wuzu.ian.chaosket.init.ChaosketModBlockEntities;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -56,7 +55,7 @@ public class ChaosketMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ChaosketModBlocks.REGISTRY.register(bus);
-		ChaosketModBlockEntities.REGISTRY.register(bus);
+
 		ChaosketModItems.REGISTRY.register(bus);
 		ChaosketModEntities.REGISTRY.register(bus);
 

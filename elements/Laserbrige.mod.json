@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "EMPTY"
     },
     "breakSound": {
       "value": ""
@@ -99,7 +99,7 @@
       "value": ""
     },
     "luminance": 15,
-    "unbreakable": false,
+    "unbreakable": true,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,

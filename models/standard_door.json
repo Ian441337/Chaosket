@@ -1,0 +1,56 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "standard_door",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "Jail_door",
+		"particle": "Jail_door"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 32, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 8, 0.5, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 8, 8], "texture": "#0"},
+				"west": {"uv": [8, 0, 8.5, 8], "texture": "#0"},
+				"up": {"uv": [4.5, 8.5, 0.5, 8], "texture": "#0"},
+				"down": {"uv": [8.5, 8, 4.5, 8.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 2.75],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 2.75],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"translation": [5.25, 0, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_lefthand": {
+			"translation": [5.5, 0, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"ground": {
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [-30, 40, 12],
+			"translation": [1.75, -2.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"translation": [0, -37.5, 0]
+		},
+		"fixed": {
+			"translation": [-1.75, -2.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}
