@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "chaosket:block/jail_door_lower"
+    "layer0": "chaosket:item/jail_door"
   },
   "render_type": "translucent"
 }
