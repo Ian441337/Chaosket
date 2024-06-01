@@ -6,6 +6,7 @@ package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.block.LaserbrigeprojectorBlock;
 import wuzu.ian.chaosket.block.LaserbrigeBlock;
+import wuzu.ian.chaosket.block.JailDoorBlock;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -18,4 +19,5 @@ public class ChaosketModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ChaosketMod.MODID);
 	public static final RegistryObject<Block> LASERBRIGE = REGISTRY.register("laserbrige", () -> new LaserbrigeBlock());
 	public static final RegistryObject<Block> LASERBRIGEPROJECTOR = REGISTRY.register("laserbrigeprojector", () -> new LaserbrigeprojectorBlock());
+	public static final RegistryObject<Block> JAIL_DOOR = REGISTRY.register("jail_door", () -> new JailDoorBlock());
 }
