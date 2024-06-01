@@ -4,5 +4,5 @@
     "bottom": "chaosket:block/jail_door_lower",
     "top": "chaosket:block/jail_door_upper"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }
