@@ -67,13 +67,30 @@ public class TravelanchordirectionProcedure {
 									+ Math.round(((entityiterator.getZ() * 10 - entity.getZ() * 10) / (entity.getLookAngle().z * 10)) * 0.1))), true);
 						if (Math.round(((entityiterator.getX() * 10 - entity.getX() * 10) / (entity.getLookAngle().x * 10)) * 0.1) == Math.round(((entityiterator.getY() * 10 - (entity.getY() + 1.62) * 10) / (entity.getLookAngle().y * 10)) * 0.1)
 								&& Math.round(((entityiterator.getX() * 10 - entity.getX() * 10) / (entity.getLookAngle().x * 10)) * 0.1) == Math.round(((entityiterator.getZ() * 10 - entity.getZ() * 10) / (entity.getLookAngle().z * 10)) * 0.1)) {
+							{
+								Entity _ent = entityiterator;
+								if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+									_ent.getServer().getCommands()
+											.performPrefixedCommand(
+													new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(),
+															_ent.getDisplayName(), _ent.level().getServer(), _ent),
+													"data merge entity @e[type=block_display,limit=1,sort=nearest,distance=..3,nbt={ForgeData:{tag:\"travelAnchorDisplay\"}}] {Glowing:1b}");
+								}
+							}
 							if (world instanceof ServerLevel _level)
 								_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 										"say 1");
 						} else {
-							if (world instanceof ServerLevel _level)
-								_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-										"say 2");
+							{
+								Entity _ent = entityiterator;
+								if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+									_ent.getServer().getCommands()
+											.performPrefixedCommand(
+													new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(),
+															_ent.getDisplayName(), _ent.level().getServer(), _ent),
+													"data merge entity @e[type=block_display,limit=1,sort=nearest,distance=..3,nbt={ForgeData:{tag:\"travelAnchorDisplay\"}}] {Glowing:0b}");
+								}
+							}
 						}
 					}
 				}
