@@ -54,7 +54,7 @@ public class TravelanchordirectionProcedure {
 		if (entity instanceof ServerPlayer && ChaosketModItems.STAFFOFTRAVELING.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
 			graph_point_x1 = Math.round(entity.getX() * 100);
 			graph_point_x2 = Math.round(entity.getLookAngle().x * 100);
-			graph_point_y1 = Math.round(entity.getY() * 100);
+			graph_point_y1 = Math.round((entity.getY() + 1) * 100);
 			graph_point_y2 = Math.round(entity.getLookAngle().y * 100);
 			graph_point_z1 = Math.round(entity.getZ() * 100);
 			graph_point_z2 = Math.round(entity.getLookAngle().z * 100);
@@ -64,7 +64,7 @@ public class TravelanchordirectionProcedure {
 				for (Entity entityiterator : _entfound) {
 					if (entityiterator instanceof ArmorStand && (entityiterator.getPersistentData().getString("tag")).equals("travelAnchor")) {
 						anchor_x = Math.round(entityiterator.getX() * 100);
-						anchor_y = Math.round(entityiterator.getY());
+						anchor_y = Math.round(entityiterator.getY() * 100);
 						anchor_z = Math.round(entityiterator.getZ() * 100);
 						s1 = Math.floor((anchor_x - graph_point_x1) / graph_point_x2);
 						s2 = Math.floor((anchor_y - graph_point_y1) / graph_point_y2);
