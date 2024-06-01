@@ -9,6 +9,7 @@ import net.minecraftforge.client.event.RenderLevelStageEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
@@ -843,7 +844,7 @@ public class TfghProcedure {
 			RenderSystem.enableBlend();
 			RenderSystem.defaultBlendFunc();
 			RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
-			execute(_provider);
+			execute(_provider, level);
 			RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
 			RenderSystem.colorMask(true, true, true, true);
 			RenderSystem.enableCull();
@@ -854,11 +855,12 @@ public class TfghProcedure {
 		}
 	}
 
-	public static void execute() {
-		execute(null);
+	public static void execute(LevelAccessor world) {
+		execute(null, world);
 	}
 
-	private static void execute(@Nullable Event event) {
-		renderEndsky();
+	private static void execute(@Nullable Event event, LevelAccessor world) {
+		renderMoon(120, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F), (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), false, false);
+		renderSun(120, (float) (world.getTimeOfDay(Minecraft.getInstance().getPartialTick()) * 360.0F), (int) (255 << 24 | 255 << 16 | 255 << 8 | 255), false);
 	}
 }

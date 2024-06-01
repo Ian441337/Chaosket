@@ -458,7 +458,12 @@
         "files": [
           "src/main/java/wuzu/ian/chaosket/procedures/TfghProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/test"
     }
