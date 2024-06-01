@@ -15,6 +15,8 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double Scaling = 0;
 		double scalingx = 0;
+		Scaling = z;
+		scalingx = x;
 		if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);

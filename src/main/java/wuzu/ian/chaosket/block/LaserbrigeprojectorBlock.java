@@ -51,9 +51,7 @@ public class LaserbrigeprojectorBlock extends Block {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		if (context.getClickedFace().getAxis() == Direction.Axis.Y)
-			return this.defaultBlockState().setValue(FACING, Direction.NORTH);
-		return this.defaultBlockState().setValue(FACING, context.getClickedFace());
+		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
