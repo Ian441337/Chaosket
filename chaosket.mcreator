@@ -212,22 +212,89 @@
         "files": []
       },
       "path": "~/test"
+    },
+    {
+      "name": "RedStrohhutHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strohhut_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/RedStrohhutHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/strohhut"
+    },
+    {
+      "name": "RedStrohhut",
+      "type": "animatedarmor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_strohhut",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java",
+          "src/main/resources/assets/chaosket/models/item/red_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/item/model/RedStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java"
+        ]
+      },
+      "path": "~/strohhut"
+    },
+    {
+      "name": "RedStrohhutr",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_strohhutr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/red_strohhutr.json"
+        ]
+      },
+      "path": "~/strohhut"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
+      "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
+      "item.chaosket.staffoftraveling": "Staff of Traveling",
+      "item.chaosket.red_strohhut_helmet": "Red Strohhut Helmet",
+      "item_group.chaosket.chaos_ket": "Chaos Ket",
+      "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
+      "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
+      "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "block.chaosket.jaildoor": "Jail door",
       "painting.chaosket.ckowner.title": "Ckowner",
       "block.chaosket.travelanchorblock": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
-      "item.chaosket.staffoftraveling": "Staff of Traveling",
-      "item_group.chaosket.chaos_ket": "Chaos Ket",
-      "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
-      "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg"
     }
   },
@@ -252,6 +319,10 @@
       },
       {
         "name": "doors",
+        "children": []
+      },
+      {
+        "name": "strohhut",
         "children": []
       }
     ]
