@@ -1,23 +1,19 @@
 package wuzu.ian.chaosket.procedures;
 
-import wuzu.ian.chaosket.init.ChaosketModBlocks;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.Display;
-import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 import javax.annotation.Nullable;
-
-import java.util.List;
-import java.util.Comparator;
 
 @Mod.EventBusSubscriber
 public class TravelanchorblockdisplaykillProcedure {
@@ -33,15 +29,8 @@ public class TravelanchorblockdisplaykillProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
-		{
-			final Vec3 _center = new Vec3(x, y, z);
-			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(100 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
-			for (Entity entityiterator : _entfound) {
-				if (entityiterator instanceof Display.BlockDisplay && (entityiterator.getPersistentData().getString("tag")).equals("travelAnchorDisplay")) {
-					if ((world.getBlockState(BlockPos.containing(entityiterator.getX() + 0.1, entityiterator.getY() + 0.1, entityiterator.getZ() + 0.1))).getBlock() == ChaosketModBlocks.TRAVELANCHORBLOCK.get()) {
-					}
-				}
-			}
-		}
+		if (world instanceof ServerLevel _level)
+			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+					"execute as @e[nbt={ForgeData:{tag:\"travelAnchorDisplay\"}}] at @s unless block ~0.1 ~0.1 ~0.1 chaosket:travelanchorblock run kill @s");
 	}
 }

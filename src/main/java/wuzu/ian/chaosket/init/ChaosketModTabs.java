@@ -32,7 +32,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.BLUE_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModItems.WHITE_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModItems.BLACK_STROHHUT_HELMET.get());
-				tabData.accept(ChaosketModItems.SHRINKDEVICE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

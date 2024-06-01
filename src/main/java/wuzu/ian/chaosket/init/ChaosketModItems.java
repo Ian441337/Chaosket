@@ -6,7 +6,6 @@ package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.item.WhiteStrohhutItem;
 import wuzu.ian.chaosket.item.StaffoftravelingItem;
-import wuzu.ian.chaosket.item.ShrinkdeviceItem;
 import wuzu.ian.chaosket.item.RingOfUnduingItem;
 import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.LilaStrohhutItem;
@@ -39,7 +38,6 @@ public class ChaosketModItems {
 	public static final RegistryObject<BlueStrohhutItem> BLUE_STROHHUT_HELMET = REGISTRY.register("blue_strohhut_helmet", () -> new BlueStrohhutItem(ArmorItem.Type.HELMET, new Item.Properties()));
 	public static final RegistryObject<WhiteStrohhutItem> WHITE_STROHHUT_HELMET = REGISTRY.register("white_strohhut_helmet", () -> new WhiteStrohhutItem(ArmorItem.Type.HELMET, new Item.Properties()));
 	public static final RegistryObject<BlackStrohhutItem> BLACK_STROHHUT_HELMET = REGISTRY.register("black_strohhut_helmet", () -> new BlackStrohhutItem(ArmorItem.Type.HELMET, new Item.Properties()));
-	public static final RegistryObject<Item> SHRINKDEVICE = REGISTRY.register("shrinkdevice", () -> new ShrinkdeviceItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
