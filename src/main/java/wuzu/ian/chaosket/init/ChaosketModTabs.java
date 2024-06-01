@@ -22,9 +22,8 @@ import net.minecraft.core.registries.Registries;
 public class ChaosketModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ChaosketMod.MODID);
 	public static final RegistryObject<CreativeModeTab> CHAOS_KET = REGISTRY.register("chaos_ket",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.chaos_ket")).icon(() -> new ItemStack(ChaosketModBlocks.TRAVELANCHORBLOCK.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.chaos_ket")).icon(() -> new ItemStack(ChaosketModItems.DELETED_MOD_ELEMENT.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ChaosketModBlocks.JAILDOOR.get().asItem());
-				tabData.accept(ChaosketModBlocks.TRAVELANCHORBLOCK.get().asItem());
 				tabData.accept(ChaosketModItems.STAFFOFTRAVELING.get());
 				tabData.accept(ChaosketModItems.RED_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModItems.GREEN_STROHHUT_HELMET.get());
@@ -35,6 +34,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.SHRINKDEVICE.get());
 				tabData.accept(ChaosketModBlocks.LASERBRIGE.get().asItem());
 				tabData.accept(ChaosketModBlocks.LASERBRIGEPROJECTOR.get().asItem());
+				tabData.accept(ChaosketModBlocks.TRAVEL_ANCHOR_BLOCK.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

@@ -1,0 +1,6 @@
+{
+  "parent": "chaosket:displaysettings/travel_anchor.item",
+  "textures": {
+    "particle": "chaosket:block/texture"
+  }
+}

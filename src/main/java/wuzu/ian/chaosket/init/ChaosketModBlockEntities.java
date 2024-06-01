@@ -4,7 +4,7 @@
  */
 package wuzu.ian.chaosket.init;
 
-import wuzu.ian.chaosket.block.entity.TravelanchorblockBlockEntity;
+import wuzu.ian.chaosket.block.entity.TravelAnchorBlockTileEntity;
 import wuzu.ian.chaosket.block.entity.JaildoorTileEntity;
 import wuzu.ian.chaosket.ChaosketMod;
 
@@ -18,7 +18,8 @@ import net.minecraft.world.level.block.Block;
 public class ChaosketModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ChaosketMod.MODID);
 	public static final RegistryObject<BlockEntityType<JaildoorTileEntity>> JAILDOOR = REGISTRY.register("jaildoor", () -> BlockEntityType.Builder.of(JaildoorTileEntity::new, ChaosketModBlocks.JAILDOOR.get()).build(null));
-	public static final RegistryObject<BlockEntityType<?>> TRAVELANCHORBLOCK = register("travelanchorblock", ChaosketModBlocks.TRAVELANCHORBLOCK, TravelanchorblockBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<TravelAnchorBlockTileEntity>> TRAVEL_ANCHOR_BLOCK = REGISTRY.register("travel_anchor_block",
+			() -> BlockEntityType.Builder.of(TravelAnchorBlockTileEntity::new, ChaosketModBlocks.TRAVEL_ANCHOR_BLOCK.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

@@ -1,15 +1,14 @@
 {
   "_fv": 57,
-  "_type": "block",
+  "_type": "animatedblock",
   "definition": {
-    "texture": "test",
-    "textureTop": "test",
-    "textureLeft": "test",
-    "textureFront": "test",
-    "textureRight": "test",
-    "textureBack": "test",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "texture",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 0,
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Travel Anchor",
+    "name": "Travel Anchor Block",
     "specialInformation": {
       "fixedValue": []
     },
@@ -54,11 +53,11 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
-    "tickRate": 1,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -77,11 +76,12 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
+    "animationCount": 1,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -101,18 +101,23 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "isBonemealable": false,
-    "hasInventory": true,
-    "guiBoundTo": "Travelanchor",
-    "openGUIOnRightClick": true,
-    "inventorySize": 1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
+    "generateFeature": false,
     "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [
-      0
-    ],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
@@ -124,17 +129,14 @@
     "onTickUpdate": {
       "name": "TravelanchorblockUpdateTick"
     },
-    "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 64,
+    "normal": "travel_anchor.geo.json",
+    "displaySettings": "travel_anchor.item.json"
   }
 }

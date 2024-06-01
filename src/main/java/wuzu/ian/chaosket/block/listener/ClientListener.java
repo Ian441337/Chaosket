@@ -1,6 +1,7 @@
 package wuzu.ian.chaosket.block.listener;
 
 import wuzu.ian.chaosket.init.ChaosketModBlockEntities;
+import wuzu.ian.chaosket.block.renderer.TravelAnchorBlockTileRenderer;
 import wuzu.ian.chaosket.block.renderer.JaildoorTileRenderer;
 import wuzu.ian.chaosket.ChaosketMod;
 
@@ -16,5 +17,6 @@ public class ClientListener {
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(ChaosketModBlockEntities.JAILDOOR.get(), context -> new JaildoorTileRenderer());
+		event.registerBlockEntityRenderer(ChaosketModBlockEntities.TRAVEL_ANCHOR_BLOCK.get(), context -> new TravelAnchorBlockTileRenderer());
 	}
 }

@@ -9,15 +9,15 @@
       "registry_name": "jaildoor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/block/display/JaildoorDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorDisplayItemRenderer.java",
           "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorTileRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/jaildoor.json",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorDisplayModel.java",
-          "src/main/resources/assets/chaosket/blockstates/jaildoor.json",
           "src/main/resources/assets/chaosket/models/custom/jaildoor_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/display/JaildoorDisplayItem.java",
           "src/main/java/wuzu/ian/chaosket/block/model/JaildoorBlockModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorDisplayModel.java",
+          "src/main/resources/assets/chaosket/models/item/jaildoor.json",
           "src/main/java/wuzu/ian/chaosket/block/entity/JaildoorTileEntity.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorDisplayItemRenderer.java",
+          "src/main/resources/assets/chaosket/blockstates/jaildoor.json",
           "src/main/java/wuzu/ian/chaosket/block/JaildoorBlock.java"
         ]
       },
@@ -32,11 +32,11 @@
       "registry_name": "pinguin",
       "metadata": {
         "files": [
+          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java",
+          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
           "src/main/resources/data/chaosket/forge/biome_modifier/pinguin_biome_modifier.json",
           "src/main/resources/assets/chaosket/models/item/pinguin_spawn_egg.json",
-          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java"
+          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -50,26 +50,8 @@
       "registry_name": "travelanchor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java",
-          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java"
-        ]
-      },
-      "path": "~/travel_anchor"
-    },
-    {
-      "name": "Travelanchorblock",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "travelanchorblock",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/block/TravelanchorblockBlock.java",
-          "src/main/resources/assets/chaosket/blockstates/travelanchorblock.json",
-          "src/main/java/wuzu/ian/chaosket/block/entity/TravelanchorblockBlockEntity.java",
-          "src/main/resources/assets/chaosket/models/item/travelanchorblock.json",
-          "src/main/resources/assets/chaosket/models/block/travelanchorblock.json"
+          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java",
+          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
         ]
       },
       "path": "~/travel_anchor"
@@ -172,8 +154,8 @@
       "registry_name": "ring_of_unduing",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json",
-          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java"
+          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java",
+          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json"
         ]
       },
       "path": "~/Bauble"
@@ -270,10 +252,10 @@
       "registry_name": "red_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java",
-          "src/main/resources/assets/chaosket/models/item/red_strohhut_helmet.json",
           "src/main/java/wuzu/ian/chaosket/item/model/RedStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java"
+          "src/main/resources/assets/chaosket/models/item/red_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java"
         ]
       },
       "path": "~/strohhut"
@@ -303,8 +285,8 @@
         "files": [
           "src/main/java/wuzu/ian/chaosket/item/model/GreenStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/item/GreenStrohhutItem.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json"
+          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java"
         ]
       },
       "path": "~/strohhut"
@@ -318,9 +300,9 @@
       "registry_name": "lila_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/client/renderer/LilaStrohhutArmorRenderer.java",
           "src/main/resources/assets/chaosket/models/item/lila_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/LilaStrohhutModel.java"
         ]
       },
@@ -335,9 +317,9 @@
       "registry_name": "blue_strohhut",
       "metadata": {
         "files": [
+          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/BlueStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/client/renderer/BlueStrohhutArmorRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
           "src/main/resources/assets/chaosket/models/item/blue_strohhut_helmet.json"
         ]
       },
@@ -352,9 +334,9 @@
       "registry_name": "white_strohhut",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/white_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
           "src/main/java/wuzu/ian/chaosket/item/model/WhiteStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/white_strohhut_helmet.json",
           "src/main/java/wuzu/ian/chaosket/item/WhiteStrohhutItem.java"
         ]
       },
@@ -369,10 +351,10 @@
       "registry_name": "black_strohhut",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/item/BlackStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/BlackStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java"
+          "src/main/java/wuzu/ian/chaosket/item/BlackStrohhutItem.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json"
         ]
       },
       "path": "~/strohhut"
@@ -507,10 +489,10 @@
       "registry_name": "laserbrige",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java",
-          "src/main/resources/assets/chaosket/models/block/laserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/laserbrige.json",
           "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
-          "src/main/resources/assets/chaosket/models/item/laserbrige.json"
+          "src/main/resources/assets/chaosket/models/block/laserbrige.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java"
         ]
       },
       "path": "~/laserbrige"
@@ -524,10 +506,10 @@
       "registry_name": "laserbrigeprojector",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
           "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java",
-          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json"
+          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json",
+          "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java"
         ]
       },
       "path": "~/laserbrige"
@@ -619,6 +601,29 @@
         ]
       },
       "path": "~/travel_anchor"
+    },
+    {
+      "name": "TravelAnchorBlock",
+      "type": "animatedblock",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_anchor_block",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/block/renderer/TravelAnchorBlockDisplayItemRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/block/TravelAnchorBlockBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/travel_anchor_block.json",
+          "src/main/java/wuzu/ian/chaosket/block/entity/TravelAnchorBlockTileEntity.java",
+          "src/main/resources/assets/chaosket/models/custom/travel_anchor_block_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/display/TravelAnchorBlockDisplayItem.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/TravelAnchorBlockBlockModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/TravelAnchorBlockDisplayModel.java",
+          "src/main/resources/assets/chaosket/models/item/travel_anchor_block.json",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/TravelAnchorBlockTileRenderer.java"
+        ]
+      },
+      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
@@ -630,6 +635,7 @@
       "block.chaosket.laserbrige": "Laserbrige",
       "item.chaosket.blue_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
+      "block.chaosket.travel_anchor_block": "Travel Anchor Block",
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.lila_strohhut_helmet": "lila Strohhut",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
@@ -657,7 +663,6 @@
       "item.chaosket.lila_strohhut_chestplate": "Red Strohhut Chestplate",
       "painting.chaosket.ckowner.title": "Ckowner",
       "item.chaosket.black_strohhut_leggings": "Red Strohhut Leggings",
-      "block.chaosket.travelanchorblock": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "item.chaosket.blue_strohhut_chestplate": "Red Strohhut Chestplate",
