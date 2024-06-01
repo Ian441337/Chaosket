@@ -16,14 +16,14 @@ import java.util.Comparator;
 
 public class TravelanchorblockUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (!world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).isEmpty()) {
-			if ((((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).stream().sorted(new Object() {
+		if (!world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 3, 3, 3), e -> true).isEmpty()) {
+			if ((((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 3, 3, 3), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf(x, y, z)).findFirst().orElse(null)).getPersistentData().getString("tag")).equals("travel_anchor_display")) {
 				{
-					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).stream().sorted(new Object() {
+					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 3, 3, 3), e -> true).stream().sorted(new Object() {
 						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 						}
@@ -34,7 +34,7 @@ public class TravelanchorblockUpdateTickProcedure {
 					}
 				}
 				{
-					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).stream().sorted(new Object() {
+					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 3, 3, 3), e -> true).stream().sorted(new Object() {
 						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 						}
@@ -47,19 +47,19 @@ public class TravelanchorblockUpdateTickProcedure {
 			}
 		} else {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.BLOCK_DISPLAY.spawn(_level, BlockPos.containing(x - 0.00005, y - 0.00005, z - 0.00005), MobSpawnType.MOB_SUMMONED);
+				Entity entityToSpawn = EntityType.BLOCK_DISPLAY.spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 				if (entityToSpawn != null) {
 					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 				}
 			}
-			if (!world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).isEmpty()) {
-				((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).stream().sorted(new Object() {
+			if (!world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 3, 3, 3), e -> true).isEmpty()) {
+				((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 3, 3, 3), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
 				}.compareDistOf(x, y, z)).findFirst().orElse(null)).getPersistentData().putString("tag", "travel_anchor_display");
 				{
-					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).stream().sorted(new Object() {
+					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 3, 3, 3), e -> true).stream().sorted(new Object() {
 						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 						}
@@ -72,7 +72,7 @@ public class TravelanchorblockUpdateTickProcedure {
 					}
 				}
 				{
-					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 0.5, 0.5, 0.5), e -> true).stream().sorted(new Object() {
+					Entity _ent = ((Entity) world.getEntitiesOfClass(Display.BlockDisplay.class, AABB.ofSize(new Vec3(x, y, z), 3, 3, 3), e -> true).stream().sorted(new Object() {
 						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 							return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 						}
