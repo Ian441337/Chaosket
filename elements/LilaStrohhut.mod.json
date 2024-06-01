@@ -3,7 +3,7 @@
   "_type": "animatedarmor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "strohhut-item-green",
+    "textureHelmet": "strohhut-item-lila",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
@@ -16,7 +16,7 @@
     "creativeTab": {
       "value": "CUSTOM:ChaosKet"
     },
-    "armorTextureFile": "strohhut-green.png",
+    "armorTextureFile": "strohhut-lila.png",
     "model": "strohhut.geo.json",
     "idle": "none",
     "head": "armorHead",
@@ -27,7 +27,7 @@
     "leftLeg": "armorLeftLeg",
     "rightBoot": "armorRightBoot",
     "leftBoot": "armorLeftBoot",
-    "helmetName": "Green Strohhut",
+    "helmetName": "lila Strohhut",
     "bodyName": "Red Strohhut Chestplate",
     "leggingsName": "Red Strohhut Leggings",
     "bootsName": "Red Strohhut Boots",

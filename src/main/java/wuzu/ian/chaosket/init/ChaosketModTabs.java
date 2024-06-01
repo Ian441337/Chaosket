@@ -28,6 +28,10 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.STAFFOFTRAVELING.get());
 				tabData.accept(ChaosketModItems.RED_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModItems.GREEN_STROHHUT_HELMET.get());
+				tabData.accept(ChaosketModItems.LILA_STROHHUT_HELMET.get());
+				tabData.accept(ChaosketModItems.BLUE_STROHHUT_HELMET.get());
+				tabData.accept(ChaosketModItems.WHITE_STROHHUT_HELMET.get());
+				tabData.accept(ChaosketModItems.BLACK_STROHHUT_HELMET.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

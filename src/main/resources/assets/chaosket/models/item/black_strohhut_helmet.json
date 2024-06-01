@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "chaosket:item/strohhut-item-green"
+    "layer0": "chaosket:item/strohhut-item-black"
   }
 }
