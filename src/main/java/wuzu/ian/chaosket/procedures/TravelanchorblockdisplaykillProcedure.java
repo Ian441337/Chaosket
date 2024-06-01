@@ -24,23 +24,21 @@ public class TravelanchorblockdisplaykillProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
+			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ());
 		}
 	}
 
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
-		execute(null, world, x, y, z, entity);
+	public static void execute(LevelAccessor world, double x, double y, double z) {
+		execute(null, world, x, y, z);
 	}
 
-	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
-		if (entity == null)
-			return;
+	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
 		{
 			final Vec3 _center = new Vec3(x, y, z);
 			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(100 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 			for (Entity entityiterator : _entfound) {
-				if (entityiterator instanceof Display.BlockDisplay && (entity.getPersistentData().getString("tag")).equals("travel_anchor_display")) {
-					if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == ChaosketModBlocks.TRAVELANCHORBLOCK.get()) {
+				if (entityiterator instanceof Display.BlockDisplay && (entityiterator.getPersistentData().getString("tag")).equals("travelAnchorDisplay")) {
+					if ((world.getBlockState(BlockPos.containing(entityiterator.getX() + 0.1, entityiterator.getY() + 0.1, entityiterator.getZ() + 0.1))).getBlock() == ChaosketModBlocks.TRAVELANCHORBLOCK.get()) {
 					}
 				}
 			}
