@@ -41,7 +41,6 @@ public class ChaosketModItems {
 	public static final RegistryObject<BlackStrohhutItem> BLACK_STROHHUT_HELMET = REGISTRY.register("black_strohhut_helmet", () -> new BlackStrohhutItem(ArmorItem.Type.HELMET, new Item.Properties()));
 	public static final RegistryObject<Item> SHRINKDEVICE = REGISTRY.register("shrinkdevice", () -> new ShrinkdeviceItem());
 	public static final RegistryObject<Item> LASERBRIGE = block(ChaosketModBlocks.LASERBRIGE);
-	public static final RegistryObject<Item> LASERBRIGEPROJECTOR = block(ChaosketModBlocks.LASERBRIGEPROJECTOR);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
