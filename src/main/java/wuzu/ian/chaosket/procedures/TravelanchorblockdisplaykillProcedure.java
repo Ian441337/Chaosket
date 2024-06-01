@@ -32,5 +32,8 @@ public class TravelanchorblockdisplaykillProcedure {
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"execute as @e[nbt={ForgeData:{tag:\"travelAnchorDisplay\"}}] at @s unless block ~0.1 ~0.1 ~0.1 chaosket:travelanchorblock run kill @s");
+		if (world instanceof ServerLevel _level)
+			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+					"execute as @e[nbt={ForgeData:{tag:\"travelAnchor\"}}] at @s unless block ~0.1 ~0.1 ~0.1 chaosket:travelanchorblock run kill @s");
 	}
 }

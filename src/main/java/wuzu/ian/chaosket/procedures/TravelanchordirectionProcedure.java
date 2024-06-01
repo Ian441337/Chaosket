@@ -12,14 +12,11 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.Display;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
 
 import javax.annotation.Nullable;
 
@@ -55,37 +52,23 @@ public class TravelanchordirectionProcedure {
 		double anchor_y = 0;
 		double anchor_z = 0;
 		if (entity instanceof ServerPlayer && ChaosketModItems.STAFFOFTRAVELING.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
-			graph_point_x1 = entity.getX();
-			graph_point_x2 = entity.getLookAngle().x;
-			graph_point_y1 = entity.getY();
-			graph_point_y2 = entity.getLookAngle().y;
-			graph_point_z1 = entity.getZ();
-			graph_point_z2 = entity.getLookAngle().z;
+			graph_point_x1 = Math.round(entity.getX() * 100);
+			graph_point_x2 = Math.round(entity.getLookAngle().x * 100);
+			graph_point_y1 = Math.round(entity.getY() * 100);
+			graph_point_y2 = Math.round(entity.getLookAngle().y * 100);
+			graph_point_z1 = Math.round(entity.getZ() * 100);
+			graph_point_z2 = Math.round(entity.getLookAngle().z * 100);
 			{
 				final Vec3 _center = new Vec3((entity.getX()), (entity.getY()), (entity.getZ()));
 				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(100 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 				for (Entity entityiterator : _entfound) {
-					if (entityiterator instanceof Display.BlockDisplay && (entityiterator.getPersistentData().getString("tagName")).equals("travelAnchorDisplay")) {
-						{
-							Entity _ent = entityiterator;
-							if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-										_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "say 2");
-							}
-						}
-						anchor_x = entityiterator.getX() + 0.5;
-						anchor_y = entityiterator.getY() + 0.5;
-						anchor_z = entityiterator.getZ() + 0.5;
+					if (entityiterator instanceof ArmorStand && (entityiterator.getPersistentData().getString("tag")).equals("travelAnchor")) {
+						anchor_x = Math.round(entityiterator.getX() * 100);
+						anchor_y = Math.round(entityiterator.getY());
+						anchor_z = Math.round(entityiterator.getZ() * 100);
 						s1 = Math.floor((anchor_x - graph_point_x1) / graph_point_x2);
 						s2 = Math.floor((anchor_y - graph_point_y1) / graph_point_y2);
 						s3 = Math.floor((anchor_z - graph_point_z1) / graph_point_z2);
-					}
-					{
-						Entity _ent = entityiterator;
-						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "say 1");
-						}
 					}
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal((s1 + ";" + s2 + ";" + s3)), true);
