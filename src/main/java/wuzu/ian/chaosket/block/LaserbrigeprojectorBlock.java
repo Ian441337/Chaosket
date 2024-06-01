@@ -2,6 +2,7 @@
 package wuzu.ian.chaosket.block;
 
 import wuzu.ian.chaosket.procedures.LaserbrigeprojectorRedstoneOnProcedure;
+import wuzu.ian.chaosket.procedures.LaserbrigeprojectorRedstoneOffProcedure;
 
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -18,8 +19,6 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.util.RandomSource;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -52,7 +51,9 @@ public class LaserbrigeprojectorBlock extends Block {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+		if (context.getClickedFace().getAxis() == Direction.Axis.Y)
+			return this.defaultBlockState().setValue(FACING, Direction.NORTH);
+		return this.defaultBlockState().setValue(FACING, context.getClickedFace());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -72,18 +73,12 @@ public class LaserbrigeprojectorBlock extends Block {
 	}
 
 	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1);
-	}
-
-	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		LaserbrigeprojectorRedstoneOnProcedure.execute(world, x, y, z, blockstate);
-		world.scheduleTick(pos, this, 1);
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		if (world.getBestNeighborSignal(pos) > 0) {
+			LaserbrigeprojectorRedstoneOnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		} else {
+			LaserbrigeprojectorRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
 	}
 }

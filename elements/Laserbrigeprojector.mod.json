@@ -10,7 +10,7 @@
     "textureBack": "gray",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 1,
+    "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -119,8 +119,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
+    "onRedstoneOn": {
       "name": "LaserbrigeprojectorRedstoneOn"
+    },
+    "onRedstoneOff": {
+      "name": "LaserbrigeprojectorRedstoneOff"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
