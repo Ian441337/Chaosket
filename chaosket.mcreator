@@ -101,7 +101,24 @@
         "files": [
           "src/main/java/wuzu/ian/chaosket/procedures/TravelanchorblockdisplaykillProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/travel_anchor"
     },
@@ -449,10 +466,10 @@
       "registry_name": "laserbrige",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java",
-          "src/main/resources/assets/chaosket/models/block/laserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/laserbrige.json",
           "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
-          "src/main/resources/assets/chaosket/models/item/laserbrige.json"
+          "src/main/resources/assets/chaosket/models/block/laserbrige.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java"
         ]
       },
       "path": "~/laserbrige"
@@ -603,6 +620,38 @@
         ]
       },
       "path": "~/travel_anchor"
+    },
+    {
+      "name": "LaserbrigeUpdateTick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laserbrige_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/LaserbrigeUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/laserbrige"
     }
   ],
   "variable_elements": [],
