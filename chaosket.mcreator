@@ -1,29 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Jaildoor",
-      "type": "animatedblock",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jaildoor",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/block/display/JaildoorDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorDisplayItemRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/JaildoorTileRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/jaildoor.json",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorDisplayModel.java",
-          "src/main/resources/assets/chaosket/blockstates/jaildoor.json",
-          "src/main/resources/assets/chaosket/models/custom/jaildoor_particle.json",
-          "src/main/java/wuzu/ian/chaosket/block/model/JaildoorBlockModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/entity/JaildoorTileEntity.java",
-          "src/main/java/wuzu/ian/chaosket/block/JaildoorBlock.java"
-        ]
-      },
-      "path": "~/doors"
-    },
-    {
       "name": "Pinguin",
       "type": "animatedentity",
       "sortid": 1,
@@ -489,10 +466,10 @@
       "registry_name": "laserbrige",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/laserbrige.json",
-          "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java",
           "src/main/resources/assets/chaosket/models/block/laserbrige.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java"
+          "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/laserbrige.json"
         ]
       },
       "path": "~/laserbrige"
@@ -601,29 +578,6 @@
         ]
       },
       "path": "~/travel_anchor"
-    },
-    {
-      "name": "TravelAnchorBlock",
-      "type": "animatedblock",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "travel_anchor_block",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/block/renderer/TravelAnchorBlockDisplayItemRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/block/TravelAnchorBlockBlock.java",
-          "src/main/resources/assets/chaosket/blockstates/travel_anchor_block.json",
-          "src/main/java/wuzu/ian/chaosket/block/entity/TravelAnchorBlockTileEntity.java",
-          "src/main/resources/assets/chaosket/models/custom/travel_anchor_block_particle.json",
-          "src/main/java/wuzu/ian/chaosket/block/display/TravelAnchorBlockDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/TravelAnchorBlockBlockModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/TravelAnchorBlockDisplayModel.java",
-          "src/main/resources/assets/chaosket/models/item/travel_anchor_block.json",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/TravelAnchorBlockTileRenderer.java"
-        ]
-      },
-      "path": "~/travel_anchor"
     }
   ],
   "variable_elements": [],
@@ -642,7 +596,6 @@
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
-      "block.chaosket.jaildoor": "Jail door",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
