@@ -14,7 +14,6 @@
 package wuzu.ian.chaosket;
 
 import wuzu.ian.chaosket.init.ChaosketModTabs;
-import wuzu.ian.chaosket.init.ChaosketModPaintings;
 import wuzu.ian.chaosket.init.ChaosketModMenus;
 import wuzu.ian.chaosket.init.ChaosketModItems;
 import wuzu.ian.chaosket.init.ChaosketModEntities;
@@ -61,8 +60,6 @@ public class ChaosketMod {
 		ChaosketModEntities.REGISTRY.register(bus);
 
 		ChaosketModTabs.REGISTRY.register(bus);
-
-		ChaosketModPaintings.REGISTRY.register(bus);
 
 		ChaosketModMenus.REGISTRY.register(bus);
 	}
