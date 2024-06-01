@@ -514,6 +514,63 @@
         ]
       },
       "path": "~/laserbrige"
+    },
+    {
+      "name": "Laserbrigeprojector",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laserbrigeprojector",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
+          "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json"
+        ]
+      },
+      "path": "~/laserbrige"
+    },
+    {
+      "name": "LaserbrigeprojectorRedstoneOn",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laserbrigeprojector_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/LaserbrigeprojectorRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/laserbrige"
     }
   ],
   "variable_elements": [],
@@ -532,6 +589,7 @@
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.jaildoor": "Jail door",
+      "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",

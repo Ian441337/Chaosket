@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chaosket:block/laserbrigeprojector"
+    },
+    "facing=east": {
+      "model": "chaosket:block/laserbrigeprojector",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chaosket:block/laserbrigeprojector",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chaosket:block/laserbrigeprojector",
+      "y": 270
+    }
+  }
+}

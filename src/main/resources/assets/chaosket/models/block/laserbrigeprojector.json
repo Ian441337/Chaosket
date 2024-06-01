@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaosket:block/gray",
+    "up": "chaosket:block/gray",
+    "north": "chaosket:block/laserbrigeprojector",
+    "east": "chaosket:block/gray",
+    "south": "chaosket:block/gray",
+    "west": "chaosket:block/gray",
+    "particle": "chaosket:block/gray"
+  },
+  "render_type": "solid"
+}

@@ -34,6 +34,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.BLACK_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModItems.SHRINKDEVICE.get());
 				tabData.accept(ChaosketModBlocks.LASERBRIGE.get().asItem());
+				tabData.accept(ChaosketModBlocks.LASERBRIGEPROJECTOR.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
