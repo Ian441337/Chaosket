@@ -545,13 +545,37 @@
         ],
         "dependencies": [
           {
-            "name": "blockstate",
-            "type": "blockstate"
+            "name": "x",
+            "type": "number"
           },
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "y",
+            "type": "number"
           },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/laserbrige"
+    },
+    {
+      "name": "LaserbrigeprojectorRedstoneOff",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laserbrigeprojector_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/LaserbrigeprojectorRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
           {
             "name": "x",
             "type": "number"
