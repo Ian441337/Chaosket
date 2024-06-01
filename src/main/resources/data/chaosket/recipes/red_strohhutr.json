@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "strohhut",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "minecraft:leather_helmet"
+    }
+  },
+  "result": {
+    "item": "chaosket:red_strohhut_helmet",
+    "count": 1
+  }
+}
