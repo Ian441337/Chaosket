@@ -52,23 +52,16 @@ public class TravelanchordirectionProcedure {
 		double anchor_y = 0;
 		double anchor_z = 0;
 		if (entity instanceof ServerPlayer && ChaosketModItems.STAFFOFTRAVELING.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
-			graph_point_x1 = Math.round(entity.getX() * 10);
-			graph_point_y1 = Math.round((entity.getY() + 1.5) * 10);
-			graph_point_z1 = Math.round(entity.getZ() * 10);
 			{
 				final Vec3 _center = new Vec3((entity.getX()), (entity.getY()), (entity.getZ()));
 				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(100 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 				for (Entity entityiterator : _entfound) {
 					if (entityiterator instanceof ArmorStand && (entityiterator.getPersistentData().getString("tag")).equals("travelAnchor")) {
-						anchor_x = Math.round(entityiterator.getX() * 10);
-						anchor_y = Math.round(entityiterator.getY() * 10);
-						anchor_z = Math.round(entityiterator.getZ() * 10);
-						s1 = Math.floor((anchor_x - graph_point_x1) / (entity.getLookAngle().x * 10));
-						s2 = Math.floor((anchor_y - graph_point_y1) / (entity.getLookAngle().y * 10));
-						s3 = Math.floor((anchor_z - graph_point_z1) / (entity.getLookAngle().z * 10));
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal((Math.round(((entityiterator.getX() * 10 - entity.getX() * 10) / (entity.getLookAngle().x * 10)) * 1000) + ";"
+									+ Math.round(((entityiterator.getY() * 10 - (entity.getY() + 1.5) * 10) / (entity.getLookAngle().y * 10)) * 1000) + ";"
+									+ Math.round(((entityiterator.getZ() * 10 - entity.getZ() * 10) / (entity.getLookAngle().z * 10)) * 1000))), true);
 					}
-					if (entity instanceof Player _player && !_player.level().isClientSide())
-						_player.displayClientMessage(Component.literal((s1 + ";" + s2 + ";" + s3)), true);
 				}
 			}
 		}
