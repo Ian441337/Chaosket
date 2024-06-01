@@ -19,6 +19,6 @@ public class BlueStrohhutModel extends GeoModel<BlueStrohhutItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(BlueStrohhutItem object) {
-		return new ResourceLocation("chaosket", "textures/item/strohhut-item-blue.png");
+		return new ResourceLocation("chaosket", "textures/item/strohhut-blue.png");
 	}
 }

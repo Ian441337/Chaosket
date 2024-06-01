@@ -16,7 +16,7 @@
     "creativeTab": {
       "value": "CUSTOM:ChaosKet"
     },
-    "armorTextureFile": "strohhut-item-blue.png",
+    "armorTextureFile": "strohhut-blue.png",
     "model": "strohhut.geo.json",
     "idle": "none",
     "head": "armorHead",
