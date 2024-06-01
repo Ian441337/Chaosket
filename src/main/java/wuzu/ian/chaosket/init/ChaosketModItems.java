@@ -14,6 +14,7 @@ import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.OutlineItem;
 import wuzu.ian.chaosket.item.LilaStrohhutItem;
 import wuzu.ian.chaosket.item.GreenStrohhutItem;
+import wuzu.ian.chaosket.item.EndportalItem;
 import wuzu.ian.chaosket.item.BlueStrohhutItem;
 import wuzu.ian.chaosket.item.BlackStrohhutItem;
 import wuzu.ian.chaosket.ChaosketMod;
@@ -48,6 +49,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> STOPSHADER = REGISTRY.register("stopshader", () -> new StopshaderItem());
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> OUTLINE = REGISTRY.register("outline", () -> new OutlineItem());
+	public static final RegistryObject<Item> NOTCH = REGISTRY.register("notch", () -> new EndportalItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

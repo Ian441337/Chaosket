@@ -769,6 +769,45 @@
         ]
       },
       "path": "~/test"
+    },
+    {
+      "name": "EndportalRightclicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endportal_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/EndportalRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Endportal",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/notch.json",
+          "src/main/java/wuzu/ian/chaosket/item/EndportalItem.java"
+        ]
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -791,6 +830,7 @@
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
+      "item.chaosket.notch": "Endportal",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",

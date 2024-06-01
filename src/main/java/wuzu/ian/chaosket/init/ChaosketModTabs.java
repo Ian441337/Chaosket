@@ -38,6 +38,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.STOPSHADER.get());
 				tabData.accept(ChaosketModItems.SOBEL.get());
 				tabData.accept(ChaosketModItems.OUTLINE.get());
+				tabData.accept(ChaosketModItems.NOTCH.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
