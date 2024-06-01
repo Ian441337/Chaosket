@@ -16,7 +16,10 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.Display;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 import javax.annotation.Nullable;
 
@@ -63,15 +66,29 @@ public class TravelanchordirectionProcedure {
 				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(100 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 				for (Entity entityiterator : _entfound) {
 					if (entityiterator instanceof Display.BlockDisplay && (entityiterator.getPersistentData().getString("tagName")).equals("travelAnchorDisplay")) {
+						{
+							Entity _ent = entityiterator;
+							if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+								_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+										_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "say 2");
+							}
+						}
 						anchor_x = entityiterator.getX() + 0.5;
 						anchor_y = entityiterator.getY() + 0.5;
 						anchor_z = entityiterator.getZ() + 0.5;
 						s1 = Math.floor((anchor_x - graph_point_x1) / graph_point_x2);
 						s2 = Math.floor((anchor_y - graph_point_y1) / graph_point_y2);
 						s3 = Math.floor((anchor_z - graph_point_z1) / graph_point_z2);
-						if (entity instanceof Player _player && _player.level().isClientSide())
-							_player.displayClientMessage(Component.literal((s1 + ";" + s2 + ";" + s3)), false);
 					}
+					{
+						Entity _ent = entityiterator;
+						if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+							_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+									_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "say 1");
+						}
+					}
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal((s1 + ";" + s2 + ";" + s3)), true);
 				}
 			}
 		}
