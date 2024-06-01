@@ -33,11 +33,11 @@ public class LaserbrigeprojectorRedstoneOffProcedure {
 				if ((world.getBlockState(BlockPos.containing(x, y, Scaling + 1))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
 					world.destroyBlock(BlockPos.containing(x, y, Scaling + 1), false);
 					Scaling = Scaling + 1;
-					ChaosketMod.queueServerWork(2, () -> {
-					});
 				} else {
 					break;
 				}
+				ChaosketMod.queueServerWork(20, () -> {
+				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -56,11 +56,11 @@ public class LaserbrigeprojectorRedstoneOffProcedure {
 				if ((world.getBlockState(BlockPos.containing(x, y, Scaling - 1))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
 					world.destroyBlock(BlockPos.containing(x, y, Scaling - 1), false);
 					Scaling = Scaling - 1;
-					ChaosketMod.queueServerWork(2, () -> {
-					});
 				} else {
 					break;
 				}
+				ChaosketMod.queueServerWork(20, () -> {
+				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -79,11 +79,11 @@ public class LaserbrigeprojectorRedstoneOffProcedure {
 				if ((world.getBlockState(BlockPos.containing(scalingx + 1, y, z))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
 					world.destroyBlock(BlockPos.containing(scalingx + 1, y, z), false);
 					scalingx = scalingx + 1;
-					ChaosketMod.queueServerWork(2, () -> {
-					});
 				} else {
 					break;
 				}
+				ChaosketMod.queueServerWork(20, () -> {
+				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -102,11 +102,11 @@ public class LaserbrigeprojectorRedstoneOffProcedure {
 				if ((world.getBlockState(BlockPos.containing(scalingx - 1, y, z))).getBlock() == ChaosketModBlocks.LASERBRIGE.get()) {
 					world.destroyBlock(BlockPos.containing(scalingx - 1, y, z), false);
 					scalingx = scalingx - 1;
-					ChaosketMod.queueServerWork(2, () -> {
-					});
 				} else {
 					break;
 				}
+				ChaosketMod.queueServerWork(20, () -> {
+				});
 			}
 		}
 	}

@@ -44,11 +44,11 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 						}
 					}.with(ChaosketModBlocks.LASERBRIGE.get().defaultBlockState(), Direction.NORTH)), 3);
 					Scaling = Scaling + 1;
-					ChaosketMod.queueServerWork(5, () -> {
-					});
 				} else {
 					break;
 				}
+				ChaosketMod.queueServerWork(20, () -> {
+				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -75,11 +75,11 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 						}
 					}.with(ChaosketModBlocks.LASERBRIGE.get().defaultBlockState(), Direction.SOUTH)), 3);
 					Scaling = Scaling - 1;
-					ChaosketMod.queueServerWork(5, () -> {
-					});
 				} else {
 					break;
 				}
+				ChaosketMod.queueServerWork(20, () -> {
+				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -106,11 +106,11 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 						}
 					}.with(ChaosketModBlocks.LASERBRIGE.get().defaultBlockState(), Direction.WEST)), 3);
 					scalingx = scalingx + 1;
-					ChaosketMod.queueServerWork(5, () -> {
-					});
 				} else {
 					break;
 				}
+				ChaosketMod.queueServerWork(20, () -> {
+				});
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
@@ -137,11 +137,11 @@ public class LaserbrigeprojectorRedstoneOnProcedure {
 						}
 					}.with(ChaosketModBlocks.LASERBRIGE.get().defaultBlockState(), Direction.EAST)), 3);
 					scalingx = scalingx - 1;
-					ChaosketMod.queueServerWork(5, () -> {
-					});
 				} else {
 					break;
 				}
+				ChaosketMod.queueServerWork(20, () -> {
+				});
 			}
 		}
 	}
