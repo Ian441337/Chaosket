@@ -1,0 +1,9 @@
+{
+  "parent": "chaosket:custom/laserbrige",
+  "textures": {
+    "all": "chaosket:block/laserbrige",
+    "particle": "chaosket:block/laserbrige",
+    "1": "chaosket:block/laserbrige"
+  },
+  "render_type": "translucent"
+}
