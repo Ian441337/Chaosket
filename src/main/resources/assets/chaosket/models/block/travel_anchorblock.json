@@ -1,9 +1,13 @@
 {
-  "parent": "chaosket:custom/travel_anchor",
+  "parent": "block/cube",
   "textures": {
-    "all": "chaosket:block/travelanchor",
-    "particle": "chaosket:block/travelanchor",
-    "0": "chaosket:block/travelanchor"
+    "down": "chaosket:block/test",
+    "up": "chaosket:block/test",
+    "north": "chaosket:block/test",
+    "east": "chaosket:block/test",
+    "south": "chaosket:block/test",
+    "west": "chaosket:block/test",
+    "particle": "chaosket:block/test"
   },
   "render_type": "solid"
 }
