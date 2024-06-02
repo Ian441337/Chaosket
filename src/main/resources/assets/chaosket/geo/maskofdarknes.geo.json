@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.MaskOFDark",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bipedHead",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "armorHead",
+					"parent": "bipedHead",
+					"pivot": [0, 24, -5],
+					"cubes": [
+						{"origin": [-3.75, 23.5, -5], "size": [7.5, 8.5, 0.75], "uv": [0, 24]},
+						{"origin": [-4.25, 29, -5], "size": [0.5, 1, 9], "uv": [0, -9]},
+						{"origin": [3.75, 29, -5], "size": [0.5, 1, 9], "uv": [0, -9]},
+						{"origin": [-4.25, 29, 4], "size": [8.5, 1, 0.5], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
