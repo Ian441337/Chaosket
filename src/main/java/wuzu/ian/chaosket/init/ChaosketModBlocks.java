@@ -8,6 +8,7 @@ import wuzu.ian.chaosket.block.TravelAnchorblockBlock;
 import wuzu.ian.chaosket.block.LaserbrigeprojectorBlock;
 import wuzu.ian.chaosket.block.LaserbrigeBlock;
 import wuzu.ian.chaosket.block.JailDoorBlock;
+import wuzu.ian.chaosket.block.EndanchorBlock;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -22,4 +23,5 @@ public class ChaosketModBlocks {
 	public static final RegistryObject<Block> LASERBRIGEPROJECTOR = REGISTRY.register("laserbrigeprojector", () -> new LaserbrigeprojectorBlock());
 	public static final RegistryObject<Block> JAIL_DOOR = REGISTRY.register("jail_door", () -> new JailDoorBlock());
 	public static final RegistryObject<Block> TRAVEL_ANCHORBLOCK = REGISTRY.register("travel_anchorblock", () -> new TravelAnchorblockBlock());
+	public static final RegistryObject<Block> ENDANCHOR = REGISTRY.register("endanchor", () -> new EndanchorBlock());
 }

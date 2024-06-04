@@ -652,6 +652,56 @@
         ]
       },
       "path": "~/laserbrige"
+    },
+    {
+      "name": "EndanchorBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endanchor_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/EndanchorBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/End Anchor"
+    },
+    {
+      "name": "Endanchor",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endanchor",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/block/EndanchorBlock.java",
+          "src/main/java/wuzu/ian/chaosket/block/entity/EndanchorBlockEntity.java",
+          "src/main/resources/assets/chaosket/models/item/endanchor.json",
+          "src/main/resources/assets/chaosket/models/block/endanchor.json",
+          "src/main/resources/assets/chaosket/blockstates/endanchor.json"
+        ]
+      },
+      "path": "~/End Anchor"
     }
   ],
   "variable_elements": [],
@@ -696,6 +746,7 @@
       "item.chaosket.blue_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.jail_door": "Jail Door",
       "item.chaosket.black_strohhut_boots": "Red Strohhut Boots",
+      "block.chaosket.endanchor": "Endanchor",
       "item.chaosket.lila_strohhut_leggings": "Red Strohhut Leggings"
     }
   },
@@ -732,6 +783,10 @@
       },
       {
         "name": "doors",
+        "children": []
+      },
+      {
+        "name": "End Anchor",
         "children": []
       }
     ]

@@ -5,6 +5,7 @@
 package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.block.entity.TravelAnchorblockBlockEntity;
+import wuzu.ian.chaosket.block.entity.EndanchorBlockEntity;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -17,6 +18,7 @@ import net.minecraft.world.level.block.Block;
 public class ChaosketModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ChaosketMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> TRAVEL_ANCHORBLOCK = register("travel_anchorblock", ChaosketModBlocks.TRAVEL_ANCHORBLOCK, TravelAnchorblockBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ENDANCHOR = register("endanchor", ChaosketModBlocks.ENDANCHOR, EndanchorBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

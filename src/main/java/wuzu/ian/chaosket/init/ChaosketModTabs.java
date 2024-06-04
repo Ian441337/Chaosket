@@ -35,6 +35,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModBlocks.LASERBRIGEPROJECTOR.get().asItem());
 				tabData.accept(ChaosketModBlocks.JAIL_DOOR.get().asItem());
 				tabData.accept(ChaosketModBlocks.TRAVEL_ANCHORBLOCK.get().asItem());
+				tabData.accept(ChaosketModBlocks.ENDANCHOR.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

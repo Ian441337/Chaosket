@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaosket:block/end_anchor",
+    "up": "chaosket:block/end_anchor",
+    "north": "chaosket:block/end_anchor",
+    "east": "chaosket:block/end_anchor",
+    "south": "chaosket:block/end_anchor",
+    "west": "chaosket:block/end_anchor",
+    "particle": "chaosket:block/end_anchor"
+  },
+  "render_type": "solid"
+}
