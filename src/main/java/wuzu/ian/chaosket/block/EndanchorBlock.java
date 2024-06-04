@@ -1,29 +1,8 @@
 
 package wuzu.ian.chaosket.block;
 
-import wuzu.ian.chaosket.procedures.EndanchorBlockIsPlacedByProcedure;
-import wuzu.ian.chaosket.block.entity.EndanchorBlockEntity;
-
-import net.minecraft.world.level.storage.loot.LootParams;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.EntityBlock;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.MenuProvider;
-import net.minecraft.world.Containers;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
-
-import java.util.List;
-import java.util.Collections;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class EndanchorBlock extends Block implements EntityBlock {
 	public EndanchorBlock() {
@@ -51,7 +30,7 @@ public class EndanchorBlock extends Block implements EntityBlock {
 	@Override
 	public void setPlacedBy(Level world, BlockPos pos, BlockState blockstate, LivingEntity entity, ItemStack itemstack) {
 		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
-		EndanchorBlockIsPlacedByProcedure.execute(pos.getX(), pos.getY(), pos.getZ(), entity);
+		EndanchorBlockIsPlacedByProcedure.execute();
 	}
 
 	@Override

@@ -5,12 +5,16 @@
 package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.item.WhiteStrohhutItem;
+import wuzu.ian.chaosket.item.StopshaderItem;
 import wuzu.ian.chaosket.item.StaffoftravelingItem;
+import wuzu.ian.chaosket.item.SobelItem;
 import wuzu.ian.chaosket.item.ShrinkdeviceItem;
 import wuzu.ian.chaosket.item.RingOfUnduingItem;
 import wuzu.ian.chaosket.item.RedStrohhutItem;
+import wuzu.ian.chaosket.item.OutlineItem;
 import wuzu.ian.chaosket.item.LilaStrohhutItem;
 import wuzu.ian.chaosket.item.GreenStrohhutItem;
+import wuzu.ian.chaosket.item.EndportalItem;
 import wuzu.ian.chaosket.item.BlueStrohhutItem;
 import wuzu.ian.chaosket.item.BlackStrohhutItem;
 import wuzu.ian.chaosket.ChaosketMod;
@@ -43,6 +47,10 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> JAIL_DOOR = doubleBlock(ChaosketModBlocks.JAIL_DOOR);
 	public static final RegistryObject<Item> TRAVEL_ANCHORBLOCK = block(ChaosketModBlocks.TRAVEL_ANCHORBLOCK);
 	public static final RegistryObject<Item> ENDANCHOR = block(ChaosketModBlocks.ENDANCHOR);
+	public static final RegistryObject<Item> STOPSHADER = REGISTRY.register("stopshader", () -> new StopshaderItem());
+	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
+	public static final RegistryObject<Item> OUTLINE = REGISTRY.register("outline", () -> new OutlineItem());
+	public static final RegistryObject<Item> NOTCH = REGISTRY.register("notch", () -> new EndportalItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
