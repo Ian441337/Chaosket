@@ -1,8 +1,8 @@
 package wuzu.ian.chaosket.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.client.Minecraft;
 
 public class StopshaderRightclickedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
