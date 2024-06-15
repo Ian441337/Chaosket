@@ -31,6 +31,11 @@ public class ChaosaltarguiScreen extends AbstractContainerScreen<ChaosaltarguiMe
 		this.imageHeight = 166;
 	}
 
+	@Override
+	public boolean isPauseScreen() {
+		return true;
+	}
+
 	private static final ResourceLocation texture = new ResourceLocation("chaosket:textures/screens/chaosaltargui.png");
 
 	@Override
@@ -47,7 +52,7 @@ public class ChaosaltarguiScreen extends AbstractContainerScreen<ChaosaltarguiMe
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("chaosket:textures/screens/chaosaltargui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+		guiGraphics.blit(new ResourceLocation("chaosket:textures/screens/chaosaltar_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
 
 		RenderSystem.disableBlend();
 	}

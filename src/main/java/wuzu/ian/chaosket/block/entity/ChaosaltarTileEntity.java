@@ -129,7 +129,7 @@ public class ChaosaltarTileEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public int getMaxStackSize() {
-		return 64;
+		return 1;
 	}
 
 	@Override

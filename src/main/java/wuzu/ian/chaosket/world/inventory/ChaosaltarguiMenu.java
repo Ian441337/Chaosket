@@ -10,6 +10,7 @@ import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.inventory.ContainerLevelAccess;
@@ -87,6 +88,11 @@ public class ChaosaltarguiMenu extends AbstractContainerMenu implements Supplier
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 67, 33) {
 			private final int slot = 1;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return Items.DIAMOND_HELMET == stack.getItem();
+			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 45, 11) {
 			private final int slot = 2;

@@ -6,6 +6,8 @@ import wuzu.ian.chaosket.init.ChaosketModBlockEntities;
 import wuzu.ian.chaosket.block.entity.ChaosaltarTileEntity;
 
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -32,10 +34,13 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
 
 import javax.annotation.Nullable;
 
@@ -90,6 +95,25 @@ public class ChaosaltarBlock extends BaseEntityBlock implements EntityBlock {
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
 		return this.defaultBlockState();
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	@Override
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
+		super.animateTick(blockstate, world, pos, random);
+		Player entity = Minecraft.getInstance().player;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		for (int l = 0; l < 10; ++l) {
+			double x0 = x + random.nextFloat();
+			double y0 = y + random.nextFloat();
+			double z0 = z + random.nextFloat();
+			double dx = (random.nextFloat() - 0.5D) * 2D;
+			double dy = (random.nextFloat() - 0.5D) * 2D;
+			double dz = (random.nextFloat() - 0.5D) * 2D;
+			world.addParticle(ParticleTypes.PORTAL, x0, y0, z0, dx, dy, dz);
+		}
 	}
 
 	@Override
