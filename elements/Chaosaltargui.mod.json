@@ -26,7 +26,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "Items.DIAMOND_HELMET"
+            "value": ""
           },
           "disablePlacement": {
             "fixedValue": false

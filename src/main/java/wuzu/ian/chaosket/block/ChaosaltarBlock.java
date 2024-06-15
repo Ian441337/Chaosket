@@ -105,13 +105,13 @@ public class ChaosaltarBlock extends BaseEntityBlock implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		for (int l = 0; l < 10; ++l) {
+		for (int l = 0; l < 2; ++l) {
 			double x0 = x + random.nextFloat();
 			double y0 = y + random.nextFloat();
 			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 2D;
-			double dy = (random.nextFloat() - 0.5D) * 2D;
-			double dz = (random.nextFloat() - 0.5D) * 2D;
+			double dx = (random.nextFloat() - 0.5D) * 5D;
+			double dy = (random.nextFloat() - 0.5D) * 5D;
+			double dz = (random.nextFloat() - 0.5D) * 5D;
 			world.addParticle(ParticleTypes.PORTAL, x0, y0, z0, dx, dy, dz);
 		}
 	}

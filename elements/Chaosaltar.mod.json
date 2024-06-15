@@ -106,8 +106,8 @@
       "value": "PORTAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 2.0,
-    "particleAmount": 10,
+    "particleSpawningRadious": 5.0,
+    "particleAmount": 2,
     "hasInventory": true,
     "guiBoundTo": "Chaosaltargui",
     "openGUIOnRightClick": true,
