@@ -910,6 +910,45 @@
         ]
       },
       "path": "~/doors"
+    },
+    {
+      "name": "Loadstonebloom",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loadstonebloom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/loadstonebloom.json",
+          "src/main/java/wuzu/ian/chaosket/item/LoadstonebloomItem.java"
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Lodstonebloomr",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lodstonebloomr",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/LodstonebloomrProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -933,6 +972,7 @@
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.notch": "Endportal",
+      "item.chaosket.loadstonebloom": "Sobel",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
