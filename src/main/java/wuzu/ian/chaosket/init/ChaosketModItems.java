@@ -17,6 +17,7 @@ import wuzu.ian.chaosket.item.GreenStrohhutItem;
 import wuzu.ian.chaosket.item.EndportalItem;
 import wuzu.ian.chaosket.item.BlueStrohhutItem;
 import wuzu.ian.chaosket.item.BlackStrohhutItem;
+import wuzu.ian.chaosket.block.display.ChaosaltarDisplayItem;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -51,6 +52,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> OUTLINE = REGISTRY.register("outline", () -> new OutlineItem());
 	public static final RegistryObject<Item> NOTCH = REGISTRY.register("notch", () -> new EndportalItem());
+	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

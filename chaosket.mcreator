@@ -858,6 +858,29 @@
         ]
       },
       "path": "~/test"
+    },
+    {
+      "name": "Chaosaltar",
+      "type": "animatedblock",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosaltar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/chaosaltar.json",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarTileRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarDisplayItemRenderer.java",
+          "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/display/ChaosaltarDisplayItem.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarBlockModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarDisplayModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/ChaosaltarBlock.java",
+          "src/main/java/wuzu/ian/chaosket/block/entity/ChaosaltarTileEntity.java",
+          "src/main/resources/assets/chaosket/blockstates/chaosaltar.json"
+        ]
+      },
+      "path": "~/chaosaltar"
     }
   ],
   "variable_elements": [],
@@ -884,6 +907,7 @@
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
+      "block.chaosket.chaosaltar": "Chaosaltar",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
@@ -951,6 +975,10 @@
       },
       {
         "name": "End Anchor",
+        "children": []
+      },
+      {
+        "name": "chaosaltar",
         "children": []
       }
     ]
