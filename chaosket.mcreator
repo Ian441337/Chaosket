@@ -881,6 +881,35 @@
         ]
       },
       "path": "~/chaosaltar"
+    },
+    {
+      "name": "Chaosaltargui",
+      "type": "gui",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosaltargui",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/client/gui/ChaosaltarguiScreen.java",
+          "src/main/java/wuzu/ian/chaosket/world/inventory/ChaosaltarguiMenu.java"
+        ]
+      },
+      "path": "~/chaosaltar"
+    },
+    {
+      "name": "Jaildoorr",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaildoorr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/jaildoorr.json"
+        ]
+      },
+      "path": "~/doors"
     }
   ],
   "variable_elements": [],
