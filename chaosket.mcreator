@@ -31,7 +31,7 @@
           "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java"
         ]
       },
-      "path": "~/blocks/travel_anchor"
+      "path": "~/travel_anchor"
     },
     {
       "name": "Travelanchordisplayblock",
@@ -45,7 +45,7 @@
           "src/main/resources/data/chaosket/functions/travelanchordisplayblock.mcfunction"
         ]
       },
-      "path": "~/blocks/travel_anchor"
+      "path": "~/travel_anchor"
     },
     {
       "name": "TravelanchorblockUpdateTick",
@@ -77,7 +77,7 @@
           }
         ]
       },
-      "path": "~/blocks/travel_anchor"
+      "path": "~/travel_anchor"
     },
     {
       "name": "ChaosKet",
@@ -88,8 +88,7 @@
       "registry_name": "chaos_ket",
       "metadata": {
         "files": []
-      },
-      "path": "~/blocks"
+      }
     },
     {
       "name": "Travelanchorblockdisplaykill",
@@ -121,7 +120,7 @@
           }
         ]
       },
-      "path": "~/blocks/travel_anchor"
+      "path": "~/travel_anchor"
     },
     {
       "name": "RingOfUnduing",
@@ -160,7 +159,7 @@
           }
         ]
       },
-      "path": "~/blocks/travel_anchor"
+      "path": "~/travel_anchor"
     },
     {
       "name": "Staffoftraveling",
@@ -175,7 +174,7 @@
           "src/main/resources/assets/chaosket/models/item/staffoftraveling.json"
         ]
       },
-      "path": "~/blocks/travel_anchor"
+      "path": "~/travel_anchor"
     },
     {
       "name": "Ckowner",
@@ -473,7 +472,7 @@
           "src/main/resources/assets/chaosket/models/item/laserbrige.json"
         ]
       },
-      "path": "~/blocks/laserbrige"
+      "path": "~/laserbrige"
     },
     {
       "name": "Laserbrigeprojector",
@@ -490,7 +489,7 @@
           "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json"
         ]
       },
-      "path": "~/blocks/laserbrige"
+      "path": "~/laserbrige"
     },
     {
       "name": "LaserbrigeprojectorRedstoneOn",
@@ -522,7 +521,7 @@
           }
         ]
       },
-      "path": "~/blocks/laserbrige"
+      "path": "~/laserbrige"
     },
     {
       "name": "LaserbrigeprojectorRedstoneOff",
@@ -554,7 +553,7 @@
           }
         ]
       },
-      "path": "~/blocks/laserbrige"
+      "path": "~/laserbrige"
     },
     {
       "name": "StaffoftravelingRightclicked",
@@ -578,7 +577,7 @@
           }
         ]
       },
-      "path": "~/blocks/travel_anchor"
+      "path": "~/travel_anchor"
     },
     {
       "name": "JailDoor",
@@ -602,7 +601,7 @@
           "src/main/resources/assets/chaosket/models/block/jail_door_top_right_open.json"
         ]
       },
-      "path": "~/blocks/doors"
+      "path": "~/doors"
     },
     {
       "name": "TravelAnchorblock",
@@ -620,7 +619,7 @@
           "src/main/resources/assets/chaosket/blockstates/travel_anchorblock.json"
         ]
       },
-      "path": "~/blocks/travel_anchor"
+      "path": "~/travel_anchor"
     },
     {
       "name": "LaserbrigeUpdateTick",
@@ -652,7 +651,7 @@
           }
         ]
       },
-      "path": "~/blocks/laserbrige"
+      "path": "~/laserbrige"
     },
     {
       "name": "Endanchor",
@@ -670,7 +669,7 @@
           "src/main/resources/assets/chaosket/blockstates/endanchor.json"
         ]
       },
-      "path": "~/blocks/End Anchor"
+      "path": "~/End Anchor"
     },
     {
       "name": "EndanchorBlockIsPlacedBy",
@@ -702,7 +701,7 @@
           }
         ]
       },
-      "path": "~/blocks/End Anchor"
+      "path": "~/End Anchor"
     },
     {
       "name": "SobelRightclicked",
@@ -881,7 +880,7 @@
           "src/main/resources/assets/chaosket/blockstates/chaosaltar.json"
         ]
       },
-      "path": "~/blocks/chaosaltar"
+      "path": "~/chaosaltar"
     },
     {
       "name": "Chaosaltargui",
@@ -896,7 +895,7 @@
           "src/main/java/wuzu/ian/chaosket/world/inventory/ChaosaltarguiMenu.java"
         ]
       },
-      "path": "~/blocks/chaosaltar"
+      "path": "~/chaosaltar"
     },
     {
       "name": "Jaildoorr",
@@ -910,7 +909,7 @@
           "src/main/resources/data/chaosket/recipes/jaildoorr.json"
         ]
       },
-      "path": "~/blocks/doors"
+      "path": "~/doors"
     },
     {
       "name": "Loadstonebloom",
@@ -1037,28 +1036,27 @@
       },
       {
         "name": "blocks",
-        "children": [
-          {
-            "name": "chaosaltar",
-            "children": []
-          },
-          {
-            "name": "travel_anchor",
-            "children": []
-          },
-          {
-            "name": "doors",
-            "children": []
-          },
-          {
-            "name": "laserbrige",
-            "children": []
-          },
-          {
-            "name": "End Anchor",
-            "children": []
-          }
-        ]
+        "children": []
+      },
+      {
+        "name": "chaosaltar",
+        "children": []
+      },
+      {
+        "name": "travel_anchor",
+        "children": []
+      },
+      {
+        "name": "doors",
+        "children": []
+      },
+      {
+        "name": "laserbrige",
+        "children": []
+      },
+      {
+        "name": "End Anchor",
+        "children": []
       }
     ]
   },
