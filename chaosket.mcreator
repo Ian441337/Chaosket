@@ -663,7 +663,6 @@
       "metadata": {
         "files": [
           "src/main/java/wuzu/ian/chaosket/block/EndanchorBlock.java",
-          "src/main/java/wuzu/ian/chaosket/block/entity/EndanchorBlockEntity.java",
           "src/main/resources/assets/chaosket/models/item/endanchor.json",
           "src/main/resources/assets/chaosket/models/block/endanchor.json",
           "src/main/resources/assets/chaosket/blockstates/endanchor.json"
