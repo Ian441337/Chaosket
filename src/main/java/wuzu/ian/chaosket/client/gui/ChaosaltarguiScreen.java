@@ -31,11 +31,6 @@ public class ChaosaltarguiScreen extends AbstractContainerScreen<ChaosaltarguiMe
 		this.imageHeight = 166;
 	}
 
-	@Override
-	public boolean isPauseScreen() {
-		return true;
-	}
-
 	private static final ResourceLocation texture = new ResourceLocation("chaosket:textures/screens/chaosaltargui.png");
 
 	@Override

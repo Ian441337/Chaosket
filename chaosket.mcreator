@@ -965,6 +965,26 @@
         ]
       },
       "path": "~/dimension"
+    },
+    {
+      "name": "Armoredimskybox",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armoredimskybox",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/ArmoredimskyboxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/dimension"
     }
   ],
   "variable_elements": [],
