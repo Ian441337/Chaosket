@@ -1003,6 +1003,80 @@
         ]
       },
       "path": "~/dimension"
+    },
+    {
+      "name": "TravelArmor",
+      "type": "armor",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/travel_armor_chestplate.json",
+          "src/main/java/wuzu/ian/chaosket/item/TravelArmorItem.java",
+          "src/main/resources/assets/chaosket/models/item/travel_armor_leggings.json",
+          "src/main/resources/assets/chaosket/models/item/travel_armor_helmet.json",
+          "src/main/resources/assets/chaosket/models/item/travel_armor_boots.json"
+        ]
+      },
+      "path": "~/Chaosium"
+    },
+    {
+      "name": "TravelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/travel_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Chaosium"
+    },
+    {
+      "name": "TravelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/travel_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Chaosium"
+    },
+    {
+      "name": "TravelArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/travel_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Chaosium"
+    },
+    {
+      "name": "TravelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/travel_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Chaosium"
     }
   ],
   "variable_elements": [],
@@ -1017,7 +1091,6 @@
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "item.chaosket.outline": "Outline",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
-      "entity.chaosket.pauk_2_god": "Pauk 2 GOD",
       "item.chaosket.notch": "Endportal",
       "item.chaosket.loadstonebloom": "lodstonebloom",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
@@ -1045,7 +1118,6 @@
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
-      "item.chaosket.pauk_2_god_spawn_egg": "Pauk 2 GOD Spawn Egg",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut",
@@ -1136,7 +1208,6 @@
     "mcreatorDependencies": [
       "pehkui",
       "world_edit",
-      "use_compiled_mods",
       "curios_api",
       "create",
       "geckolib",

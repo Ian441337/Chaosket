@@ -5,6 +5,7 @@
 package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.item.WhiteStrohhutItem;
+import wuzu.ian.chaosket.item.TravelArmorItem;
 import wuzu.ian.chaosket.item.StopshaderItem;
 import wuzu.ian.chaosket.item.StaffoftravelingItem;
 import wuzu.ian.chaosket.item.SobelItem;
@@ -56,6 +57,10 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> LOADSTONEBLOOM = REGISTRY.register("loadstonebloom", () -> new LoadstonebloomItem());
 	public static final RegistryObject<Item> PAUK_2_GOD_SPAWN_EGG = REGISTRY.register("pauk_2_god_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.PAUK_2_GOD, -16738048, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> TRAVEL_ARMOR_HELMET = REGISTRY.register("travel_armor_helmet", () -> new TravelArmorItem.Helmet());
+	public static final RegistryObject<Item> TRAVEL_ARMOR_CHESTPLATE = REGISTRY.register("travel_armor_chestplate", () -> new TravelArmorItem.Chestplate());
+	public static final RegistryObject<Item> TRAVEL_ARMOR_LEGGINGS = REGISTRY.register("travel_armor_leggings", () -> new TravelArmorItem.Leggings());
+	public static final RegistryObject<Item> TRAVEL_ARMOR_BOOTS = REGISTRY.register("travel_armor_boots", () -> new TravelArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
