@@ -1,5 +1,11 @@
 package wuzu.ian.chaosket.block.model;
 
+import wuzu.ian.chaosket.block.display.ChaosaltarDisplayItem;
+
+import software.bernie.geckolib.model.GeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
 public class ChaosaltarDisplayModel extends GeoModel<ChaosaltarDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(ChaosaltarDisplayItem animatable) {

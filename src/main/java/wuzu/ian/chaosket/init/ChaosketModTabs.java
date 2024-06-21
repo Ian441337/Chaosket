@@ -42,6 +42,10 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.NOTCH.get());
 				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
 				tabData.accept(ChaosketModItems.LOADSTONEBLOOM.get());
+				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_HELMET.get());
+				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_CHESTPLATE.get());
+				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_LEGGINGS.get());
+				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_BOOTS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
