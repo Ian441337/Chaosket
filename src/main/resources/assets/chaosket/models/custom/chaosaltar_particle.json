@@ -1,0 +1,6 @@
+{
+  "parent": "chaosket:displaysettings/chaosaltar.item",
+  "textures": {
+    "particle": "chaosket:block/chaosaltar"
+  }
+}

@@ -40,6 +40,8 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.SOBEL.get());
 				tabData.accept(ChaosketModItems.OUTLINE.get());
 				tabData.accept(ChaosketModItems.NOTCH.get());
+				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
+				tabData.accept(ChaosketModItems.LOADSTONEBLOOM.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

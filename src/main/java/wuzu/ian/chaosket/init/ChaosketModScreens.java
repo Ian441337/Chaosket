@@ -5,6 +5,7 @@
 package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.client.gui.TravelanchorScreen;
+import wuzu.ian.chaosket.client.gui.ChaosaltarguiScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +20,7 @@ public class ChaosketModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ChaosketModMenus.TRAVELANCHOR.get(), TravelanchorScreen::new);
+			MenuScreens.register(ChaosketModMenus.CHAOSALTARGUI.get(), ChaosaltarguiScreen::new);
 		});
 	}
 }

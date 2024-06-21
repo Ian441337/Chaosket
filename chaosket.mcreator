@@ -857,6 +857,113 @@
         ]
       },
       "path": "~/test"
+    },
+    {
+      "name": "Lodstonebloomr",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lodstonebloomr",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/LodstonebloomrProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Jaildoorr",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaildoorr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/jaildoorr.json"
+        ]
+      },
+      "path": "~/doors"
+    },
+    {
+      "name": "Chaosaltargui",
+      "type": "gui",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosaltargui",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/client/gui/ChaosaltarguiScreen.java",
+          "src/main/java/wuzu/ian/chaosket/world/inventory/ChaosaltarguiMenu.java"
+        ]
+      },
+      "path": "~/chaosaltar"
+    },
+    {
+      "name": "Chaosaltar",
+      "type": "animatedblock",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosaltar",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/block/entity/ChaosaltarTileEntity.java",
+          "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/display/ChaosaltarDisplayItem.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarDisplayModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/ChaosaltarBlock.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarDisplayItemRenderer.java",
+          "src/main/resources/assets/chaosket/blockstates/chaosaltar.json",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarTileRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/chaosaltar.json",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarBlockModel.java"
+        ]
+      },
+      "path": "~/chaosaltar"
+    },
+    {
+      "name": "Loadstonebloom",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loadstonebloom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/loadstonebloom.json",
+          "src/main/java/wuzu/ian/chaosket/item/LoadstonebloomItem.java"
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Armoredim",
+      "type": "dimension",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "armoredim",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/world/dimension/ArmoredimDimension.java",
+          "src/main/resources/data/chaosket/dimension_type/armoredim.json",
+          "src/main/resources/data/chaosket/dimension/armoredim.json"
+        ]
+      },
+      "path": "~/dimension"
     }
   ],
   "variable_elements": [],
@@ -913,27 +1020,15 @@
     "name": "~",
     "children": [
       {
-        "name": "Bauble",
-        "children": []
-      },
-      {
-        "name": "MaskOFDarknes",
-        "children": []
-      },
-      {
-        "name": "Shrink device",
-        "children": []
-      },
-      {
         "name": "effects",
         "children": []
       },
       {
-        "name": "laserbrige",
+        "name": "chaosaltar",
         "children": []
       },
       {
-        "name": "Mobs",
+        "name": "laserbrige",
         "children": []
       },
       {
@@ -953,7 +1048,31 @@
         "children": []
       },
       {
+        "name": "blocks",
+        "children": []
+      },
+      {
         "name": "End Anchor",
+        "children": []
+      },
+      {
+        "name": "Bauble",
+        "children": []
+      },
+      {
+        "name": "dimension",
+        "children": []
+      },
+      {
+        "name": "Shrink device",
+        "children": []
+      },
+      {
+        "name": "Chaosium",
+        "children": []
+      },
+      {
+        "name": "Mobs",
         "children": []
       }
     ]
