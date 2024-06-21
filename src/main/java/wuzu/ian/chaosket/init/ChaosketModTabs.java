@@ -42,6 +42,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.NOTCH.get());
 				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
 				tabData.accept(ChaosketModItems.LOADSTONEBLOOM.get());
+				tabData.accept(ChaosketModItems.PAUK_2_GOD_SPAWN_EGG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

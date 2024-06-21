@@ -55,6 +55,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> NOTCH = REGISTRY.register("notch", () -> new EndportalItem());
 	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> LOADSTONEBLOOM = REGISTRY.register("loadstonebloom", () -> new LoadstonebloomItem());
+	public static final RegistryObject<Item> PAUK_2_GOD_SPAWN_EGG = REGISTRY.register("pauk_2_god_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.PAUK_2_GOD, -16738048, -16777216, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

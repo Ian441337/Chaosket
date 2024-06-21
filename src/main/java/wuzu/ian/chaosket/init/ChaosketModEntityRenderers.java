@@ -5,6 +5,7 @@
 package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.client.renderer.PinguinRenderer;
+import wuzu.ian.chaosket.client.renderer.Pauk2GODRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,5 +17,6 @@ public class ChaosketModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ChaosketModEntities.PINGUIN.get(), PinguinRenderer::new);
+		event.registerEntityRenderer(ChaosketModEntities.PAUK_2_GOD.get(), Pauk2GODRenderer::new);
 	}
 }
