@@ -102,7 +102,7 @@
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,

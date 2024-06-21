@@ -9,11 +9,11 @@
       "registry_name": "pinguin",
       "metadata": {
         "files": [
+          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java",
+          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
           "src/main/resources/data/chaosket/forge/biome_modifier/pinguin_biome_modifier.json",
           "src/main/resources/assets/chaosket/models/item/pinguin_spawn_egg.json",
-          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java"
+          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -27,8 +27,8 @@
       "registry_name": "travelanchor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java",
-          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java"
+          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java",
+          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
         ]
       },
       "path": "~/travel_anchor"
@@ -131,8 +131,8 @@
       "registry_name": "ring_of_unduing",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json",
-          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java"
+          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java",
+          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json"
         ]
       },
       "path": "~/Bauble"
@@ -229,10 +229,10 @@
       "registry_name": "red_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java",
-          "src/main/resources/assets/chaosket/models/item/red_strohhut_helmet.json",
           "src/main/java/wuzu/ian/chaosket/item/model/RedStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java"
+          "src/main/resources/assets/chaosket/models/item/red_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java"
         ]
       },
       "path": "~/strohhut"
@@ -262,8 +262,8 @@
         "files": [
           "src/main/java/wuzu/ian/chaosket/item/model/GreenStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/item/GreenStrohhutItem.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json"
+          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java"
         ]
       },
       "path": "~/strohhut"
@@ -277,9 +277,9 @@
       "registry_name": "lila_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/client/renderer/LilaStrohhutArmorRenderer.java",
           "src/main/resources/assets/chaosket/models/item/lila_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/LilaStrohhutModel.java"
         ]
       },
@@ -294,9 +294,9 @@
       "registry_name": "blue_strohhut",
       "metadata": {
         "files": [
+          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/BlueStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/client/renderer/BlueStrohhutArmorRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
           "src/main/resources/assets/chaosket/models/item/blue_strohhut_helmet.json"
         ]
       },
@@ -311,9 +311,9 @@
       "registry_name": "white_strohhut",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/white_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
           "src/main/java/wuzu/ian/chaosket/item/model/WhiteStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/white_strohhut_helmet.json",
           "src/main/java/wuzu/ian/chaosket/item/WhiteStrohhutItem.java"
         ]
       },
@@ -328,10 +328,10 @@
       "registry_name": "black_strohhut",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/item/BlackStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/BlackStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java"
+          "src/main/java/wuzu/ian/chaosket/item/BlackStrohhutItem.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json"
         ]
       },
       "path": "~/strohhut"
@@ -466,10 +466,10 @@
       "registry_name": "laserbrige",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java",
-          "src/main/resources/assets/chaosket/models/block/laserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/laserbrige.json",
           "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
-          "src/main/resources/assets/chaosket/models/item/laserbrige.json"
+          "src/main/resources/assets/chaosket/models/block/laserbrige.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java"
         ]
       },
       "path": "~/laserbrige"
@@ -483,10 +483,10 @@
       "registry_name": "laserbrigeprojector",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
           "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java",
-          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json"
+          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json",
+          "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java"
         ]
       },
       "path": "~/laserbrige"
@@ -588,16 +588,16 @@
       "registry_name": "jail_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/block/jail_door_bottom_left_open.json",
-          "src/main/resources/assets/chaosket/blockstates/jail_door.json",
-          "src/main/resources/assets/chaosket/models/item/jail_door.json",
-          "src/main/resources/assets/chaosket/models/block/jail_door_bottom_right.json",
-          "src/main/resources/assets/chaosket/models/block/jail_door_top_left_open.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_bottom_left.json",
-          "src/main/resources/assets/chaosket/models/block/jail_door_top_left.json",
+          "src/main/resources/assets/chaosket/models/block/jail_door_bottom_left_open.json",
+          "src/main/resources/assets/chaosket/models/block/jail_door_bottom_right.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_bottom_right_open.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_top_right.json",
+          "src/main/resources/assets/chaosket/blockstates/jail_door.json",
+          "src/main/resources/assets/chaosket/models/block/jail_door_top_left_open.json",
           "src/main/java/wuzu/ian/chaosket/block/JailDoorBlock.java",
+          "src/main/resources/assets/chaosket/models/item/jail_door.json",
+          "src/main/resources/assets/chaosket/models/block/jail_door_top_left.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_top_right_open.json"
         ]
       },
@@ -612,11 +612,11 @@
       "registry_name": "travel_anchorblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/travel_anchorblock.json",
+          "src/main/resources/assets/chaosket/blockstates/travel_anchorblock.json",
           "src/main/java/wuzu/ian/chaosket/block/TravelAnchorblockBlock.java",
-          "src/main/java/wuzu/ian/chaosket/block/entity/TravelAnchorblockBlockEntity.java",
           "src/main/resources/assets/chaosket/models/block/travel_anchorblock.json",
-          "src/main/resources/assets/chaosket/blockstates/travel_anchorblock.json"
+          "src/main/java/wuzu/ian/chaosket/block/entity/TravelAnchorblockBlockEntity.java",
+          "src/main/resources/assets/chaosket/models/item/travel_anchorblock.json"
         ]
       },
       "path": "~/travel_anchor"
@@ -662,10 +662,9 @@
       "registry_name": "endanchor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/block/endanchor.json",
           "src/main/java/wuzu/ian/chaosket/block/EndanchorBlock.java",
           "src/main/resources/assets/chaosket/models/item/endanchor.json",
-          "src/main/java/wuzu/ian/chaosket/block/entity/EndanchorBlockEntity.java",
+          "src/main/resources/assets/chaosket/models/block/endanchor.json",
           "src/main/resources/assets/chaosket/blockstates/endanchor.json"
         ]
       },
@@ -760,8 +759,8 @@
       "registry_name": "stopshader",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/stopshader.json",
-          "src/main/java/wuzu/ian/chaosket/item/StopshaderItem.java"
+          "src/main/java/wuzu/ian/chaosket/item/StopshaderItem.java",
+          "src/main/resources/assets/chaosket/models/item/stopshader.json"
         ]
       },
       "path": "~/test"
@@ -775,8 +774,8 @@
       "registry_name": "notch",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/notch.json",
-          "src/main/java/wuzu/ian/chaosket/item/EndportalItem.java"
+          "src/main/java/wuzu/ian/chaosket/item/EndportalItem.java",
+          "src/main/resources/assets/chaosket/models/item/notch.json"
         ]
       },
       "path": "~/test"
@@ -805,8 +804,8 @@
       "registry_name": "outline",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/OutlineItem.java",
-          "src/main/resources/assets/chaosket/models/item/outline.json"
+          "src/main/resources/assets/chaosket/models/item/outline.json",
+          "src/main/java/wuzu/ian/chaosket/item/OutlineItem.java"
         ]
       },
       "path": "~/test"
@@ -860,73 +859,6 @@
       "path": "~/test"
     },
     {
-      "name": "Chaosaltar",
-      "type": "animatedblock",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chaosaltar",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/chaosaltar.json",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarTileRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarDisplayItemRenderer.java",
-          "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json",
-          "src/main/java/wuzu/ian/chaosket/block/display/ChaosaltarDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarBlockModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarDisplayModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/ChaosaltarBlock.java",
-          "src/main/java/wuzu/ian/chaosket/block/entity/ChaosaltarTileEntity.java",
-          "src/main/resources/assets/chaosket/blockstates/chaosaltar.json"
-        ]
-      },
-      "path": "~/chaosaltar"
-    },
-    {
-      "name": "Chaosaltargui",
-      "type": "gui",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chaosaltargui",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/client/gui/ChaosaltarguiScreen.java",
-          "src/main/java/wuzu/ian/chaosket/world/inventory/ChaosaltarguiMenu.java"
-        ]
-      },
-      "path": "~/chaosaltar"
-    },
-    {
-      "name": "Jaildoorr",
-      "type": "recipe",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jaildoorr",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/jaildoorr.json"
-        ]
-      },
-      "path": "~/doors"
-    },
-    {
-      "name": "Loadstonebloom",
-      "type": "item",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "loadstonebloom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/loadstonebloom.json",
-          "src/main/java/wuzu/ian/chaosket/item/LoadstonebloomItem.java"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
       "name": "Lodstonebloomr",
       "type": "procedure",
       "sortid": 47,
@@ -946,6 +878,73 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Jaildoorr",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaildoorr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/jaildoorr.json"
+        ]
+      },
+      "path": "~/doors"
+    },
+    {
+      "name": "Chaosaltargui",
+      "type": "gui",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosaltargui",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/client/gui/ChaosaltarguiScreen.java",
+          "src/main/java/wuzu/ian/chaosket/world/inventory/ChaosaltarguiMenu.java"
+        ]
+      },
+      "path": "~/chaosaltar"
+    },
+    {
+      "name": "Chaosaltar",
+      "type": "animatedblock",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosaltar",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/block/entity/ChaosaltarTileEntity.java",
+          "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/display/ChaosaltarDisplayItem.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarDisplayModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/ChaosaltarBlock.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarDisplayItemRenderer.java",
+          "src/main/resources/assets/chaosket/blockstates/chaosaltar.json",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarTileRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/chaosaltar.json",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarBlockModel.java"
+        ]
+      },
+      "path": "~/chaosaltar"
+    },
+    {
+      "name": "Loadstonebloom",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loadstonebloom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/loadstonebloom.json",
+          "src/main/java/wuzu/ian/chaosket/item/LoadstonebloomItem.java"
         ]
       },
       "path": "~/test"
@@ -1006,18 +1005,16 @@
       "item.chaosket.outline": "Outline",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
-      "item.chaosket.notch": "Endportal",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
-      "item.chaosket.loadstonebloom": "lodstonebloom",
+      "item.chaosket.notch": "Endportal",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
-      "block.chaosket.chaosaltar": "Chaosaltar",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
-      "item.chaosket.black_strohhut_chestplate": "Red Strohhut Chestplate",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut",
+      "item.chaosket.black_strohhut_chestplate": "Red Strohhut Chestplate",
       "item_group.chaosket.chaos_ket": "Chaos Ket",
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
@@ -1030,8 +1027,8 @@
       "item.chaosket.lila_strohhut_chestplate": "Red Strohhut Chestplate",
       "painting.chaosket.ckowner.title": "Ckowner",
       "item.chaosket.black_strohhut_leggings": "Red Strohhut Leggings",
-      "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
+      "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "item.chaosket.blue_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.jail_door": "Jail Door",
       "item.chaosket.black_strohhut_boots": "Red Strohhut Boots",
@@ -1043,19 +1040,15 @@
     "name": "~",
     "children": [
       {
-        "name": "Bauble",
-        "children": []
-      },
-      {
-        "name": "Shrink device",
-        "children": []
-      },
-      {
         "name": "effects",
         "children": []
       },
       {
-        "name": "Mobs",
+        "name": "chaosaltar",
+        "children": []
+      },
+      {
+        "name": "laserbrige",
         "children": []
       },
       {
@@ -1067,18 +1060,6 @@
         "children": []
       },
       {
-        "name": "Chaosium",
-        "children": []
-      },
-      {
-        "name": "blocks",
-        "children": []
-      },
-      {
-        "name": "chaosaltar",
-        "children": []
-      },
-      {
         "name": "travel_anchor",
         "children": []
       },
@@ -1087,7 +1068,7 @@
         "children": []
       },
       {
-        "name": "laserbrige",
+        "name": "blocks",
         "children": []
       },
       {
@@ -1095,7 +1076,23 @@
         "children": []
       },
       {
+        "name": "Bauble",
+        "children": []
+      },
+      {
         "name": "dimension",
+        "children": []
+      },
+      {
+        "name": "Shrink device",
+        "children": []
+      },
+      {
+        "name": "Chaosium",
+        "children": []
+      },
+      {
+        "name": "Mobs",
         "children": []
       }
     ]
@@ -1116,7 +1113,6 @@
     "mcreatorDependencies": [
       "pehkui",
       "world_edit",
-      "use_compiled_mods",
       "curios_api",
       "create",
       "geckolib",
