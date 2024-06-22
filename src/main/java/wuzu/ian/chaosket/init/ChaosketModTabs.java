@@ -43,11 +43,11 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
 				tabData.accept(ChaosketModItems.LOADSTONEBLOOM.get());
 				tabData.accept(ChaosketModItems.PAUK_2_GOD_SPAWN_EGG.get());
-				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_HELMET.get());
-				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_CHESTPLATE.get());
-				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_LEGGINGS.get());
-				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_BOOTS.get());
 				tabData.accept(ChaosketModBlocks.LOSTSPACELASERBRIGE.get().asItem());
+				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_HELMET.get());
+				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_CHESTPLATE.get());
+				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_LEGGINGS.get());
+				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_BOOTS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
