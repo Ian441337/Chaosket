@@ -47,6 +47,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_CHESTPLATE.get());
 				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_LEGGINGS.get());
 				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_BOOTS.get());
+				tabData.accept(ChaosketModBlocks.LOSTSPACELASERBRIGE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

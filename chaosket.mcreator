@@ -963,7 +963,7 @@
           "src/main/resources/data/chaosket/dimension/armoredim.json"
         ]
       },
-      "path": "~/dimension"
+      "path": "~/dimension/armoredim"
     },
     {
       "name": "Armoredimskybox",
@@ -983,7 +983,7 @@
           }
         ]
       },
-      "path": "~/dimension"
+      "path": "~/dimension/armoredim"
     },
     {
       "name": "Pauk2GOD",
@@ -1001,7 +1001,7 @@
           "src/main/java/wuzu/ian/chaosket/client/renderer/Pauk2GODRenderer.java"
         ]
       },
-      "path": "~/dimension"
+      "path": "~/dimension/armoredim"
     },
     {
       "name": "TravelArmor",
@@ -1091,7 +1091,7 @@
           "src/main/resources/data/chaosket/worldgen/placed_feature/lost_space_tree.json"
         ]
       },
-      "path": "~/dimension"
+      "path": "~/dimension/armoredim"
     },
     {
       "name": "Callanimationpaul2god",
@@ -1111,7 +1111,7 @@
           }
         ]
       },
-      "path": "~/dimension"
+      "path": "~/dimension/armoredim"
     },
     {
       "name": "Pauk2GODRightClickedOnEntity",
@@ -1131,7 +1131,24 @@
           }
         ]
       },
-      "path": "~/dimension"
+      "path": "~/dimension/armoredim"
+    },
+    {
+      "name": "Lostspacelaserbrige",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lostspacelaserbrige",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/block/lostspacelaserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/lostspacelaserbrige.json",
+          "src/main/java/wuzu/ian/chaosket/block/LostspacelaserbrigeBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/lostspacelaserbrige.json"
+        ]
+      },
+      "path": "~/dimension/armoredim"
     }
   ],
   "variable_elements": [],
@@ -1145,8 +1162,8 @@
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "item.chaosket.outline": "Outline",
-      "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
+      "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.travel_armor_boots": "Travel Boots",
       "item.chaosket.travel_armor_helmet": "Travel Helmet",
       "item.chaosket.notch": "Endportal",
@@ -1179,6 +1196,7 @@
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
+      "block.chaosket.lostspacelaserbrige": "Laserbrige",
       "item.chaosket.travel_armor_leggings": "Travel Leggings",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
       "biome.chaosket.lost_space": "Lost Space",
@@ -1238,7 +1256,12 @@
       },
       {
         "name": "dimension",
-        "children": []
+        "children": [
+          {
+            "name": "armoredim",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Shrink device",
@@ -1270,6 +1293,7 @@
     "mcreatorDependencies": [
       "pehkui",
       "world_edit",
+      "use_compiled_mods",
       "curios_api",
       "create",
       "geckolib",

@@ -61,6 +61,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> TRAVEL_ARMOR_CHESTPLATE = REGISTRY.register("travel_armor_chestplate", () -> new TravelArmorItem.Chestplate());
 	public static final RegistryObject<Item> TRAVEL_ARMOR_LEGGINGS = REGISTRY.register("travel_armor_leggings", () -> new TravelArmorItem.Leggings());
 	public static final RegistryObject<Item> TRAVEL_ARMOR_BOOTS = REGISTRY.register("travel_armor_boots", () -> new TravelArmorItem.Boots());
+	public static final RegistryObject<Item> LOSTSPACELASERBRIGE = block(ChaosketModBlocks.LOSTSPACELASERBRIGE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
