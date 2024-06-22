@@ -1110,6 +1110,45 @@
         ]
       },
       "path": "~/chaosaltar"
+    },
+    {
+      "name": "Shader",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shader",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/ShaderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Shaderdebug",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaderdebug",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/ShaderdebugItem.java",
+          "src/main/resources/assets/chaosket/models/item/shaderdebug.json"
+        ]
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -1144,6 +1183,7 @@
       "item.chaosket.lila_strohhut_chestplate": "Red Strohhut Chestplate",
       "painting.chaosket.ckowner.title": "Ckowner",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
+      "item.chaosket.shaderdebug": "Shaderdebug",
       "block.chaosket.endanchor": "Endanchor",
       "item.chaosket.chaosium_suit_boots": "Chaosium Boots",
       "item.chaosket.chaosium_suit_leggings": "Chaosium Leggings",

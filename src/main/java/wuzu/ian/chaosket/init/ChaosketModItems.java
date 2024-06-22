@@ -9,6 +9,7 @@ import wuzu.ian.chaosket.item.StopshaderItem;
 import wuzu.ian.chaosket.item.StaffoftravelingItem;
 import wuzu.ian.chaosket.item.SobelItem;
 import wuzu.ian.chaosket.item.ShrinkdeviceItem;
+import wuzu.ian.chaosket.item.ShaderdebugItem;
 import wuzu.ian.chaosket.item.RingOfUnduingItem;
 import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.OutlineItem;
@@ -62,6 +63,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_LEGGINGS = REGISTRY.register("chaosium_suit_leggings", () -> new ChaosiumSuitItem(ArmorItem.Type.LEGGINGS, new Item.Properties()));
 	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_BOOTS = REGISTRY.register("chaosium_suit_boots", () -> new ChaosiumSuitItem(ArmorItem.Type.BOOTS, new Item.Properties()));
 	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SHADERDEBUG = REGISTRY.register("shaderdebug", () -> new ShaderdebugItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

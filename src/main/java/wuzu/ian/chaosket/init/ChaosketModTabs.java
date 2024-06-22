@@ -48,6 +48,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_LEGGINGS.get());
 				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_BOOTS.get());
 				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
+				tabData.accept(ChaosketModItems.SHADERDEBUG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
