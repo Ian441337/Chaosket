@@ -42,7 +42,7 @@ import io.netty.buffer.Unpooled;
 
 public class ChaosaltarTileEntity extends RandomizableContainerBlockEntity implements GeoBlockEntity, WorldlyContainer {
 	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(6, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public ChaosaltarTileEntity(BlockPos pos, BlockState state) {
@@ -129,7 +129,7 @@ public class ChaosaltarTileEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public int getMaxStackSize() {
-		return 1;
+		return 64;
 	}
 
 	@Override
@@ -154,6 +154,8 @@ public class ChaosaltarTileEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
+		if (index == 0)
+			return false;
 		return true;
 	}
 
@@ -169,6 +171,16 @@ public class ChaosaltarTileEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction) {
+		if (index == 1)
+			return false;
+		if (index == 2)
+			return false;
+		if (index == 3)
+			return false;
+		if (index == 4)
+			return false;
+		if (index == 5)
+			return false;
 		return true;
 	}
 

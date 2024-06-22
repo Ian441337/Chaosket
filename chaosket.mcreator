@@ -912,29 +912,6 @@
       "path": "~/chaosaltar"
     },
     {
-      "name": "Chaosaltar",
-      "type": "animatedblock",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chaosaltar",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/chaosaltar.json",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarTileRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarDisplayItemRenderer.java",
-          "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json",
-          "src/main/java/wuzu/ian/chaosket/block/display/ChaosaltarDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarBlockModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarDisplayModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/ChaosaltarBlock.java",
-          "src/main/java/wuzu/ian/chaosket/block/entity/ChaosaltarTileEntity.java",
-          "src/main/resources/assets/chaosket/blockstates/chaosaltar.json"
-        ]
-      },
-      "path": "~/chaosaltar"
-    },
-    {
       "name": "Loadstonebloom",
       "type": "item",
       "sortid": 46,
@@ -1095,6 +1072,44 @@
         ]
       },
       "path": "~/Chaosium"
+    },
+    {
+      "name": "Circal",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circal",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/CircalProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Chaosaltar",
+      "type": "animatedblock",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosaltar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/chaosaltar.json",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarTileRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarDisplayItemRenderer.java",
+          "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/display/ChaosaltarDisplayItem.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarBlockModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarDisplayModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/ChaosaltarBlock.java",
+          "src/main/java/wuzu/ian/chaosket/block/entity/ChaosaltarTileEntity.java",
+          "src/main/resources/assets/chaosket/blockstates/chaosaltar.json"
+        ]
+      },
+      "path": "~/chaosaltar"
     }
   ],
   "variable_elements": [],

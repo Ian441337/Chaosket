@@ -54,7 +54,6 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> OUTLINE = REGISTRY.register("outline", () -> new OutlineItem());
 	public static final RegistryObject<Item> NOTCH = REGISTRY.register("notch", () -> new EndportalItem());
-	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> LOADSTONEBLOOM = REGISTRY.register("loadstonebloom", () -> new LoadstonebloomItem());
 	public static final RegistryObject<Item> PAUK_2_GOD_SPAWN_EGG = REGISTRY.register("pauk_2_god_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.PAUK_2_GOD, -16738048, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> LOSTSPACELASERBRIGE = block(ChaosketModBlocks.LOSTSPACELASERBRIGE);
@@ -62,6 +61,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_CHESTPLATE = REGISTRY.register("chaosium_suit_chestplate", () -> new ChaosiumSuitItem(ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_LEGGINGS = REGISTRY.register("chaosium_suit_leggings", () -> new ChaosiumSuitItem(ArmorItem.Type.LEGGINGS, new Item.Properties()));
 	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_BOOTS = REGISTRY.register("chaosium_suit_boots", () -> new ChaosiumSuitItem(ArmorItem.Type.BOOTS, new Item.Properties()));
+	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

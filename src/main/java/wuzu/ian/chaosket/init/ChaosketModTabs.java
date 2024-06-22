@@ -40,7 +40,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.SOBEL.get());
 				tabData.accept(ChaosketModItems.OUTLINE.get());
 				tabData.accept(ChaosketModItems.NOTCH.get());
-				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
 				tabData.accept(ChaosketModItems.LOADSTONEBLOOM.get());
 				tabData.accept(ChaosketModItems.PAUK_2_GOD_SPAWN_EGG.get());
 				tabData.accept(ChaosketModBlocks.LOSTSPACELASERBRIGE.get().asItem());
@@ -48,6 +47,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_CHESTPLATE.get());
 				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_LEGGINGS.get());
 				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_BOOTS.get());
+				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
