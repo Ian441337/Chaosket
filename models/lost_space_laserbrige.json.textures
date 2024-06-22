@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "jail_door"
+        "0": "lost_space_laserbrige"
       },
       "name": "default"
     }

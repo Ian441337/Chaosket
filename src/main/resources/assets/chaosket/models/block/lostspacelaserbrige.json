@@ -1,9 +1,9 @@
 {
-  "parent": "chaosket:custom/laserbrige",
+  "parent": "chaosket:custom/lost_space_laserbrige",
   "textures": {
     "all": "chaosket:block/lost_space_laserbrige",
     "particle": "chaosket:block/lost_space_laserbrige",
-    "1": "chaosket:block/laserbrige"
+    "0": "chaosket:block/lost_space_laserbrige"
   },
   "render_type": "translucent"
 }
