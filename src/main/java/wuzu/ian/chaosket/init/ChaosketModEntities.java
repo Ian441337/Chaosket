@@ -28,9 +28,7 @@ public class ChaosketModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<Pauk2GODEntity>> PAUK_2_GOD = register("pauk_2_god",
-			EntityType.Builder.<Pauk2GODEntity>of(Pauk2GODEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Pauk2GODEntity::new)
-
-					.sized(0.6f, 1.8f));
+			EntityType.Builder.<Pauk2GODEntity>of(Pauk2GODEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Pauk2GODEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

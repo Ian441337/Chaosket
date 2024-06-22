@@ -1,7 +1,10 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.model.execute": {
+		"animation.model.none": {
+			"loop": false
+		},
+		"animation.Paul2Craft.execute": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 5,
 			"bones": {
@@ -50,6 +53,9 @@
 					}
 				}
 			}
+		},
+		"animation.Paul2Craft.none": {
+			"loop": true
 		}
 	}
 }

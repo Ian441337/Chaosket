@@ -2,15 +2,15 @@
   "_fv": 57,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Pauk 2 GOD",
+    "mobName": "Pauk2GOD",
     "mobLabel": "",
     "mobModelTexture": "paul2skin_neu.png",
     "mobModelGlowTexture": "1c12da5611c0692f_2.png",
     "visualScale": {
-      "fixedValue": 10.0
+      "fixedValue": 15.0
     },
     "boundingBoxScale": {
-      "fixedValue": 10.0
+      "fixedValue": 15.0
     },
     "entityDataEntries": [],
     "modelWidth": 0.6,
@@ -72,19 +72,19 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
-    "immuneToArrows": false,
-    "immuneToFallDamage": false,
-    "immuneToCactus": false,
-    "immuneToDrowning": false,
-    "immuneToLightning": false,
-    "immuneToPotions": false,
-    "immuneToPlayer": false,
-    "immuneToExplosion": false,
-    "immuneToTrident": false,
-    "immuneToAnvil": false,
-    "immuneToWither": false,
-    "immuneToDragonBreath": false,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": true,
+    "immuneToExplosion": true,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
     "mobDrop": {
       "value": ""
     },
@@ -100,14 +100,17 @@
     "stepSound": {
       "value": ""
     },
+    "onRightClickedOn": {
+      "name": "Pauk2GODRightClickedOnEntity"
+    },
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block></xml>",
     "model": "paul2craft.geo.json",
     "groupName": "",
-    "animation1": "none",
+    "animation1": "animation.model.none",
     "animation2": "",
-    "animation3": "",
+    "animation3": "animation.Paul2Craft.execute",
     "animation4": "",
     "animation5": "",
     "animation6": "",
@@ -138,10 +141,10 @@
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "height": 1.0,
-    "spawnThisMob": true,
-    "doesDespawnWhenIdle": true,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],

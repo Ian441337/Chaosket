@@ -995,7 +995,6 @@
       "metadata": {
         "files": [
           "src/main/java/wuzu/ian/chaosket/entity/layer/Pauk2GODLayer.java",
-          "src/main/resources/data/chaosket/forge/biome_modifier/pauk_2_god_biome_modifier.json",
           "src/main/java/wuzu/ian/chaosket/entity/model/Pauk2GODModel.java",
           "src/main/resources/assets/chaosket/models/item/pauk_2_god_spawn_egg.json",
           "src/main/java/wuzu/ian/chaosket/entity/Pauk2GODEntity.java",
@@ -1077,6 +1076,62 @@
         ]
       },
       "path": "~/Chaosium"
+    },
+    {
+      "name": "LostSpace",
+      "type": "biome",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_space",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/worldgen/biome/lost_space.json",
+          "src/main/resources/data/chaosket/worldgen/configured_feature/lost_space_tree.json",
+          "src/main/resources/data/chaosket/worldgen/placed_feature/lost_space_tree.json"
+        ]
+      },
+      "path": "~/dimension"
+    },
+    {
+      "name": "Callanimationpaul2god",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "callanimationpaul_2god",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/Callanimationpaul2godProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/dimension"
+    },
+    {
+      "name": "Pauk2GODRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pauk_2_god_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/Pauk2GODRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/dimension"
     }
   ],
   "variable_elements": [],
@@ -1090,7 +1145,10 @@
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "item.chaosket.outline": "Outline",
+      "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
+      "item.chaosket.travel_armor_boots": "Travel Boots",
+      "item.chaosket.travel_armor_helmet": "Travel Helmet",
       "item.chaosket.notch": "Endportal",
       "item.chaosket.loadstonebloom": "lodstonebloom",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
@@ -1110,6 +1168,7 @@
       "painting.chaosket.ckowner.title": "Ckowner",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "block.chaosket.endanchor": "Endanchor",
+      "item.chaosket.travel_armor_chestplate": "Travel Chestplate",
       "block.chaosket.laserbrige": "Laserbrige",
       "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
@@ -1118,8 +1177,11 @@
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
+      "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
+      "item.chaosket.travel_armor_leggings": "Travel Leggings",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
+      "biome.chaosket.lost_space": "Lost Space",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut",
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.white_strohhut_helmet": "White Strohhut",
