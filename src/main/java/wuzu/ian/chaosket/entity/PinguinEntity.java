@@ -1,7 +1,6 @@
 
 package wuzu.ian.chaosket.entity;
 
-import wuzu.ian.chaosket.procedures.ShaderProcedure;
 import wuzu.ian.chaosket.init.ChaosketModEntities;
 
 import software.bernie.geckolib.util.GeckoLibUtil;
@@ -32,14 +31,11 @@ import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -115,19 +111,6 @@ public class PinguinEntity extends PathfinderMob implements GeoEntity {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
-	}
-
-	@Override
-	public void thunderHit(ServerLevel serverWorld, LightningBolt lightningBolt) {
-		super.thunderHit(serverWorld, lightningBolt);
-		ShaderProcedure.execute(this.level(), this);
-	}
-
-	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		if (source.is(DamageTypes.LIGHTNING_BOLT))
-			return false;
-		return super.hurt(source, amount);
 	}
 
 	@Override

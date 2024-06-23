@@ -77,7 +77,7 @@
     "immuneToFallDamage": false,
     "immuneToCactus": false,
     "immuneToDrowning": false,
-    "immuneToLightning": true,
+    "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
@@ -99,9 +99,6 @@
     },
     "stepSound": {
       "value": ""
-    },
-    "onStruckByLightning": {
-      "name": "Shader"
     },
     "hasAI": true,
     "aiBase": "(none)",

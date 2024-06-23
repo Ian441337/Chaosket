@@ -766,21 +766,6 @@
       "path": "~/test"
     },
     {
-      "name": "Endportal",
-      "type": "item",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "notch",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/notch.json",
-          "src/main/java/wuzu/ian/chaosket/item/EndportalItem.java"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
       "name": "Sobel",
       "type": "item",
       "sortid": 38,
@@ -791,93 +776,6 @@
         "files": [
           "src/main/resources/assets/chaosket/models/item/sobel.json",
           "src/main/java/wuzu/ian/chaosket/item/SobelItem.java"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "Outline",
-      "type": "item",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "outline",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/item/OutlineItem.java",
-          "src/main/resources/assets/chaosket/models/item/outline.json"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "EndportalRightclicked",
-      "type": "procedure",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "endportal_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/EndportalRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "OutlineRightclicked",
-      "type": "procedure",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "outline_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/OutlineRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "Lodstonebloomr",
-      "type": "procedure",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lodstonebloomr",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/LodstonebloomrProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       },
       "path": "~/test"
@@ -910,21 +808,6 @@
         ]
       },
       "path": "~/chaosaltar"
-    },
-    {
-      "name": "Loadstonebloom",
-      "type": "item",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "loadstonebloom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/loadstonebloom.json",
-          "src/main/java/wuzu/ian/chaosket/item/LoadstonebloomItem.java"
-        ]
-      },
-      "path": "~/test"
     },
     {
       "name": "Armoredim",
@@ -1074,21 +957,6 @@
       "path": "~/Chaosium"
     },
     {
-      "name": "Circal",
-      "type": "procedure",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "circal",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/CircalProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/test"
-    },
-    {
       "name": "Chaosaltar",
       "type": "animatedblock",
       "sortid": 62,
@@ -1110,45 +978,6 @@
         ]
       },
       "path": "~/chaosaltar"
-    },
-    {
-      "name": "Shader",
-      "type": "procedure",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shader",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/ShaderProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "Shaderdebug",
-      "type": "item",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shaderdebug",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/item/ShaderdebugItem.java",
-          "src/main/resources/assets/chaosket/models/item/shaderdebug.json"
-        ]
-      },
-      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -1162,11 +991,8 @@
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
-      "item.chaosket.outline": "Outline",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
-      "item.chaosket.notch": "Endportal",
-      "item.chaosket.loadstonebloom": "lodstonebloom",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
       "block.chaosket.chaosaltar": "Chaosaltar",
@@ -1183,7 +1009,6 @@
       "item.chaosket.lila_strohhut_chestplate": "Red Strohhut Chestplate",
       "painting.chaosket.ckowner.title": "Ckowner",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
-      "item.chaosket.shaderdebug": "Shaderdebug",
       "block.chaosket.endanchor": "Endanchor",
       "item.chaosket.chaosium_suit_boots": "Chaosium Boots",
       "item.chaosket.chaosium_suit_leggings": "Chaosium Leggings",
