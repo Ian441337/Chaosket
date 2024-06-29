@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "chaosket:ckowner"
+    "chaosket:ckowner",
+    "chaosket:wanted"
   ]
 }

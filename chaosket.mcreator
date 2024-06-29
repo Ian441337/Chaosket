@@ -978,6 +978,18 @@
         ]
       },
       "path": "~/chaosaltar"
+    },
+    {
+      "name": "Wanted",
+      "type": "painting",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -1002,6 +1014,7 @@
       "item_group.chaosket.chaos_ket": "Chaos Ket",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "item.chaosket.green_strohhut_helmet": "Green Strohhut",
+      "painting.chaosket.wanted.author": "???",
       "item.chaosket.green_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.lila_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.white_strohhut_chestplate": "Red Strohhut Chestplate",
@@ -1019,6 +1032,7 @@
       "item.chaosket.chaosium_suit_helmet": "Chaosium Helmet",
       "item.chaosket.lila_strohhut_helmet": "lila Strohhut",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
+      "painting.chaosket.wanted.title": "Wanted",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
