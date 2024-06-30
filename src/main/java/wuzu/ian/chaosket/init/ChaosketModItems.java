@@ -56,6 +56,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_LEGGINGS = REGISTRY.register("chaosium_suit_leggings", () -> new ChaosiumSuitItem(ArmorItem.Type.LEGGINGS, new Item.Properties()));
 	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_BOOTS = REGISTRY.register("chaosium_suit_boots", () -> new ChaosiumSuitItem(ArmorItem.Type.BOOTS, new Item.Properties()));
 	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DATABLOCK = block(ChaosketModBlocks.DATABLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

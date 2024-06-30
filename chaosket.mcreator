@@ -990,6 +990,37 @@
         "files": []
       },
       "path": "~/test"
+    },
+    {
+      "name": "Datablock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datablock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/blockstates/datablock.json",
+          "src/main/resources/assets/chaosket/models/item/datablock.json",
+          "src/main/java/wuzu/ian/chaosket/block/DatablockBlock.java",
+          "src/main/resources/assets/chaosket/models/block/datablock.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Datablockr",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datablockr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/datablock.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -1005,6 +1036,7 @@
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
+      "block.chaosket.datablock": "Datablock",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
       "block.chaosket.chaosaltar": "Chaosaltar",

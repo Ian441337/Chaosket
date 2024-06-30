@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chaosket:block/datablock",
+    "particle": "chaosket:block/datablock"
+  },
+  "render_type": "solid"
+}

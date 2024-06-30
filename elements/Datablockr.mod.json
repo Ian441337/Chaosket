@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STURDY_SHEET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STURDY_SHEET"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.STURDY_SHEET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STURDY_SHEET"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Datablock"
+    },
+    "name": "datablock",
+    "namespace": "mod"
+  }
+}
