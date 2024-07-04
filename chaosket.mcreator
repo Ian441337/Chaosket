@@ -1021,6 +1021,26 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "Basalt",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/basalt.json",
+          "src/main/resources/data/chaosket/forge/biome_modifier/basalt_biome_modifier.json",
+          "src/main/resources/data/chaosket/worldgen/placed_feature/basalt.json",
+          "src/main/java/wuzu/ian/chaosket/block/BasaltBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/basalt.json",
+          "src/main/resources/data/chaosket/worldgen/configured_feature/basalt.json",
+          "src/main/resources/assets/chaosket/models/block/basalt.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -1067,6 +1087,7 @@
       "painting.chaosket.wanted.title": "Wanted",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
+      "block.chaosket.basalt": "Basalt",
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
       "block.chaosket.lostspacelaserbrige": "Laserbrige",

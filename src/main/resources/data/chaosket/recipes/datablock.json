@@ -8,10 +8,10 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:air"
+      "item": "minecraft:redstone"
     },
     "b": {
-      "item": "minecraft:iron_ingot"
+      "item": "chaosket:basalt"
     }
   },
   "result": {
