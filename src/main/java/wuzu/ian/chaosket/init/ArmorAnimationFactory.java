@@ -4,6 +4,7 @@ import wuzu.ian.chaosket.item.WhiteStrohhutItem;
 import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.LilaStrohhutItem;
 import wuzu.ian.chaosket.item.GreenStrohhutItem;
+import wuzu.ian.chaosket.item.ChaosiumarmorItem;
 import wuzu.ian.chaosket.item.ChaosiumSuitItem;
 import wuzu.ian.chaosket.item.BlueStrohhutItem;
 import wuzu.ian.chaosket.item.BlackStrohhutItem;
@@ -41,6 +42,8 @@ public class ArmorAnimationFactory {
 						animatable.animationprocedure = animation;
 					if (event.player.getItemBySlot(EquipmentSlot.HEAD).getItem() instanceof ChaosiumSuitItem animatable && event.player.level().isClientSide())
 						animatable.animationprocedure = animation;
+					if (event.player.getItemBySlot(EquipmentSlot.HEAD).getItem() instanceof ChaosiumarmorItem animatable && event.player.level().isClientSide())
+						animatable.animationprocedure = animation;
 				}
 			}
 			if (event.player.getItemBySlot(EquipmentSlot.CHEST).getItem() != (ItemStack.EMPTY).getItem() && event.player.getItemBySlot(EquipmentSlot.CHEST).getItem() instanceof GeoItem) {
@@ -60,6 +63,8 @@ public class ArmorAnimationFactory {
 					if (event.player.getItemBySlot(EquipmentSlot.CHEST).getItem() instanceof BlackStrohhutItem animatable && event.player.level().isClientSide())
 						animatable.animationprocedure = animation;
 					if (event.player.getItemBySlot(EquipmentSlot.CHEST).getItem() instanceof ChaosiumSuitItem animatable && event.player.level().isClientSide())
+						animatable.animationprocedure = animation;
+					if (event.player.getItemBySlot(EquipmentSlot.CHEST).getItem() instanceof ChaosiumarmorItem animatable && event.player.level().isClientSide())
 						animatable.animationprocedure = animation;
 				}
 			}
@@ -81,6 +86,8 @@ public class ArmorAnimationFactory {
 						animatable.animationprocedure = animation;
 					if (event.player.getItemBySlot(EquipmentSlot.LEGS).getItem() instanceof ChaosiumSuitItem animatable && event.player.level().isClientSide())
 						animatable.animationprocedure = animation;
+					if (event.player.getItemBySlot(EquipmentSlot.LEGS).getItem() instanceof ChaosiumarmorItem animatable && event.player.level().isClientSide())
+						animatable.animationprocedure = animation;
 				}
 			}
 			if (event.player.getItemBySlot(EquipmentSlot.FEET).getItem() != (ItemStack.EMPTY).getItem() && event.player.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof GeoItem) {
@@ -100,6 +107,8 @@ public class ArmorAnimationFactory {
 					if (event.player.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof BlackStrohhutItem animatable && event.player.level().isClientSide())
 						animatable.animationprocedure = animation;
 					if (event.player.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof ChaosiumSuitItem animatable && event.player.level().isClientSide())
+						animatable.animationprocedure = animation;
+					if (event.player.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof ChaosiumarmorItem animatable && event.player.level().isClientSide())
 						animatable.animationprocedure = animation;
 				}
 			}

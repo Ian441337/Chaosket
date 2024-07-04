@@ -13,6 +13,7 @@ import wuzu.ian.chaosket.item.RingOfUnduingItem;
 import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.LilaStrohhutItem;
 import wuzu.ian.chaosket.item.GreenStrohhutItem;
+import wuzu.ian.chaosket.item.ChaosiumarmorItem;
 import wuzu.ian.chaosket.item.ChaosiumSuitItem;
 import wuzu.ian.chaosket.item.BlueStrohhutItem;
 import wuzu.ian.chaosket.item.BlackStrohhutItem;
@@ -58,6 +59,10 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DATABLOCK = block(ChaosketModBlocks.DATABLOCK);
 	public static final RegistryObject<Item> BASALT = block(ChaosketModBlocks.BASALT);
+	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_HELMET = REGISTRY.register("chaosiumarmor_helmet", () -> new ChaosiumarmorItem(ArmorItem.Type.HELMET, new Item.Properties()));
+	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_CHESTPLATE = REGISTRY.register("chaosiumarmor_chestplate", () -> new ChaosiumarmorItem(ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_LEGGINGS = REGISTRY.register("chaosiumarmor_leggings", () -> new ChaosiumarmorItem(ArmorItem.Type.LEGGINGS, new Item.Properties()));
+	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_BOOTS = REGISTRY.register("chaosiumarmor_boots", () -> new ChaosiumarmorItem(ArmorItem.Type.BOOTS, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
