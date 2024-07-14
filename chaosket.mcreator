@@ -949,7 +949,7 @@
           "src/main/resources/data/chaosket/recipes/datablock.json"
         ]
       },
-      "path": "~/blocks"
+      "path": "~/recepi"
     },
     {
       "name": "Basalt",
@@ -983,7 +983,8 @@
           "src/main/resources/assets/chaosket/models/item/itemcreative_tab.json",
           "src/main/java/wuzu/ian/chaosket/item/ItemcreativeTabItem.java"
         ]
-      }
+      },
+      "path": "~/test"
     },
     {
       "name": "DerHosenTeppich",
@@ -999,7 +1000,8 @@
           "src/main/resources/assets/chaosket/models/item/der_hosen_teppich.json",
           "src/main/java/wuzu/ian/chaosket/block/DerHosenTeppichBlock.java"
         ]
-      }
+      },
+      "path": "~/blocks"
     },
     {
       "name": "Derhosentepichr",
@@ -1026,8 +1028,8 @@
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
-      "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
+      "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "block.chaosket.datablock": "Datablock",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
