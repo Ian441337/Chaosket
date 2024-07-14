@@ -9,11 +9,11 @@
       "registry_name": "pinguin",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java",
-          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
           "src/main/resources/data/chaosket/forge/biome_modifier/pinguin_biome_modifier.json",
           "src/main/resources/assets/chaosket/models/item/pinguin_spawn_egg.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java"
+          "src/main/java/wuzu/ian/chaosket/entity/model/PinguinModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/PinguinRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/entity/PinguinEntity.java"
         ]
       },
       "path": "~/Mobs"
@@ -27,8 +27,8 @@
       "registry_name": "travelanchor",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java",
-          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
+          "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java",
+          "src/main/java/wuzu/ian/chaosket/client/gui/TravelanchorScreen.java"
         ]
       },
       "path": "~/travel_anchor"
@@ -131,8 +131,8 @@
       "registry_name": "ring_of_unduing",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java",
-          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json"
+          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json",
+          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java"
         ]
       },
       "path": "~/Bauble"
@@ -229,10 +229,10 @@
       "registry_name": "red_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/model/RedStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java",
           "src/main/resources/assets/chaosket/models/item/red_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/item/RedStrohhutItem.java"
+          "src/main/java/wuzu/ian/chaosket/item/model/RedStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/RedStrohhutArmorRenderer.java"
         ]
       },
       "path": "~/strohhut"
@@ -262,8 +262,8 @@
         "files": [
           "src/main/java/wuzu/ian/chaosket/item/model/GreenStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/item/GreenStrohhutItem.java",
-          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java"
+          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json"
         ]
       },
       "path": "~/strohhut"
@@ -277,9 +277,9 @@
       "registry_name": "lila_strohhut",
       "metadata": {
         "files": [
+          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/client/renderer/LilaStrohhutArmorRenderer.java",
           "src/main/resources/assets/chaosket/models/item/lila_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/LilaStrohhutModel.java"
         ]
       },
@@ -294,9 +294,9 @@
       "registry_name": "blue_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
           "src/main/java/wuzu/ian/chaosket/item/model/BlueStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/client/renderer/BlueStrohhutArmorRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
           "src/main/resources/assets/chaosket/models/item/blue_strohhut_helmet.json"
         ]
       },
@@ -311,9 +311,9 @@
       "registry_name": "white_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/model/WhiteStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
           "src/main/resources/assets/chaosket/models/item/white_strohhut_helmet.json",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/item/model/WhiteStrohhutModel.java",
           "src/main/java/wuzu/ian/chaosket/item/WhiteStrohhutItem.java"
         ]
       },
@@ -328,10 +328,10 @@
       "registry_name": "black_strohhut",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/model/BlackStrohhutModel.java",
+          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json",
           "src/main/java/wuzu/ian/chaosket/item/BlackStrohhutItem.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json"
+          "src/main/java/wuzu/ian/chaosket/item/model/BlackStrohhutModel.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java"
         ]
       },
       "path": "~/strohhut"
@@ -466,10 +466,10 @@
       "registry_name": "laserbrige",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/laserbrige.json",
-          "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java",
           "src/main/resources/assets/chaosket/models/block/laserbrige.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeBlock.java"
+          "src/main/resources/assets/chaosket/blockstates/laserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/laserbrige.json"
         ]
       },
       "path": "~/laserbrige"
@@ -483,10 +483,10 @@
       "registry_name": "laserbrigeprojector",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
-          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json",
           "src/main/resources/assets/chaosket/models/block/laserbrigeprojector.json",
-          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java"
+          "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json",
+          "src/main/java/wuzu/ian/chaosket/block/LaserbrigeprojectorBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/laserbrigeprojector.json"
         ]
       },
       "path": "~/laserbrige"
@@ -588,16 +588,16 @@
       "registry_name": "jail_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/models/block/jail_door_bottom_left.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_bottom_left_open.json",
+          "src/main/resources/assets/chaosket/blockstates/jail_door.json",
+          "src/main/resources/assets/chaosket/models/item/jail_door.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_bottom_right.json",
+          "src/main/resources/assets/chaosket/models/block/jail_door_top_left_open.json",
+          "src/main/resources/assets/chaosket/models/block/jail_door_bottom_left.json",
+          "src/main/resources/assets/chaosket/models/block/jail_door_top_left.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_bottom_right_open.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_top_right.json",
-          "src/main/resources/assets/chaosket/blockstates/jail_door.json",
-          "src/main/resources/assets/chaosket/models/block/jail_door_top_left_open.json",
           "src/main/java/wuzu/ian/chaosket/block/JailDoorBlock.java",
-          "src/main/resources/assets/chaosket/models/item/jail_door.json",
-          "src/main/resources/assets/chaosket/models/block/jail_door_top_left.json",
           "src/main/resources/assets/chaosket/models/block/jail_door_top_right_open.json"
         ]
       },
@@ -612,11 +612,11 @@
       "registry_name": "travel_anchorblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chaosket/blockstates/travel_anchorblock.json",
+          "src/main/resources/assets/chaosket/models/item/travel_anchorblock.json",
           "src/main/java/wuzu/ian/chaosket/block/TravelAnchorblockBlock.java",
-          "src/main/resources/assets/chaosket/models/block/travel_anchorblock.json",
           "src/main/java/wuzu/ian/chaosket/block/entity/TravelAnchorblockBlockEntity.java",
-          "src/main/resources/assets/chaosket/models/item/travel_anchorblock.json"
+          "src/main/resources/assets/chaosket/models/block/travel_anchorblock.json",
+          "src/main/resources/assets/chaosket/blockstates/travel_anchorblock.json"
         ]
       },
       "path": "~/travel_anchor"
@@ -662,9 +662,9 @@
       "registry_name": "endanchor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/chaosket/models/block/endanchor.json",
           "src/main/java/wuzu/ian/chaosket/block/EndanchorBlock.java",
           "src/main/resources/assets/chaosket/models/item/endanchor.json",
-          "src/main/resources/assets/chaosket/models/block/endanchor.json",
           "src/main/resources/assets/chaosket/blockstates/endanchor.json"
         ]
       },
@@ -759,23 +759,8 @@
       "registry_name": "stopshader",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/item/StopshaderItem.java",
-          "src/main/resources/assets/chaosket/models/item/stopshader.json"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "Endportal",
-      "type": "item",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "notch",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/item/EndportalItem.java",
-          "src/main/resources/assets/chaosket/models/item/notch.json"
+          "src/main/resources/assets/chaosket/models/item/stopshader.json",
+          "src/main/java/wuzu/ian/chaosket/item/StopshaderItem.java"
         ]
       },
       "path": "~/test"
@@ -791,93 +776,6 @@
         "files": [
           "src/main/resources/assets/chaosket/models/item/sobel.json",
           "src/main/java/wuzu/ian/chaosket/item/SobelItem.java"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "Outline",
-      "type": "item",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "outline",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/outline.json",
-          "src/main/java/wuzu/ian/chaosket/item/OutlineItem.java"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "EndportalRightclicked",
-      "type": "procedure",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "endportal_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/EndportalRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "OutlineRightclicked",
-      "type": "procedure",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "outline_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/OutlineRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "Lodstonebloomr",
-      "type": "procedure",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lodstonebloomr",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/LodstonebloomrProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       },
       "path": "~/test"
@@ -912,44 +810,6 @@
       "path": "~/chaosaltar"
     },
     {
-      "name": "Chaosaltar",
-      "type": "animatedblock",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chaosaltar",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/block/entity/ChaosaltarTileEntity.java",
-          "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json",
-          "src/main/java/wuzu/ian/chaosket/block/display/ChaosaltarDisplayItem.java",
-          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarDisplayModel.java",
-          "src/main/java/wuzu/ian/chaosket/block/ChaosaltarBlock.java",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarDisplayItemRenderer.java",
-          "src/main/resources/assets/chaosket/blockstates/chaosaltar.json",
-          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarTileRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/chaosaltar.json",
-          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarBlockModel.java"
-        ]
-      },
-      "path": "~/chaosaltar"
-    },
-    {
-      "name": "Loadstonebloom",
-      "type": "item",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "loadstonebloom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/loadstonebloom.json",
-          "src/main/java/wuzu/ian/chaosket/item/LoadstonebloomItem.java"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
       "name": "Armoredim",
       "type": "dimension",
       "sortid": 48,
@@ -963,81 +823,7 @@
           "src/main/resources/data/chaosket/dimension/armoredim.json"
         ]
       },
-      "path": "~/dimension"
-    },
-    {
-      "name": "TravelArmor",
-      "type": "armor",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "travel_armor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/travel_armor_chestplate.json",
-          "src/main/java/wuzu/ian/chaosket/item/TravelArmorItem.java",
-          "src/main/resources/assets/chaosket/models/item/travel_armor_leggings.json",
-          "src/main/resources/assets/chaosket/models/item/travel_armor_helmet.json",
-          "src/main/resources/assets/chaosket/models/item/travel_armor_boots.json"
-        ]
-      },
-      "path": "~/Chaosium"
-    },
-    {
-      "name": "TravelArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "travel_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/travel_armor_leggings_recipe.json"
-        ]
-      },
-      "path": "~/Chaosium"
-    },
-    {
-      "name": "TravelArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "travel_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/travel_armor_helmet_recipe.json"
-        ]
-      },
-      "path": "~/Chaosium"
-    },
-    {
-      "name": "TravelArmorChestplateRecipe",
-      "type": "recipe",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "travel_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/travel_armor_chestplate_recipe.json"
-        ]
-      },
-      "path": "~/Chaosium"
-    },
-    {
-      "name": "TravelArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "travel_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/travel_armor_boots_recipe.json"
-        ]
-      },
-      "path": "~/Chaosium"
+      "path": "~/dimension/armoredim"
     },
     {
       "name": "Armoredimskybox",
@@ -1057,7 +843,224 @@
           }
         ]
       },
-      "path": "~/dimension"
+      "path": "~/dimension/armoredim"
+    },
+    {
+      "name": "Pauk2GOD",
+      "type": "animatedentity",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pauk_2_god",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/entity/layer/Pauk2GODLayer.java",
+          "src/main/java/wuzu/ian/chaosket/entity/model/Pauk2GODModel.java",
+          "src/main/resources/assets/chaosket/models/item/pauk_2_god_spawn_egg.json",
+          "src/main/java/wuzu/ian/chaosket/entity/Pauk2GODEntity.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/Pauk2GODRenderer.java"
+        ]
+      },
+      "path": "~/dimension/armoredim"
+    },
+    {
+      "name": "LostSpace",
+      "type": "biome",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_space",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/worldgen/biome/lost_space.json",
+          "src/main/resources/data/chaosket/worldgen/configured_feature/lost_space_tree.json",
+          "src/main/resources/data/chaosket/worldgen/placed_feature/lost_space_tree.json"
+        ]
+      },
+      "path": "~/dimension/armoredim"
+    },
+    {
+      "name": "Callanimationpaul2god",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "callanimationpaul_2god",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/Callanimationpaul2godProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/dimension/armoredim"
+    },
+    {
+      "name": "Pauk2GODRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pauk_2_god_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/Pauk2GODRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/dimension/armoredim"
+    },
+    {
+      "name": "Lostspacelaserbrige",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lostspacelaserbrige",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/block/lostspacelaserbrige.json",
+          "src/main/resources/assets/chaosket/models/item/lostspacelaserbrige.json",
+          "src/main/java/wuzu/ian/chaosket/block/LostspacelaserbrigeBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/lostspacelaserbrige.json"
+        ]
+      },
+      "path": "~/dimension/armoredim"
+    },
+    {
+      "name": "ChaosiumSuit",
+      "type": "animatedarmor",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosium_suit",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/model/ChaosiumSuitModel.java",
+          "src/main/resources/assets/chaosket/models/item/chaosium_suit_boots.json",
+          "src/main/java/wuzu/ian/chaosket/item/ChaosiumSuitItem.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/ChaosiumSuitArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/chaosium_suit_helmet.json",
+          "src/main/resources/assets/chaosket/models/item/chaosium_suit_chestplate.json",
+          "src/main/resources/assets/chaosket/models/item/chaosium_suit_leggings.json"
+        ]
+      },
+      "path": "~/Chaosium"
+    },
+    {
+      "name": "Chaosaltar",
+      "type": "animatedblock",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosaltar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/chaosaltar.json",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarTileRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/ChaosaltarDisplayItemRenderer.java",
+          "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/display/ChaosaltarDisplayItem.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarBlockModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/ChaosaltarDisplayModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/ChaosaltarBlock.java",
+          "src/main/java/wuzu/ian/chaosket/block/entity/ChaosaltarTileEntity.java",
+          "src/main/resources/assets/chaosket/blockstates/chaosaltar.json"
+        ]
+      },
+      "path": "~/chaosaltar"
+    },
+    {
+      "name": "Wanted",
+      "type": "painting",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "Datablock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datablock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/blockstates/datablock.json",
+          "src/main/resources/assets/chaosket/models/item/datablock.json",
+          "src/main/java/wuzu/ian/chaosket/block/DatablockBlock.java",
+          "src/main/resources/assets/chaosket/models/block/datablock.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Datablockr",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datablockr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/datablock.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Basalt",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/item/basalt.json",
+          "src/main/resources/data/chaosket/forge/biome_modifier/basalt_biome_modifier.json",
+          "src/main/resources/data/chaosket/worldgen/placed_feature/basalt.json",
+          "src/main/java/wuzu/ian/chaosket/block/BasaltBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/basalt.json",
+          "src/main/resources/data/chaosket/worldgen/configured_feature/basalt.json",
+          "src/main/resources/assets/chaosket/models/block/basalt.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Chaosiumarmor",
+      "type": "animatedarmor",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaosiumarmor",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/ChaosiumarmorItem.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/ChaosiumarmorArmorRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/chaosiumarmor_leggings.json",
+          "src/main/java/wuzu/ian/chaosket/item/model/ChaosiumarmorModel.java",
+          "src/main/resources/assets/chaosket/models/item/chaosiumarmor_boots.json",
+          "src/main/resources/assets/chaosket/models/item/chaosiumarmor_chestplate.json",
+          "src/main/resources/assets/chaosket/models/item/chaosiumarmor_helmet.json"
+        ]
+      },
+      "path": "~/Chaosium"
     }
   ],
   "variable_elements": [],
@@ -1065,26 +1068,27 @@
   "language_map": {
     "en_us": {
       "item.chaosket.white_strohhut_boots": "Red Strohhut Boots",
+      "item.chaosket.chaosium_suit_chestplate": "Chaosium Chestplate",
       "item.chaosket.blue_strohhut_helmet": "Blue Strohhut",
       "item.chaosket.blue_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
+      "item.chaosket.chaosiumarmor_helmet": "Chaosium Helmet",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
-      "item.chaosket.outline": "Outline",
+      "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
-      "item.chaosket.travel_armor_boots": "Travel Boots",
-      "item.chaosket.travel_armor_helmet": "Travel Helmet",
-      "item.chaosket.notch": "Endportal",
-      "item.chaosket.loadstonebloom": "lodstonebloom",
+      "block.chaosket.datablock": "Datablock",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
       "block.chaosket.chaosaltar": "Chaosaltar",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
+      "item.chaosket.chaosiumarmor_boots": "Chaosium Boots",
       "item.chaosket.black_strohhut_chestplate": "Red Strohhut Chestplate",
       "item_group.chaosket.chaos_ket": "Chaos Ket",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "item.chaosket.green_strohhut_helmet": "Green Strohhut",
+      "painting.chaosket.wanted.author": "???",
       "item.chaosket.green_strohhut_leggings": "Red Strohhut Leggings",
       "item.chaosket.lila_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.white_strohhut_chestplate": "Red Strohhut Chestplate",
@@ -1093,20 +1097,28 @@
       "painting.chaosket.ckowner.title": "Ckowner",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "block.chaosket.endanchor": "Endanchor",
-      "item.chaosket.travel_armor_chestplate": "Travel Chestplate",
+      "item.chaosket.chaosium_suit_boots": "Chaosium Boots",
+      "item.chaosket.chaosium_suit_leggings": "Chaosium Leggings",
       "block.chaosket.laserbrige": "Laserbrige",
+      "item.chaosket.chaosiumarmor_chestplate": "Chaosium Chestplate",
       "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
+      "item.chaosket.chaosium_suit_helmet": "Chaosium Helmet",
       "item.chaosket.lila_strohhut_helmet": "lila Strohhut",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
+      "painting.chaosket.wanted.title": "Wanted",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
       "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
+      "block.chaosket.basalt": "Basalt",
+      "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "item.chaosket.shrinkdevice": "Shrinkdevice",
-      "item.chaosket.travel_armor_leggings": "Travel Leggings",
+      "block.chaosket.lostspacelaserbrige": "Laserbrige",
       "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
+      "biome.chaosket.lost_space": "Lost Space",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut",
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
+      "item.chaosket.chaosiumarmor_leggings": "Chaosium Leggings",
       "item.chaosket.white_strohhut_helmet": "White Strohhut",
       "item.chaosket.black_strohhut_leggings": "Red Strohhut Leggings",
       "entity.chaosket.pinguin": "Pinguin",
@@ -1161,7 +1173,12 @@
       },
       {
         "name": "dimension",
-        "children": []
+        "children": [
+          {
+            "name": "armoredim",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Shrink device",
@@ -1180,7 +1197,7 @@
   "workspaceSettings": {
     "modid": "chaosket",
     "modName": "Chaosket",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Ian, Wuzuket",
     "websiteURL": "https://de.paul2craft.de",
     "license": "All Rights Reserved",
@@ -1193,6 +1210,7 @@
     "mcreatorDependencies": [
       "pehkui",
       "world_edit",
+      "use_compiled_mods",
       "curios_api",
       "create",
       "geckolib",

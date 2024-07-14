@@ -6,12 +6,11 @@ import wuzu.ian.chaosket.init.ChaosketModBlockEntities;
 import wuzu.ian.chaosket.block.entity.ChaosaltarTileEntity;
 
 import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -34,17 +33,15 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
-import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.Minecraft;
 
 import javax.annotation.Nullable;
 
 import java.util.List;
+import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
@@ -52,7 +49,7 @@ public class ChaosaltarBlock extends BaseEntityBlock implements EntityBlock {
 	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
 
 	public ChaosaltarBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(-1, 3600000).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -84,7 +81,7 @@ public class ChaosaltarBlock extends BaseEntityBlock implements EntityBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
-		return box(0, 0, 0, 16, 13, 16);
+		return box(0, 0, 0, 16, 10, 16);
 	}
 
 	@Override
@@ -97,23 +94,12 @@ public class ChaosaltarBlock extends BaseEntityBlock implements EntityBlock {
 		return this.defaultBlockState();
 	}
 
-	@OnlyIn(Dist.CLIENT)
 	@Override
-	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
-		super.animateTick(blockstate, world, pos, random);
-		Player entity = Minecraft.getInstance().player;
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		for (int l = 0; l < 2; ++l) {
-			double x0 = x + random.nextFloat();
-			double y0 = y + random.nextFloat();
-			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 5D;
-			double dy = (random.nextFloat() - 0.5D) * 5D;
-			double dz = (random.nextFloat() - 0.5D) * 5D;
-			world.addParticle(ParticleTypes.PORTAL, x0, y0, z0, dx, dy, dz);
-		}
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+		if (!dropsOriginal.isEmpty())
+			return dropsOriginal;
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 
 	@Override

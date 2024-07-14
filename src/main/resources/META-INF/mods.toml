@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="chaosket"
-version="0.0.1"
+version="0.0.2"
 displayName="Chaosket"
 displayURL="https://de.paul2craft.de"
 logoFile="logo.png"
@@ -28,6 +28,12 @@ authors="Ian, Wuzuket"
     side="BOTH"
 [[dependencies.chaosket]]
     modId="world_edit"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.chaosket]]
+    modId="use_compiled_mods"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

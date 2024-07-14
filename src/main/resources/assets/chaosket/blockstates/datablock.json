@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chaosket:block/datablock"
+    },
+    "facing=east": {
+      "model": "chaosket:block/datablock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chaosket:block/datablock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chaosket:block/datablock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "chaosket:block/datablock",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "chaosket:block/datablock",
+      "x": 90
+    }
+  }
+}

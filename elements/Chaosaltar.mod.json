@@ -27,7 +27,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 13.0,
+        "My": 10.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -47,7 +47,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -76,12 +76,12 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "animationCount": 1,
+    "animationCount": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -99,25 +99,33 @@
       "value": ""
     },
     "luminance": 0,
-    "unbreakable": true,
+    "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "PORTAL"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 5.0,
-    "particleAmount": 2,
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": true,
     "guiBoundTo": "Chaosaltargui",
     "openGUIOnRightClick": true,
-    "inventorySize": 9,
-    "inventoryStackSize": 1,
+    "inventorySize": 6,
+    "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "generateFeature": false,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      0
+    ],
+    "inventoryInSlotIDs": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,

@@ -3,7 +3,7 @@
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "minecraft:plains",
+      "biome": "chaosket:lost_space",
       "lakes": false,
       "features": false,
       "layers": [

@@ -38,15 +38,22 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModBlocks.ENDANCHOR.get().asItem());
 				tabData.accept(ChaosketModItems.STOPSHADER.get());
 				tabData.accept(ChaosketModItems.SOBEL.get());
-				tabData.accept(ChaosketModItems.OUTLINE.get());
-				tabData.accept(ChaosketModItems.NOTCH.get());
+				tabData.accept(ChaosketModItems.PAUK_2_GOD_SPAWN_EGG.get());
+				tabData.accept(ChaosketModBlocks.LOSTSPACELASERBRIGE.get().asItem());
+				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_HELMET.get());
+				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_CHESTPLATE.get());
+				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_LEGGINGS.get());
+				tabData.accept(ChaosketModItems.CHAOSIUM_SUIT_BOOTS.get());
 				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
-				tabData.accept(ChaosketModItems.LOADSTONEBLOOM.get());
-				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_HELMET.get());
-				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_CHESTPLATE.get());
-				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_LEGGINGS.get());
-				tabData.accept(ChaosketModItems.TRAVEL_ARMOR_BOOTS.get());
-			}).withSearchBar().build());
+				tabData.accept(ChaosketModBlocks.DATABLOCK.get().asItem());
+				tabData.accept(ChaosketModBlocks.BASALT.get().asItem());
+				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_HELMET.get());
+				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_CHESTPLATE.get());
+				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_LEGGINGS.get());
+				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_BOOTS.get());
+			})
+
+					.build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
