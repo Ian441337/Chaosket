@@ -13,8 +13,6 @@ import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.LilaStrohhutItem;
 import wuzu.ian.chaosket.item.ItemcreativeTabItem;
 import wuzu.ian.chaosket.item.GreenStrohhutItem;
-import wuzu.ian.chaosket.item.ChaosiumarmorItem;
-import wuzu.ian.chaosket.item.ChaosiumSuitItem;
 import wuzu.ian.chaosket.item.BlueStrohhutItem;
 import wuzu.ian.chaosket.item.BlackStrohhutItem;
 import wuzu.ian.chaosket.block.display.ChaosaltarDisplayItem;
@@ -51,17 +49,9 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> PAUK_2_GOD_SPAWN_EGG = REGISTRY.register("pauk_2_god_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.PAUK_2_GOD, -16738048, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> LOSTSPACELASERBRIGE = block(ChaosketModBlocks.LOSTSPACELASERBRIGE);
-	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_HELMET = REGISTRY.register("chaosium_suit_helmet", () -> new ChaosiumSuitItem(ArmorItem.Type.HELMET, new Item.Properties()));
-	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_CHESTPLATE = REGISTRY.register("chaosium_suit_chestplate", () -> new ChaosiumSuitItem(ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_LEGGINGS = REGISTRY.register("chaosium_suit_leggings", () -> new ChaosiumSuitItem(ArmorItem.Type.LEGGINGS, new Item.Properties()));
-	public static final RegistryObject<ChaosiumSuitItem> CHAOSIUM_SUIT_BOOTS = REGISTRY.register("chaosium_suit_boots", () -> new ChaosiumSuitItem(ArmorItem.Type.BOOTS, new Item.Properties()));
 	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DATABLOCK = block(ChaosketModBlocks.DATABLOCK);
 	public static final RegistryObject<Item> BASALT = block(ChaosketModBlocks.BASALT);
-	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_HELMET = REGISTRY.register("chaosiumarmor_helmet", () -> new ChaosiumarmorItem(ArmorItem.Type.HELMET, new Item.Properties()));
-	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_CHESTPLATE = REGISTRY.register("chaosiumarmor_chestplate", () -> new ChaosiumarmorItem(ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_LEGGINGS = REGISTRY.register("chaosiumarmor_leggings", () -> new ChaosiumarmorItem(ArmorItem.Type.LEGGINGS, new Item.Properties()));
-	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_BOOTS = REGISTRY.register("chaosiumarmor_boots", () -> new ChaosiumarmorItem(ArmorItem.Type.BOOTS, new Item.Properties()));
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

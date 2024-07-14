@@ -886,26 +886,6 @@
       "path": "~/dimension/armoredim"
     },
     {
-      "name": "ChaosiumSuit",
-      "type": "animatedarmor",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chaosium_suit",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/chaosium_suit_leggings.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/ChaosiumSuitArmorRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/chaosium_suit_chestplate.json",
-          "src/main/java/wuzu/ian/chaosket/item/model/ChaosiumSuitModel.java",
-          "src/main/resources/assets/chaosket/models/item/chaosium_suit_boots.json",
-          "src/main/java/wuzu/ian/chaosket/item/ChaosiumSuitItem.java",
-          "src/main/resources/assets/chaosket/models/item/chaosium_suit_helmet.json"
-        ]
-      },
-      "path": "~/Chaosium"
-    },
-    {
       "name": "Chaosaltar",
       "type": "animatedblock",
       "sortid": 62,
@@ -992,26 +972,6 @@
       "path": "~/blocks"
     },
     {
-      "name": "Chaosiumarmor",
-      "type": "animatedarmor",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chaosiumarmor",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/item/model/ChaosiumarmorModel.java",
-          "src/main/resources/assets/chaosket/models/item/chaosiumarmor_boots.json",
-          "src/main/java/wuzu/ian/chaosket/item/ChaosiumarmorItem.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/ChaosiumarmorArmorRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/chaosiumarmor_helmet.json",
-          "src/main/resources/assets/chaosket/models/item/chaosiumarmor_chestplate.json",
-          "src/main/resources/assets/chaosket/models/item/chaosiumarmor_leggings.json"
-        ]
-      },
-      "path": "~/Chaosium"
-    },
-    {
       "name": "ItemcreativeTab",
       "type": "item",
       "sortid": 68,
@@ -1031,22 +991,19 @@
   "language_map": {
     "en_us": {
       "item.chaosket.white_strohhut_boots": "Red Strohhut Boots",
-      "item.chaosket.chaosium_suit_chestplate": "Chaosium Chestplate",
       "item.chaosket.blue_strohhut_helmet": "Blue Strohhut",
       "item.chaosket.blue_strohhut_boots": "Red Strohhut Boots",
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
-      "item.chaosket.chaosiumarmor_helmet": "Chaosium Helmet",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
-      "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
+      "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.datablock": "Datablock",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
       "block.chaosket.chaosaltar": "Chaosaltar",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
-      "item.chaosket.chaosiumarmor_boots": "Chaosium Boots",
       "item.chaosket.black_strohhut_chestplate": "Red Strohhut Chestplate",
       "item_group.chaosket.chaos_ket": "Chaos Ket",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
@@ -1060,14 +1017,10 @@
       "painting.chaosket.ckowner.title": "Ckowner",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "block.chaosket.endanchor": "Endanchor",
-      "item.chaosket.chaosium_suit_boots": "Chaosium Boots",
-      "item.chaosket.chaosium_suit_leggings": "Chaosium Leggings",
       "block.chaosket.laserbrige": "Laserbrige",
-      "item.chaosket.chaosiumarmor_chestplate": "Chaosium Chestplate",
       "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
-      "item.chaosket.chaosium_suit_helmet": "Chaosium Helmet",
       "item.chaosket.lila_strohhut_helmet": "lila Strohhut",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.wanted.title": "Wanted",
@@ -1080,7 +1033,6 @@
       "biome.chaosket.lost_space": "Lost Space",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut",
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
-      "item.chaosket.chaosiumarmor_leggings": "Chaosium Leggings",
       "item.chaosket.white_strohhut_helmet": "White Strohhut",
       "item.chaosket.itemcreative_tab": "Item.creative.tab",
       "item.chaosket.black_strohhut_leggings": "Red Strohhut Leggings",
