@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -197,7 +197,9 @@
     ],
     "name": "Der Hosen Teppich",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Der Hosen Tepich er ist Dünn und Schlau"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

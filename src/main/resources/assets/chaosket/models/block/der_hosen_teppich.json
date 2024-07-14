@@ -5,5 +5,5 @@
     "particle": "chaosket:block/derhosenteppich",
     "0": "chaosket:block/derhosenteppich"
   },
-  "render_type": "translucent"
+  "render_type": "cutout"
 }
