@@ -984,6 +984,22 @@
           "src/main/java/wuzu/ian/chaosket/item/ItemcreativeTabItem.java"
         ]
       }
+    },
+    {
+      "name": "DerHosenTeppich",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "der_hosen_teppich",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/models/block/der_hosen_teppich.json",
+          "src/main/resources/assets/chaosket/blockstates/der_hosen_teppich.json",
+          "src/main/resources/assets/chaosket/models/item/der_hosen_teppich.json",
+          "src/main/java/wuzu/ian/chaosket/block/DerHosenTeppichBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -996,8 +1012,8 @@
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
-      "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
+      "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "block.chaosket.datablock": "Datablock",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
@@ -1040,7 +1056,8 @@
       "item.chaosket.blue_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.jail_door": "Jail Door",
       "item.chaosket.black_strohhut_boots": "Red Strohhut Boots",
-      "item.chaosket.lila_strohhut_leggings": "Red Strohhut Leggings"
+      "item.chaosket.lila_strohhut_leggings": "Red Strohhut Leggings",
+      "block.chaosket.der_hosen_teppich": "Der Hosen Teppich"
     }
   },
   "foldersRoot": {

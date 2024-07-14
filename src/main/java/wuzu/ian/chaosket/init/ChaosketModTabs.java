@@ -42,6 +42,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
 				tabData.accept(ChaosketModBlocks.DATABLOCK.get().asItem());
 				tabData.accept(ChaosketModBlocks.BASALT.get().asItem());
+				tabData.accept(ChaosketModBlocks.DER_HOSEN_TEPPICH.get().asItem());
 			})
 
 					.build());

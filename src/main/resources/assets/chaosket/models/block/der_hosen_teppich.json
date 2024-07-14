@@ -1,0 +1,9 @@
+{
+  "parent": "chaosket:custom/hosenteppich",
+  "textures": {
+    "all": "chaosket:block/derhosenteppich",
+    "particle": "chaosket:block/derhosenteppich",
+    "0": "chaosket:block/derhosenteppich"
+  },
+  "render_type": "solid"
+}
