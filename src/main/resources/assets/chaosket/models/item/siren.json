@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "chaosket:item/strohhut-item-black"
+    "layer0": "chaosket:item/debug"
   }
 }

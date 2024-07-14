@@ -25,11 +25,6 @@ public class ChaosketModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.chaos_ket")).icon(() -> new ItemStack(ChaosketModItems.ITEMCREATIVE_TAB.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ChaosketModItems.STAFFOFTRAVELING.get());
 				tabData.accept(ChaosketModItems.RED_STROHHUT_HELMET.get());
-				tabData.accept(ChaosketModItems.GREEN_STROHHUT_HELMET.get());
-				tabData.accept(ChaosketModItems.LILA_STROHHUT_HELMET.get());
-				tabData.accept(ChaosketModItems.BLUE_STROHHUT_HELMET.get());
-				tabData.accept(ChaosketModItems.WHITE_STROHHUT_HELMET.get());
-				tabData.accept(ChaosketModItems.BLACK_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModBlocks.LASERBRIGE.get().asItem());
 				tabData.accept(ChaosketModBlocks.LASERBRIGEPROJECTOR.get().asItem());
 				tabData.accept(ChaosketModBlocks.JAIL_DOOR.get().asItem());
@@ -43,6 +38,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModBlocks.DATABLOCK.get().asItem());
 				tabData.accept(ChaosketModBlocks.BASALT.get().asItem());
 				tabData.accept(ChaosketModBlocks.DER_HOSEN_TEPPICH.get().asItem());
+				tabData.accept(ChaosketModItems.SIREN.get());
 			})
 
 					.build());

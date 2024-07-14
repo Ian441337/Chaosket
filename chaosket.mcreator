@@ -252,161 +252,6 @@
       "path": "~/strohhut"
     },
     {
-      "name": "GreenStrohhut",
-      "type": "animatedarmor",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "green_strohhut",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/green_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/item/model/GreenStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/item/GreenStrohhutItem.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/GreenStrohhutArmorRenderer.java"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "LilaStrohhut",
-      "type": "animatedarmor",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lila_strohhut",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/item/LilaStrohhutItem.java",
-          "src/main/java/wuzu/ian/chaosket/item/model/LilaStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/LilaStrohhutArmorRenderer.java",
-          "src/main/resources/assets/chaosket/models/item/lila_strohhut_helmet.json"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "BlueStrohhut",
-      "type": "animatedarmor",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blue_strohhut",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/blue_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/item/BlueStrohhutItem.java",
-          "src/main/java/wuzu/ian/chaosket/item/model/BlueStrohhutModel.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/BlueStrohhutArmorRenderer.java"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "WhiteStrohhut",
-      "type": "animatedarmor",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_strohhut",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/item/model/WhiteStrohhutModel.java",
-          "src/main/resources/assets/chaosket/models/item/white_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/WhiteStrohhutArmorRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/item/WhiteStrohhutItem.java"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "BlackStrohhut",
-      "type": "animatedarmor",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "black_strohhut",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/client/renderer/BlackStrohhutArmorRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/item/BlackStrohhutItem.java",
-          "src/main/resources/assets/chaosket/models/item/black_strohhut_helmet.json",
-          "src/main/java/wuzu/ian/chaosket/item/model/BlackStrohhutModel.java"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "WhiteStrohhutR",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_strohhut_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/white_strohhut_r.json"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "GreenStrohhutR",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "green_strohhut_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/green_strohhut_r.json"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "BlackStrohhutR",
-      "type": "recipe",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "black_strohhut_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/black_strohhut_r.json"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "LilaStrohhutR",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lila_strohhut_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/lila_strohhut_r.json"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
-      "name": "BlueStrohhutR",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blue_strohhut_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/chaosket/recipes/blue_strohhut_r.json"
-        ]
-      },
-      "path": "~/strohhut"
-    },
-    {
       "name": "Laserbrige",
       "type": "block",
       "sortid": 28,
@@ -1016,19 +861,53 @@
         ]
       },
       "path": "~/recepi"
+    },
+    {
+      "name": "Siren",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siren",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/SirenItem.java",
+          "src/main/resources/assets/chaosket/models/item/siren.json"
+        ]
+      },
+      "path": "~/test"
+    },
+    {
+      "name": "SirenRightclicked",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siren_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/SirenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.chaosket.white_strohhut_boots": "Red Strohhut Boots",
-      "item.chaosket.blue_strohhut_helmet": "Blue Strohhut",
-      "item.chaosket.blue_strohhut_boots": "Red Strohhut Boots",
-      "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
-      "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "block.chaosket.datablock": "Datablock",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
@@ -1036,16 +915,9 @@
       "block.chaosket.chaosaltar": "Chaosaltar",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
-      "item.chaosket.black_strohhut_chestplate": "Red Strohhut Chestplate",
       "item_group.chaosket.chaos_ket": "Chaos Ket",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
-      "item.chaosket.green_strohhut_helmet": "Green Strohhut",
       "painting.chaosket.wanted.author": "???",
-      "item.chaosket.green_strohhut_leggings": "Red Strohhut Leggings",
-      "item.chaosket.lila_strohhut_boots": "Red Strohhut Boots",
-      "item.chaosket.white_strohhut_chestplate": "Red Strohhut Chestplate",
-      "item.chaosket.black_strohhut_helmet": "Black Strohhut",
-      "item.chaosket.lila_strohhut_chestplate": "Red Strohhut Chestplate",
       "painting.chaosket.ckowner.title": "Ckowner",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "block.chaosket.endanchor": "Endanchor",
@@ -1053,26 +925,19 @@
       "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
-      "item.chaosket.lila_strohhut_helmet": "lila Strohhut",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.wanted.title": "Wanted",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
-      "item.chaosket.white_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.basalt": "Basalt",
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "block.chaosket.lostspacelaserbrige": "Laserbrige",
-      "item.chaosket.green_strohhut_chestplate": "Red Strohhut Chestplate",
+      "item.chaosket.siren": "siren",
       "biome.chaosket.lost_space": "Lost Space",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut",
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
-      "item.chaosket.white_strohhut_helmet": "White Strohhut",
       "item.chaosket.itemcreative_tab": "Item.creative.tab",
-      "item.chaosket.black_strohhut_leggings": "Red Strohhut Leggings",
       "entity.chaosket.pinguin": "Pinguin",
-      "item.chaosket.blue_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.jail_door": "Jail Door",
-      "item.chaosket.black_strohhut_boots": "Red Strohhut Boots",
-      "item.chaosket.lila_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.der_hosen_teppich": "Der Hosen Teppich"
     }
   },
