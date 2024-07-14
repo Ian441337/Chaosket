@@ -1000,6 +1000,20 @@
           "src/main/java/wuzu/ian/chaosket/block/DerHosenTeppichBlock.java"
         ]
       }
+    },
+    {
+      "name": "Derhosentepichr",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "derhosentepichr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/derhosentepichr.json"
+        ]
+      },
+      "path": "~/recepi"
     }
   ],
   "variable_elements": [],
@@ -1012,8 +1026,8 @@
       "item.chaosket.green_strohhut_boots": "Red Strohhut Boots",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
-      "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
+      "item.chaosket.blue_strohhut_leggings": "Red Strohhut Leggings",
       "block.chaosket.datablock": "Datablock",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
@@ -1118,6 +1132,10 @@
       },
       {
         "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "recepi",
         "children": []
       }
     ]

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_carpet"
+    },
+    "b": {
+      "item": "minecraft:black_carpet"
+    }
+  },
+  "result": {
+    "item": "chaosket:der_hosen_teppich",
+    "count": 1
+  }
+}
