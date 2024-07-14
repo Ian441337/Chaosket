@@ -8,10 +8,10 @@ import wuzu.ian.chaosket.item.WhiteStrohhutItem;
 import wuzu.ian.chaosket.item.StopshaderItem;
 import wuzu.ian.chaosket.item.StaffoftravelingItem;
 import wuzu.ian.chaosket.item.SobelItem;
-import wuzu.ian.chaosket.item.ShrinkdeviceItem;
 import wuzu.ian.chaosket.item.RingOfUnduingItem;
 import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.LilaStrohhutItem;
+import wuzu.ian.chaosket.item.ItemcreativeTabItem;
 import wuzu.ian.chaosket.item.GreenStrohhutItem;
 import wuzu.ian.chaosket.item.ChaosiumarmorItem;
 import wuzu.ian.chaosket.item.ChaosiumSuitItem;
@@ -42,7 +42,6 @@ public class ChaosketModItems {
 	public static final RegistryObject<BlueStrohhutItem> BLUE_STROHHUT_HELMET = REGISTRY.register("blue_strohhut_helmet", () -> new BlueStrohhutItem(ArmorItem.Type.HELMET, new Item.Properties()));
 	public static final RegistryObject<WhiteStrohhutItem> WHITE_STROHHUT_HELMET = REGISTRY.register("white_strohhut_helmet", () -> new WhiteStrohhutItem(ArmorItem.Type.HELMET, new Item.Properties()));
 	public static final RegistryObject<BlackStrohhutItem> BLACK_STROHHUT_HELMET = REGISTRY.register("black_strohhut_helmet", () -> new BlackStrohhutItem(ArmorItem.Type.HELMET, new Item.Properties()));
-	public static final RegistryObject<Item> SHRINKDEVICE = REGISTRY.register("shrinkdevice", () -> new ShrinkdeviceItem());
 	public static final RegistryObject<Item> LASERBRIGE = block(ChaosketModBlocks.LASERBRIGE);
 	public static final RegistryObject<Item> LASERBRIGEPROJECTOR = block(ChaosketModBlocks.LASERBRIGEPROJECTOR);
 	public static final RegistryObject<Item> JAIL_DOOR = doubleBlock(ChaosketModBlocks.JAIL_DOOR);
@@ -63,6 +62,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_CHESTPLATE = REGISTRY.register("chaosiumarmor_chestplate", () -> new ChaosiumarmorItem(ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_LEGGINGS = REGISTRY.register("chaosiumarmor_leggings", () -> new ChaosiumarmorItem(ArmorItem.Type.LEGGINGS, new Item.Properties()));
 	public static final RegistryObject<ChaosiumarmorItem> CHAOSIUMARMOR_BOOTS = REGISTRY.register("chaosiumarmor_boots", () -> new ChaosiumarmorItem(ArmorItem.Type.BOOTS, new Item.Properties()));
+	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -21,12 +21,6 @@ authors="Ian, Wuzuket"
 
 
 [[dependencies.chaosket]]
-    modId="pehkui"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.chaosket]]
     modId="world_edit"
     mandatory=false
     versionRange="[0,)"

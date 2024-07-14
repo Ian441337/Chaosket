@@ -22,7 +22,7 @@ import net.minecraft.core.registries.Registries;
 public class ChaosketModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ChaosketMod.MODID);
 	public static final RegistryObject<CreativeModeTab> CHAOS_KET = REGISTRY.register("chaos_ket",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.chaos_ket")).icon(() -> new ItemStack(ChaosketModItems.SHRINKDEVICE.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.chaos_ket")).icon(() -> new ItemStack(ChaosketModItems.ITEMCREATIVE_TAB.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ChaosketModItems.STAFFOFTRAVELING.get());
 				tabData.accept(ChaosketModItems.RED_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModItems.GREEN_STROHHUT_HELMET.get());
@@ -30,7 +30,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.BLUE_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModItems.WHITE_STROHHUT_HELMET.get());
 				tabData.accept(ChaosketModItems.BLACK_STROHHUT_HELMET.get());
-				tabData.accept(ChaosketModItems.SHRINKDEVICE.get());
 				tabData.accept(ChaosketModBlocks.LASERBRIGE.get().asItem());
 				tabData.accept(ChaosketModBlocks.LASERBRIGEPROJECTOR.get().asItem());
 				tabData.accept(ChaosketModBlocks.JAIL_DOOR.get().asItem());
@@ -51,6 +50,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_CHESTPLATE.get());
 				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_LEGGINGS.get());
 				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_BOOTS.get());
+				tabData.accept(ChaosketModItems.ITEMCREATIVE_TAB.get());
 			})
 
 					.build());

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Chaos Ket",
     "icon": {
-      "value": "CUSTOM:Shrinkdevice"
+      "value": "CUSTOM:ItemcreativeTab"
     },
     "showSearch": false
   }
