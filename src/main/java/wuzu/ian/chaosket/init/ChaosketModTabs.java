@@ -50,7 +50,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_CHESTPLATE.get());
 				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_LEGGINGS.get());
 				tabData.accept(ChaosketModItems.CHAOSIUMARMOR_BOOTS.get());
-				tabData.accept(ChaosketModItems.ITEMCREATIVE_TAB.get());
 			})
 
 					.build());

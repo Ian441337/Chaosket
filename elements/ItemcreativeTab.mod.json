@@ -10,7 +10,7 @@
     "name": "Item.creative.tab",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:ChaosKet"
+      "value": "No creative tab entry"
     },
     "stackSize": 1,
     "enchantability": 0,
