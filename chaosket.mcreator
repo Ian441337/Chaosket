@@ -923,6 +923,37 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Basaltwithlight",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basaltwithlight",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/block/BasaltwithlightBlock.java",
+          "src/main/resources/assets/chaosket/blockstates/basaltwithlight.json",
+          "src/main/resources/assets/chaosket/models/block/basaltwithlight.json",
+          "src/main/resources/assets/chaosket/models/item/basaltwithlight.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Baslatlight",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baslatlight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/baslatlight.json"
+        ]
+      },
+      "path": "~/recepi"
     }
   ],
   "variable_elements": [],
@@ -934,6 +965,7 @@
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
       "entity.chaosket.soul_firefly": "Firefly",
+      "block.chaosket.basaltwithlight": "Basaltwithlight",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
@@ -972,6 +1004,7 @@
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
       "entity.chaosket.soul_firefly": "Firefly",
+      "block.chaosket.basaltwithlight": "Basaltwithlight",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",

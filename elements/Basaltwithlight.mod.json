@@ -3,14 +3,14 @@
   "_type": "block",
   "definition": {
     "texture": "nodata",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
+    "textureTop": "basalt_with_light",
+    "textureLeft": "nodata",
+    "textureFront": "nodata",
+    "textureRight": "nodata",
+    "textureBack": "nodata",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Basalt",
+    "name": "Basaltwithlight",
     "specialInformation": {
       "fixedValue": []
     },
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "CLAY"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -98,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
@@ -119,17 +119,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 32,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 40
+    "maxGenerateHeight": 64
   }
 }

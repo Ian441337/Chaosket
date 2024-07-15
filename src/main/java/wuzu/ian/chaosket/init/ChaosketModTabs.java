@@ -37,6 +37,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.STOPSHADER.get());
 				tabData.accept(ChaosketModItems.SOBEL.get());
 				tabData.accept(ChaosketModItems.SIREN.get());
+				tabData.accept(ChaosketModBlocks.BASALTWITHLIGHT.get().asItem());
 			})
 
 					.build());
