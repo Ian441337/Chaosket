@@ -38,7 +38,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.STOPSHADER.get());
 				tabData.accept(ChaosketModItems.SOBEL.get());
 				tabData.accept(ChaosketModItems.SIREN.get());
-				tabData.accept(ChaosketModBlocks.TESTSKINBLOCK.get().asItem());
 			})
 
 					.build());

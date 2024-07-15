@@ -954,39 +954,6 @@
         ]
       },
       "path": "~/recepi"
-    },
-    {
-      "name": "Testskinblock",
-      "type": "block",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testskinblock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/block/testskinblock.json",
-          "src/main/java/wuzu/ian/chaosket/block/TestskinblockBlock.java",
-          "src/main/resources/assets/chaosket/blockstates/testskinblock.json",
-          "src/main/java/wuzu/ian/chaosket/block/entity/TestskinblockBlockEntity.java",
-          "src/main/resources/assets/chaosket/models/item/testskinblock.json"
-        ]
-      },
-      "path": "~/test"
-    },
-    {
-      "name": "TestskinblockUpdateTick",
-      "type": "procedure",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testskinblock_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/wuzu/ian/chaosket/procedures/TestskinblockUpdateTickProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -1023,7 +990,6 @@
       "block.chaosket.chaosaltar": "Chaosaltar",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
-      "block.chaosket.testskinblock": "Testskinblock",
       "item.chaosket.siren": "siren",
       "biome.chaosket.lost_space": "Lost Space",
       "entity.chaosket.firefly": "Firefly",
@@ -1064,7 +1030,6 @@
       "block.chaosket.chaosaltar": "Chaosaltar",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
-      "block.chaosket.testskinblock": "Testskinblock",
       "item.chaosket.siren": "siren",
       "biome.chaosket.lost_space": "Lost Space",
       "entity.chaosket.firefly": "Glühwürmchen",
