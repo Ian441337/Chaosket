@@ -18,7 +18,7 @@
     "music": {
       "value": "CUSTOM:immerdabei"
     },
-    "lengthInTicks": 100,
-    "analogOutput": 0
+    "lengthInTicks": 2400,
+    "analogOutput": 15
   }
 }

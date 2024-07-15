@@ -16,7 +16,7 @@ import java.util.List;
 
 public class ImmerdabeiItem extends RecordItem {
 	public ImmerdabeiItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("chaosket:immerdabei")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 100);
+		super(15, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("chaosket:immerdabei")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 2400);
 	}
 
 	@Override
