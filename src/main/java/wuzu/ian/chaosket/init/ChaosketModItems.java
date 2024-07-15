@@ -38,6 +38,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> STAFFOFTRAVELING = REGISTRY.register("staffoftraveling", () -> new StaffoftravelingItem());
 	public static final RegistryObject<Item> JAIL_DOOR = doubleBlock(ChaosketModBlocks.JAIL_DOOR);
 	public static final RegistryObject<RedStrohhutItem> RED_STROHHUT_HELMET = REGISTRY.register("red_strohhut_helmet", () -> new RedStrohhutItem(ArmorItem.Type.HELMET, new Item.Properties()));
+	public static final RegistryObject<Item> IMMERDABEI = REGISTRY.register("immerdabei", () -> new ImmerdabeiItem());
 	public static final RegistryObject<Item> PAUK_2_GOD_SPAWN_EGG = REGISTRY.register("pauk_2_god_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.PAUK_2_GOD, -16738048, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> FIREFLY_SPAWN_EGG = REGISTRY.register("firefly_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.FIREFLY, -10079488, -256, new Item.Properties()));
 	public static final RegistryObject<Item> SOUL_FIREFLY_SPAWN_EGG = REGISTRY.register("soul_firefly_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.SOUL_FIREFLY, -10079488, -16711681, new Item.Properties()));
@@ -48,7 +49,6 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> SIREN = REGISTRY.register("siren", () -> new SirenItem());
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
-	public static final RegistryObject<Item> IMMERDABEI = REGISTRY.register("immerdabei", () -> new ImmerdabeiItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

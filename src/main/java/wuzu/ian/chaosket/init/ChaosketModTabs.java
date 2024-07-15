@@ -29,6 +29,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.STAFFOFTRAVELING.get());
 				tabData.accept(ChaosketModBlocks.JAIL_DOOR.get().asItem());
 				tabData.accept(ChaosketModItems.RED_STROHHUT_HELMET.get());
+				tabData.accept(ChaosketModItems.IMMERDABEI.get());
 				tabData.accept(ChaosketModItems.PAUK_2_GOD_SPAWN_EGG.get());
 				tabData.accept(ChaosketModItems.FIREFLY_SPAWN_EGG.get());
 				tabData.accept(ChaosketModItems.SOUL_FIREFLY_SPAWN_EGG.get());
@@ -38,7 +39,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.STOPSHADER.get());
 				tabData.accept(ChaosketModItems.SOBEL.get());
 				tabData.accept(ChaosketModItems.SIREN.get());
-				tabData.accept(ChaosketModItems.IMMERDABEI.get());
 			})
 
 					.build());

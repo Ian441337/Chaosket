@@ -3,7 +3,7 @@
     {
       "name": "Pinguin",
       "type": "animatedentity",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pinguin",
@@ -21,7 +21,7 @@
     {
       "name": "Travelanchor",
       "type": "gui",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchor",
@@ -36,7 +36,7 @@
     {
       "name": "Travelanchordisplayblock",
       "type": "function",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchordisplayblock",
@@ -50,7 +50,7 @@
     {
       "name": "TravelanchorblockUpdateTick",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchorblock_update_tick",
@@ -82,7 +82,7 @@
     {
       "name": "ChaosKet",
       "type": "tab",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_ket",
@@ -93,7 +93,7 @@
     {
       "name": "Travelanchorblockdisplaykill",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchorblockdisplaykill",
@@ -125,7 +125,7 @@
     {
       "name": "Travelanchordirection",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchordirection",
@@ -164,7 +164,7 @@
     {
       "name": "Ckowner",
       "type": "painting",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ckowner",
@@ -176,7 +176,7 @@
     {
       "name": "RedStrohhutHelmetTickEvent",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strohhut_helmet_tick_event",
@@ -225,7 +225,7 @@
     {
       "name": "RedStrohhutr",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_strohhutr",
@@ -239,7 +239,7 @@
     {
       "name": "Laserbrige",
       "type": "block",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laserbrige",
@@ -273,7 +273,7 @@
     {
       "name": "LaserbrigeprojectorRedstoneOn",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laserbrigeprojector_redstone_on",
@@ -305,7 +305,7 @@
     {
       "name": "LaserbrigeprojectorRedstoneOff",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laserbrigeprojector_redstone_off",
@@ -337,7 +337,7 @@
     {
       "name": "StaffoftravelingRightclicked",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staffoftraveling_rightclicked",
@@ -403,7 +403,7 @@
     {
       "name": "LaserbrigeUpdateTick",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laserbrige_update_tick",
@@ -452,7 +452,7 @@
     {
       "name": "EndanchorBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "endanchor_block_is_placed_by",
@@ -484,7 +484,7 @@
     {
       "name": "SobelRightclicked",
       "type": "procedure",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sobel_rightclicked",
@@ -508,7 +508,7 @@
     {
       "name": "StopshaderRightclicked",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stopshader_rightclicked",
@@ -532,7 +532,7 @@
     {
       "name": "Stopshader",
       "type": "item",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stopshader",
@@ -547,7 +547,7 @@
     {
       "name": "Sobel",
       "type": "item",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sobel",
@@ -562,7 +562,7 @@
     {
       "name": "Jaildoorr",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jaildoorr",
@@ -576,7 +576,7 @@
     {
       "name": "Chaosaltargui",
       "type": "gui",
-      "sortid": 39,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaosaltargui",
@@ -591,7 +591,7 @@
     {
       "name": "Armoredim",
       "type": "dimension",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": true,
       "registry_name": "armoredim",
@@ -607,7 +607,7 @@
     {
       "name": "Armoredimskybox",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "armoredimskybox",
@@ -627,7 +627,7 @@
     {
       "name": "Pauk2GOD",
       "type": "animatedentity",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pauk_2_god",
@@ -645,7 +645,7 @@
     {
       "name": "LostSpace",
       "type": "biome",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lost_space",
@@ -661,7 +661,7 @@
     {
       "name": "Callanimationpaul2god",
       "type": "procedure",
-      "sortid": 42,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "callanimationpaul_2god",
@@ -681,7 +681,7 @@
     {
       "name": "Pauk2GODRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pauk_2_god_right_clicked_on_entity",
@@ -701,7 +701,7 @@
     {
       "name": "Lostspacelaserbrige",
       "type": "block",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lostspacelaserbrige",
@@ -741,7 +741,7 @@
     {
       "name": "Wanted",
       "type": "painting",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wanted",
@@ -770,7 +770,7 @@
     {
       "name": "Datablockr",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "datablockr",
@@ -804,7 +804,7 @@
     {
       "name": "ItemcreativeTab",
       "type": "item",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "itemcreative_tab",
@@ -836,7 +836,7 @@
     {
       "name": "Derhosentepichr",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "derhosentepichr",
@@ -850,7 +850,7 @@
     {
       "name": "Siren",
       "type": "item",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "siren",
@@ -865,7 +865,7 @@
     {
       "name": "SirenRightclicked",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "siren_rightclicked",
@@ -889,7 +889,7 @@
     {
       "name": "Firefly",
       "type": "animatedentity",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firefly",
@@ -908,7 +908,7 @@
     {
       "name": "SoulFirefly",
       "type": "animatedentity",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_firefly",
@@ -944,7 +944,7 @@
     {
       "name": "Baslatlight",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baslatlight",
@@ -958,7 +958,7 @@
     {
       "name": "Immerdabei",
       "type": "musicdisc",
-      "sortid": 50,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "immerdabei",
