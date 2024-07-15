@@ -2,32 +2,32 @@
   "_fv": 57,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Pinguin",
+    "mobName": "Firefly",
     "mobLabel": "",
-    "mobModelTexture": "pinguin.png",
-    "mobModelGlowTexture": "",
+    "mobModelTexture": "soulfirefly.png",
+    "mobModelGlowTexture": "soulfireflyglow.png",
     "visualScale": {
       "fixedValue": 1.0
     },
     "boundingBoxScale": {
-      "fixedValue": 0.5
+      "fixedValue": 1.0
     },
     "entityDataEntries": [],
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 0.5,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -16764058,
+      "value": -10079488,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -3342337,
+      "value": -16711681,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ChaosKet"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -62,7 +62,7 @@
     "health": 10,
     "xpAmount": 0,
     "waterMob": false,
-    "flyingMob": false,
+    "flyingMob": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -74,7 +74,7 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
@@ -84,9 +84,9 @@
     "immuneToTrident": false,
     "immuneToAnvil": false,
     "immuneToWither": false,
-    "immuneToDragonBreath": false,
+    "immuneToDragonBreath": true,
     "mobDrop": {
-      "value": "Items.COOKED_FISH#0"
+      "value": ""
     },
     "livingSound": {
       "value": ""
@@ -102,10 +102,10 @@
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></xml>",
-    "model": "pinguin.geo.json",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"96\" y=\"44\"><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "firefly.geo.json",
     "groupName": "",
-    "animation1": "none",
+    "animation1": "animation.Firefly.idel",
     "animation2": "",
     "animation3": "",
     "animation4": "",
@@ -129,11 +129,7 @@
     "disableDeathRotation": false,
     "headMovement": false,
     "eyeHeight": false,
-    "breedTriggerItems": [
-      {
-        "value": "Items.COOKED_FISH#0"
-      }
-    ],
+    "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""
@@ -145,30 +141,12 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 5,
     "restrictionBiomes": [
       {
-        "value": "mutated_ice_flats"
-      },
-      {
-        "value": "snowy_slopes"
-      },
-      {
-        "value": "snowblossomGrove"
-      },
-      {
-        "value": "cold_beach"
-      },
-      {
-        "value": "snowy_forest"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "taiga_cold"
+        "value": "soul_sand_valley"
       }
     ],
     "spawnInDungeons": false

@@ -1,5 +1,6 @@
 package wuzu.ian.chaosket.init;
 
+import wuzu.ian.chaosket.entity.SoulFireflyEntity;
 import wuzu.ian.chaosket.entity.PinguinEntity;
 import wuzu.ian.chaosket.entity.Pauk2GODEntity;
 import wuzu.ian.chaosket.entity.FireflyEntity;
@@ -28,6 +29,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof FireflyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof SoulFireflyEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

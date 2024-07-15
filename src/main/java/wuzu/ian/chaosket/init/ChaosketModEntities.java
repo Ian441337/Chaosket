@@ -4,6 +4,7 @@
  */
 package wuzu.ian.chaosket.init;
 
+import wuzu.ian.chaosket.entity.SoulFireflyEntity;
 import wuzu.ian.chaosket.entity.PinguinEntity;
 import wuzu.ian.chaosket.entity.Pauk2GODEntity;
 import wuzu.ian.chaosket.entity.FireflyEntity;
@@ -34,6 +35,10 @@ public class ChaosketModEntities {
 			EntityType.Builder.<FireflyEntity>of(FireflyEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireflyEntity::new)
 
 					.sized(0.6f, 0.5f));
+	public static final RegistryObject<EntityType<SoulFireflyEntity>> SOUL_FIREFLY = register("soul_firefly",
+			EntityType.Builder.<SoulFireflyEntity>of(SoulFireflyEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SoulFireflyEntity::new)
+
+					.sized(0.6f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -45,6 +50,7 @@ public class ChaosketModEntities {
 			PinguinEntity.init();
 			Pauk2GODEntity.init();
 			FireflyEntity.init();
+			SoulFireflyEntity.init();
 		});
 	}
 
@@ -53,5 +59,6 @@ public class ChaosketModEntities {
 		event.put(PINGUIN.get(), PinguinEntity.createAttributes().build());
 		event.put(PAUK_2_GOD.get(), Pauk2GODEntity.createAttributes().build());
 		event.put(FIREFLY.get(), FireflyEntity.createAttributes().build());
+		event.put(SOUL_FIREFLY.get(), SoulFireflyEntity.createAttributes().build());
 	}
 }

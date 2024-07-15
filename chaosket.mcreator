@@ -919,6 +919,25 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "SoulFirefly",
+      "type": "animatedentity",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_firefly",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/entity/model/SoulFireflyModel.java",
+          "src/main/java/wuzu/ian/chaosket/entity/SoulFireflyEntity.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/SoulFireflyRenderer.java",
+          "src/main/resources/assets/chaosket/models/item/soul_firefly_spawn_egg.json",
+          "src/main/java/wuzu/ian/chaosket/entity/layer/SoulFireflyLayer.java",
+          "src/main/resources/data/chaosket/forge/biome_modifier/soul_firefly_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -929,6 +948,7 @@
       "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
+      "entity.chaosket.soul_firefly": "Firefly",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
@@ -957,6 +977,7 @@
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
       "block.chaosket.jail_door": "Jail Door",
+      "item.chaosket.soul_firefly_spawn_egg": "Firefly Spawn Egg",
       "block.chaosket.endanchor": "Endanchor",
       "block.chaosket.der_hosen_teppich": "Der Hosen Teppich",
       "item.chaosket.firefly_spawn_egg": "Firefly Spawn Egg"
@@ -966,6 +987,7 @@
       "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
+      "entity.chaosket.soul_firefly": "Firefly",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "item.chaosket.ring_of_unduing": "Ring Of Unduing",
@@ -994,6 +1016,7 @@
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
       "block.chaosket.jail_door": "Jail Door",
+      "item.chaosket.soul_firefly_spawn_egg": "Firefly Spawn Egg",
       "block.chaosket.endanchor": "Endanchor",
       "block.chaosket.der_hosen_teppich": "Der Hosen Teppich",
       "item.chaosket.firefly_spawn_egg": "Glühwürmchen Spawn Ei"

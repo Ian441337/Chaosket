@@ -1,8 +1,13 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "ice_spikes",
+    "snowy_slopes",
+    "plains",
+    "snowy_beach",
+    "snowy_plains",
+    "snowy_taiga"
+  ],
   "spawners": {
     "type": "chaosket:pinguin",
     "weight": 20,

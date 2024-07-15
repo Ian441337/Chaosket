@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "soul_sand_valley",
+  "spawners": {
+    "type": "chaosket:soul_firefly",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 5
+  }
+}
