@@ -50,7 +50,7 @@ public class ChaosketModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ChaosketModItems.IMMERDABEI.get());
 		}
 	}

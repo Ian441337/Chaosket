@@ -981,12 +981,12 @@
       "subtitle": ""
     },
     {
-      "name": "immer_dabei",
+      "name": "immerdabei",
       "files": [
-        "immer_dabei_paul2craft_ai_song_by_ian1337"
+        "immer_dabei"
       ],
       "category": "music",
-      "subtitle": "Paul2Craft KI Song by Ian1337"
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1007,6 +1007,7 @@
       "block.chaosket.basalt": "Basalt",
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "block.chaosket.datablock": "Datablock",
+      "subtitles.immerdabei": "",
       "block.chaosket.lostspacelaserbrige": "Laserbrige",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
@@ -1050,6 +1051,7 @@
       "block.chaosket.basalt": "Basalt",
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "block.chaosket.datablock": "Datablock",
+      "subtitles.immerdabei": "",
       "block.chaosket.lostspacelaserbrige": "Laserbrige",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",

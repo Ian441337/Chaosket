@@ -7,7 +7,7 @@
     "texture": "immerdabeidisk",
     "description": "Paul2Craft KI Song by Ian1337",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "TOOLS"
     },
     "specialInformation": {
       "fixedValue": []
@@ -16,7 +16,7 @@
       "fixedValue": false
     },
     "music": {
-      "value": "CUSTOM:immer_dabei"
+      "value": "CUSTOM:immerdabei"
     },
     "lengthInTicks": 100,
     "analogOutput": 0

@@ -7,11 +7,10 @@
       }
     ]
   },
-  "immer_dabei": {
-    "subtitle": "subtitles.immer_dabei",
+  "immerdabei": {
     "sounds": [
       {
-        "name": "chaosket:immer_dabei_paul2craft_ai_song_by_ian1337",
+        "name": "chaosket:immer_dabei",
         "stream": true
       }
     ]
