@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Immer Dabei",
+    "rarity": "COMMON",
+    "texture": "immerdabeidisk",
+    "description": "Paul2Craft KI Song by Ian1337",
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:immer_dabei"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

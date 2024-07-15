@@ -954,6 +954,20 @@
         ]
       },
       "path": "~/recepi"
+    },
+    {
+      "name": "Immerdabei",
+      "type": "musicdisc",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immerdabei",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/item/ImmerdabeiItem.java",
+          "src/main/resources/assets/chaosket/models/item/immerdabei.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -965,6 +979,14 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "immer_dabei",
+      "files": [
+        "immer_dabei_paul2craft_ai_song_by_ian1337"
+      ],
+      "category": "music",
+      "subtitle": "Paul2Craft KI Song by Ian1337"
     }
   ],
   "language_map": {
@@ -977,6 +999,7 @@
       "block.chaosket.basaltwithlight": "Basaltwithlight",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
+      "item.chaosket.immerdabei.desc": "Paul2Craft KI Song by Ian1337",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "subtitles.laser": "",
       "painting.chaosket.wanted.title": "Wanted",
@@ -998,8 +1021,10 @@
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "painting.chaosket.wanted.author": "???",
+      "subtitles.immer_dabei": "Paul2Craft KI Song by Ian1337",
       "item.chaosket.itemcreative_tab": "Item.creative.tab",
       "painting.chaosket.ckowner.title": "Ckowner",
+      "item.chaosket.immerdabei": "Immer Dabei",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
       "block.chaosket.jail_door": "Jail Door",
@@ -1017,6 +1042,7 @@
       "block.chaosket.basaltwithlight": "Basaltwithlight",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
+      "item.chaosket.immerdabei.desc": "Paul2Craft KI Song by Ian1337",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "subtitles.laser": "",
       "painting.chaosket.wanted.title": "Wanted",
@@ -1038,8 +1064,10 @@
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "painting.chaosket.wanted.author": "???",
+      "subtitles.immer_dabei": "Paul2Craft KI Song by Ian1337",
       "item.chaosket.itemcreative_tab": "Item.creative.tab",
       "painting.chaosket.ckowner.title": "Ckowner",
+      "item.chaosket.immerdabei": "Immer Dabei",
       "gui.chaosket.travelanchor.label_travel_anchor": "Travel Anchor",
       "entity.chaosket.pinguin": "Pinguin",
       "block.chaosket.jail_door": "Jail Door",
