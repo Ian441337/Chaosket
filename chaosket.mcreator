@@ -31,7 +31,7 @@
           "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
         ]
       },
-      "path": "~/travel_anchor"
+      "path": "~/dimension/travel_anchor"
     },
     {
       "name": "Travelanchordisplayblock",
@@ -45,7 +45,7 @@
           "src/main/resources/data/chaosket/functions/travelanchordisplayblock.mcfunction"
         ]
       },
-      "path": "~/travel_anchor"
+      "path": "~/dimension/travel_anchor"
     },
     {
       "name": "TravelanchorblockUpdateTick",
@@ -77,7 +77,7 @@
           }
         ]
       },
-      "path": "~/travel_anchor"
+      "path": "~/dimension/travel_anchor"
     },
     {
       "name": "ChaosKet",
@@ -120,7 +120,7 @@
           }
         ]
       },
-      "path": "~/travel_anchor"
+      "path": "~/dimension/travel_anchor"
     },
     {
       "name": "Travelanchordirection",
@@ -144,7 +144,7 @@
           }
         ]
       },
-      "path": "~/travel_anchor"
+      "path": "~/dimension/travel_anchor"
     },
     {
       "name": "Staffoftraveling",
@@ -159,7 +159,7 @@
           "src/main/java/wuzu/ian/chaosket/item/StaffoftravelingItem.java"
         ]
       },
-      "path": "~/travel_anchor"
+      "path": "~/dimension/travel_anchor"
     },
     {
       "name": "Ckowner",
@@ -251,7 +251,7 @@
           "src/main/resources/assets/chaosket/models/item/laserbrige.json"
         ]
       },
-      "path": "~/laserbrige"
+      "path": "~/blocks/laserbrige"
     },
     {
       "name": "Laserbrigeprojector",
@@ -268,7 +268,7 @@
           "src/main/resources/assets/chaosket/models/item/laserbrigeprojector.json"
         ]
       },
-      "path": "~/laserbrige"
+      "path": "~/blocks/laserbrige"
     },
     {
       "name": "LaserbrigeprojectorRedstoneOn",
@@ -300,7 +300,7 @@
           }
         ]
       },
-      "path": "~/laserbrige"
+      "path": "~/blocks/laserbrige"
     },
     {
       "name": "LaserbrigeprojectorRedstoneOff",
@@ -332,7 +332,7 @@
           }
         ]
       },
-      "path": "~/laserbrige"
+      "path": "~/blocks/laserbrige"
     },
     {
       "name": "StaffoftravelingRightclicked",
@@ -356,7 +356,7 @@
           }
         ]
       },
-      "path": "~/travel_anchor"
+      "path": "~/dimension/travel_anchor"
     },
     {
       "name": "JailDoor",
@@ -380,7 +380,7 @@
           "src/main/resources/assets/chaosket/models/block/jail_door_bottom_right.json"
         ]
       },
-      "path": "~/doors"
+      "path": "~/blocks/doors"
     },
     {
       "name": "TravelAnchorblock",
@@ -398,7 +398,7 @@
           "src/main/resources/assets/chaosket/models/block/travel_anchorblock.json"
         ]
       },
-      "path": "~/travel_anchor"
+      "path": "~/dimension/travel_anchor"
     },
     {
       "name": "LaserbrigeUpdateTick",
@@ -430,7 +430,7 @@
           }
         ]
       },
-      "path": "~/laserbrige"
+      "path": "~/blocks/laserbrige"
     },
     {
       "name": "Endanchor",
@@ -447,7 +447,7 @@
           "src/main/resources/assets/chaosket/blockstates/endanchor.json"
         ]
       },
-      "path": "~/End Anchor"
+      "path": "~/blocks/End Anchor"
     },
     {
       "name": "EndanchorBlockIsPlacedBy",
@@ -479,7 +479,7 @@
           }
         ]
       },
-      "path": "~/End Anchor"
+      "path": "~/blocks/End Anchor"
     },
     {
       "name": "SobelRightclicked",
@@ -571,7 +571,7 @@
           "src/main/resources/data/chaosket/recipes/jaildoorr.json"
         ]
       },
-      "path": "~/doors"
+      "path": "~/blocks/doors"
     },
     {
       "name": "Chaosaltargui",
@@ -586,7 +586,7 @@
           "src/main/java/wuzu/ian/chaosket/client/gui/ChaosaltarguiScreen.java"
         ]
       },
-      "path": "~/chaosaltar"
+      "path": "~/blocks/chaosaltar"
     },
     {
       "name": "Armoredim",
@@ -736,7 +736,7 @@
           "src/main/resources/assets/chaosket/models/custom/chaosaltar_particle.json"
         ]
       },
-      "path": "~/chaosaltar"
+      "path": "~/blocks/chaosaltar"
     },
     {
       "name": "Wanted",
@@ -1013,14 +1013,6 @@
         "children": []
       },
       {
-        "name": "chaosaltar",
-        "children": []
-      },
-      {
-        "name": "laserbrige",
-        "children": []
-      },
-      {
         "name": "strohhut",
         "children": []
       },
@@ -1029,26 +1021,35 @@
         "children": []
       },
       {
-        "name": "travel_anchor",
-        "children": []
-      },
-      {
-        "name": "doors",
-        "children": []
-      },
-      {
         "name": "blocks",
-        "children": []
-      },
-      {
-        "name": "End Anchor",
-        "children": []
+        "children": [
+          {
+            "name": "laserbrige",
+            "children": []
+          },
+          {
+            "name": "End Anchor",
+            "children": []
+          },
+          {
+            "name": "chaosaltar",
+            "children": []
+          },
+          {
+            "name": "doors",
+            "children": []
+          }
+        ]
       },
       {
         "name": "dimension",
         "children": [
           {
             "name": "armoredim",
+            "children": []
+          },
+          {
+            "name": "travel_anchor",
             "children": []
           }
         ]
