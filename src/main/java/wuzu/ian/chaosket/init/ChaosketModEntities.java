@@ -6,6 +6,7 @@ package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.entity.PinguinEntity;
 import wuzu.ian.chaosket.entity.Pauk2GODEntity;
+import wuzu.ian.chaosket.entity.FireflyEntity;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -29,6 +30,10 @@ public class ChaosketModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<Pauk2GODEntity>> PAUK_2_GOD = register("pauk_2_god",
 			EntityType.Builder.<Pauk2GODEntity>of(Pauk2GODEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Pauk2GODEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FireflyEntity>> FIREFLY = register("firefly",
+			EntityType.Builder.<FireflyEntity>of(FireflyEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireflyEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -39,6 +44,7 @@ public class ChaosketModEntities {
 		event.enqueueWork(() -> {
 			PinguinEntity.init();
 			Pauk2GODEntity.init();
+			FireflyEntity.init();
 		});
 	}
 
@@ -46,5 +52,6 @@ public class ChaosketModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(PINGUIN.get(), PinguinEntity.createAttributes().build());
 		event.put(PAUK_2_GOD.get(), Pauk2GODEntity.createAttributes().build());
+		event.put(FIREFLY.get(), FireflyEntity.createAttributes().build());
 	}
 }

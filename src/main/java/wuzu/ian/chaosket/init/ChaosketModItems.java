@@ -46,6 +46,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
 	public static final RegistryObject<Item> DER_HOSEN_TEPPICH = block(ChaosketModBlocks.DER_HOSEN_TEPPICH);
 	public static final RegistryObject<Item> SIREN = REGISTRY.register("siren", () -> new SirenItem());
+	public static final RegistryObject<Item> FIREFLY_SPAWN_EGG = REGISTRY.register("firefly_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.FIREFLY, -10079488, -256, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

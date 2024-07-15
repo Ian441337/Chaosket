@@ -39,6 +39,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModBlocks.BASALT.get().asItem());
 				tabData.accept(ChaosketModBlocks.DER_HOSEN_TEPPICH.get().asItem());
 				tabData.accept(ChaosketModItems.SIREN.get());
+				tabData.accept(ChaosketModItems.FIREFLY_SPAWN_EGG.get());
 			})
 
 					.build());
