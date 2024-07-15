@@ -123,21 +123,6 @@
       "path": "~/travel_anchor"
     },
     {
-      "name": "RingOfUnduing",
-      "type": "curiosbauble",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ring_of_unduing",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chaosket/models/item/ring_of_unduing.json",
-          "src/main/java/wuzu/ian/chaosket/item/RingOfUnduingItem.java"
-        ]
-      },
-      "path": "~/Bauble"
-    },
-    {
       "name": "Travelanchordirection",
       "type": "procedure",
       "sortid": 11,
@@ -951,7 +936,6 @@
       "entity.chaosket.soul_firefly": "Firefly",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
-      "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "painting.chaosket.wanted.title": "Wanted",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
@@ -990,7 +974,6 @@
       "entity.chaosket.soul_firefly": "Firefly",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
-      "item.chaosket.ring_of_unduing": "Ring Of Unduing",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "painting.chaosket.wanted.title": "Wanted",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
@@ -1059,10 +1042,6 @@
       },
       {
         "name": "End Anchor",
-        "children": []
-      },
-      {
-        "name": "Bauble",
         "children": []
       },
       {
