@@ -18,9 +18,9 @@ import net.minecraftforge.api.distmarker.Dist;
 public class ChaosketModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(ChaosketModEntities.PINGUIN.get(), PinguinRenderer::new);
 		event.registerEntityRenderer(ChaosketModEntities.PAUK_2_GOD.get(), Pauk2GODRenderer::new);
 		event.registerEntityRenderer(ChaosketModEntities.FIREFLY.get(), FireflyRenderer::new);
 		event.registerEntityRenderer(ChaosketModEntities.SOUL_FIREFLY.get(), SoulFireflyRenderer::new);
+		event.registerEntityRenderer(ChaosketModEntities.PINGUIN.get(), PinguinRenderer::new);
 	}
 }
