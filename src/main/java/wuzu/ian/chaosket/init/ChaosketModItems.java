@@ -47,6 +47,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> SIREN = REGISTRY.register("siren", () -> new SirenItem());
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
+	public static final RegistryObject<Item> TESTSKINBLOCK = block(ChaosketModBlocks.TESTSKINBLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -14,6 +14,7 @@
 package wuzu.ian.chaosket;
 
 import wuzu.ian.chaosket.init.ChaosketModTabs;
+import wuzu.ian.chaosket.init.ChaosketModSounds;
 import wuzu.ian.chaosket.init.ChaosketModPaintings;
 import wuzu.ian.chaosket.init.ChaosketModMenus;
 import wuzu.ian.chaosket.init.ChaosketModItems;
@@ -54,7 +55,7 @@ public class ChaosketMod {
 	public ChaosketMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ChaosketModSounds.REGISTRY.register(bus);
 		ChaosketModBlocks.REGISTRY.register(bus);
 		ChaosketModBlockEntities.REGISTRY.register(bus);
 		ChaosketModItems.REGISTRY.register(bus);

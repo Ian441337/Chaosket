@@ -1,0 +1,10 @@
+{
+  "laser": {
+    "sounds": [
+      {
+        "name": "chaosket:laser",
+        "stream": false
+      }
+    ]
+  }
+}

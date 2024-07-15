@@ -5,6 +5,7 @@
 package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.block.TravelAnchorblockBlock;
+import wuzu.ian.chaosket.block.TestskinblockBlock;
 import wuzu.ian.chaosket.block.LostspacelaserbrigeBlock;
 import wuzu.ian.chaosket.block.LaserbrigeprojectorBlock;
 import wuzu.ian.chaosket.block.LaserbrigeBlock;
@@ -36,4 +37,5 @@ public class ChaosketModBlocks {
 	public static final RegistryObject<Block> JAIL_DOOR = REGISTRY.register("jail_door", () -> new JailDoorBlock());
 	public static final RegistryObject<Block> LOSTSPACELASERBRIGE = REGISTRY.register("lostspacelaserbrige", () -> new LostspacelaserbrigeBlock());
 	public static final RegistryObject<Block> LASERBRIGE = REGISTRY.register("laserbrige", () -> new LaserbrigeBlock());
+	public static final RegistryObject<Block> TESTSKINBLOCK = REGISTRY.register("testskinblock", () -> new TestskinblockBlock());
 }
