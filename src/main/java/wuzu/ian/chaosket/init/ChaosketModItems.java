@@ -27,6 +27,7 @@ import net.minecraft.world.item.ArmorItem;
 public class ChaosketModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ChaosketMod.MODID);
 	public static final RegistryObject<Item> BASALT = block(ChaosketModBlocks.BASALT);
+	public static final RegistryObject<Item> BASALTWITHLIGHT = block(ChaosketModBlocks.BASALTWITHLIGHT);
 	public static final RegistryObject<Item> DATABLOCK = block(ChaosketModBlocks.DATABLOCK);
 	public static final RegistryObject<Item> DER_HOSEN_TEPPICH = block(ChaosketModBlocks.DER_HOSEN_TEPPICH);
 	public static final RegistryObject<Item> LASERBRIGEPROJECTOR = block(ChaosketModBlocks.LASERBRIGEPROJECTOR);
@@ -46,7 +47,6 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> SIREN = REGISTRY.register("siren", () -> new SirenItem());
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
-	public static final RegistryObject<Item> BASALTWITHLIGHT = block(ChaosketModBlocks.BASALTWITHLIGHT);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
