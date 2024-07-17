@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "chaosket:custom/capsuel_particle"
+    },
+    "facing=east": {
+      "model": "chaosket:custom/capsuel_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chaosket:custom/capsuel_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chaosket:custom/capsuel_particle",
+      "y": 270
     }
   }
 }
