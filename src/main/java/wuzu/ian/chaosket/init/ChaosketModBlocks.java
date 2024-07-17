@@ -31,11 +31,11 @@ public class ChaosketModBlocks {
 	public static final RegistryObject<Block> DATABLOCK = REGISTRY.register("datablock", () -> new DatablockBlock());
 	public static final RegistryObject<Block> DER_HOSEN_TEPPICH = REGISTRY.register("der_hosen_teppich", () -> new DerHosenTeppichBlock());
 	public static final RegistryObject<Block> LASERBRIGEPROJECTOR = REGISTRY.register("laserbrigeprojector", () -> new LaserbrigeprojectorBlock());
+	public static final RegistryObject<Block> CAPSUEL = REGISTRY.register("capsuel", () -> new CapsuelBlock());
 	public static final RegistryObject<Block> TRAVEL_ANCHORBLOCK = REGISTRY.register("travel_anchorblock", () -> new TravelAnchorblockBlock());
 	public static final RegistryObject<Block> ENDANCHOR = REGISTRY.register("endanchor", () -> new EndanchorBlock());
 	public static final RegistryObject<Block> CHAOSALTAR = REGISTRY.register("chaosaltar", () -> new ChaosaltarBlock());
 	public static final RegistryObject<Block> JAIL_DOOR = REGISTRY.register("jail_door", () -> new JailDoorBlock());
 	public static final RegistryObject<Block> LOSTSPACELASERBRIGE = REGISTRY.register("lostspacelaserbrige", () -> new LostspacelaserbrigeBlock());
 	public static final RegistryObject<Block> LASERBRIGE = REGISTRY.register("laserbrige", () -> new LaserbrigeBlock());
-	public static final RegistryObject<Block> CAPSUEL = REGISTRY.register("capsuel", () -> new CapsuelBlock());
 }

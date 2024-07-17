@@ -33,6 +33,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> DATABLOCK = block(ChaosketModBlocks.DATABLOCK);
 	public static final RegistryObject<Item> DER_HOSEN_TEPPICH = block(ChaosketModBlocks.DER_HOSEN_TEPPICH);
 	public static final RegistryObject<Item> LASERBRIGEPROJECTOR = block(ChaosketModBlocks.LASERBRIGEPROJECTOR);
+	public static final RegistryObject<Item> CAPSUEL = REGISTRY.register(ChaosketModBlocks.CAPSUEL.getId().getPath(), () -> new CapsuelDisplayItem(ChaosketModBlocks.CAPSUEL.get(), new Item.Properties()));
 	public static final RegistryObject<Item> TRAVEL_ANCHORBLOCK = block(ChaosketModBlocks.TRAVEL_ANCHORBLOCK);
 	public static final RegistryObject<Item> ENDANCHOR = block(ChaosketModBlocks.ENDANCHOR);
 	public static final RegistryObject<Item> CHAOSALTAR = REGISTRY.register(ChaosketModBlocks.CHAOSALTAR.getId().getPath(), () -> new ChaosaltarDisplayItem(ChaosketModBlocks.CHAOSALTAR.get(), new Item.Properties()));
@@ -50,7 +51,6 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> SIREN = REGISTRY.register("siren", () -> new SirenItem());
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
-	public static final RegistryObject<Item> CAPSUEL = REGISTRY.register(ChaosketModBlocks.CAPSUEL.getId().getPath(), () -> new CapsuelDisplayItem(ChaosketModBlocks.CAPSUEL.get(), new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

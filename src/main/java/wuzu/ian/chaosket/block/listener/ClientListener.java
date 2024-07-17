@@ -16,7 +16,7 @@ public class ClientListener {
 	@OnlyIn(Dist.CLIENT)
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerBlockEntityRenderer(ChaosketModBlockEntities.CHAOSALTAR.get(), context -> new ChaosaltarTileRenderer());
 		event.registerBlockEntityRenderer(ChaosketModBlockEntities.CAPSUEL.get(), context -> new CapsuelTileRenderer());
+		event.registerBlockEntityRenderer(ChaosketModBlockEntities.CHAOSALTAR.get(), context -> new ChaosaltarTileRenderer());
 	}
 }

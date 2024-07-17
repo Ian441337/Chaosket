@@ -23,6 +23,7 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModBlocks.DATABLOCK.get().asItem());
 				tabData.accept(ChaosketModBlocks.DER_HOSEN_TEPPICH.get().asItem());
 				tabData.accept(ChaosketModBlocks.LASERBRIGEPROJECTOR.get().asItem());
+				tabData.accept(ChaosketModBlocks.CAPSUEL.get().asItem());
 				tabData.accept(ChaosketModBlocks.TRAVEL_ANCHORBLOCK.get().asItem());
 				tabData.accept(ChaosketModBlocks.ENDANCHOR.get().asItem());
 				tabData.accept(ChaosketModBlocks.CHAOSALTAR.get().asItem());
@@ -39,7 +40,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.STOPSHADER.get());
 				tabData.accept(ChaosketModItems.SOBEL.get());
 				tabData.accept(ChaosketModItems.SIREN.get());
-				tabData.accept(ChaosketModBlocks.CAPSUEL.get().asItem());
 			})
 
 					.build());
