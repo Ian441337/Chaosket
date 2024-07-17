@@ -69,8 +69,8 @@
     "armorBaseValue": 0.0,
     "trackingRange": 100,
     "followRange": 0,
-    "health": 10,
-    "xpAmount": 0,
+    "health": 999,
+    "xpAmount": 999,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -120,9 +120,9 @@
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">0</field><field name=\"max_distance\">200</field><field name=\"condition\">null,null</field></block></next></block></xml>",
-    "breedable": false,
-    "tameable": false,
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">200</field><field name=\"max_distance\">0</field><field name=\"condition\">null,null</field></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {

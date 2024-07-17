@@ -1002,8 +1002,8 @@
       "registry_name": "armorfly",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/client/renderer/ArmorflyRenderer.java",
-          "src/main/java/wuzu/ian/chaosket/entity/ArmorflyEntity.java"
+          "src/main/java/wuzu/ian/chaosket/entity/ArmorflyEntity.java",
+          "src/main/java/wuzu/ian/chaosket/client/renderer/ArmorflyRenderer.java"
         ]
       },
       "path": "~/blocks/capsuel"

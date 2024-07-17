@@ -8,7 +8,7 @@ public class ArmorflyRightClickedOnEntityProcedure {
 	public static void execute(Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (sourceentity instanceof TamableAnimal _toTame && entity instanceof Player _owner)
+		if (entity instanceof TamableAnimal _toTame && sourceentity instanceof Player _owner)
 			_toTame.tame(_owner);
 	}
 }
