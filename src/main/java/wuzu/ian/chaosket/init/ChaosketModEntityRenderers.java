@@ -8,6 +8,7 @@ import wuzu.ian.chaosket.client.renderer.SoulFireflyRenderer;
 import wuzu.ian.chaosket.client.renderer.PinguinRenderer;
 import wuzu.ian.chaosket.client.renderer.Pauk2GODRenderer;
 import wuzu.ian.chaosket.client.renderer.FireflyRenderer;
+import wuzu.ian.chaosket.client.renderer.ArmorflyRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,5 +23,6 @@ public class ChaosketModEntityRenderers {
 		event.registerEntityRenderer(ChaosketModEntities.FIREFLY.get(), FireflyRenderer::new);
 		event.registerEntityRenderer(ChaosketModEntities.SOUL_FIREFLY.get(), SoulFireflyRenderer::new);
 		event.registerEntityRenderer(ChaosketModEntities.PINGUIN.get(), PinguinRenderer::new);
+		event.registerEntityRenderer(ChaosketModEntities.ARMORFLY.get(), ArmorflyRenderer::new);
 	}
 }

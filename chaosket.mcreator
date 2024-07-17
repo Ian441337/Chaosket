@@ -992,6 +992,45 @@
         ]
       },
       "path": "~/blocks/capsuel"
+    },
+    {
+      "name": "Armorfly",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armorfly",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/client/renderer/ArmorflyRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/entity/ArmorflyEntity.java"
+        ]
+      },
+      "path": "~/gui"
+    },
+    {
+      "name": "ArmorflyRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armorfly_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/ArmorflyRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gui"
     }
   ],
   "variable_elements": [],
@@ -1054,7 +1093,6 @@
       "entity.chaosket.pinguin": "Pinguin",
       "block.chaosket.jail_door": "Jail Door",
       "item.chaosket.soul_firefly_spawn_egg": "Firefly Spawn Egg",
-      "block.chaosket.capsuel": "Capsuel",
       "block.chaosket.endanchor": "Endanchor",
       "block.chaosket.der_hosen_teppich": "Der Hosen Teppich",
       "item.chaosket.firefly_spawn_egg": "Firefly Spawn Egg"
@@ -1064,41 +1102,8 @@
     "name": "~",
     "children": [
       {
-        "name": "effects",
+        "name": "recepi",
         "children": []
-      },
-      {
-        "name": "strohhut",
-        "children": []
-      },
-      {
-        "name": "test",
-        "children": []
-      },
-      {
-        "name": "blocks",
-        "children": [
-          {
-            "name": "laserbrige",
-            "children": []
-          },
-          {
-            "name": "End Anchor",
-            "children": []
-          },
-          {
-            "name": "chaosaltar",
-            "children": []
-          },
-          {
-            "name": "doors",
-            "children": []
-          },
-          {
-            "name": "capsuel",
-            "children": []
-          }
-        ]
       },
       {
         "name": "dimension",
@@ -1114,6 +1119,10 @@
         ]
       },
       {
+        "name": "effects",
+        "children": []
+      },
+      {
         "name": "Chaosium",
         "children": []
       },
@@ -1122,12 +1131,45 @@
         "children": []
       },
       {
-        "name": "recepi",
+        "name": "strohhut",
+        "children": []
+      },
+      {
+        "name": "test",
+        "children": []
+      },
+      {
+        "name": "gui",
         "children": []
       },
       {
         "name": "items",
         "children": []
+      },
+      {
+        "name": "blocks",
+        "children": [
+          {
+            "name": "laserbrige",
+            "children": []
+          },
+          {
+            "name": "End Anchor",
+            "children": []
+          },
+          {
+            "name": "capsuel",
+            "children": []
+          },
+          {
+            "name": "chaosaltar",
+            "children": []
+          },
+          {
+            "name": "doors",
+            "children": []
+          }
+        ]
       }
     ]
   },

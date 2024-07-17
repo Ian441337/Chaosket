@@ -1,11 +1,5 @@
 package wuzu.ian.chaosket.block.model;
 
-import wuzu.ian.chaosket.block.entity.CapsuelTileEntity;
-
-import software.bernie.geckolib.model.GeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
 public class CapsuelBlockModel extends GeoModel<CapsuelTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(CapsuelTileEntity animatable) {

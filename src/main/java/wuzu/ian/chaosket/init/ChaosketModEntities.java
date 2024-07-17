@@ -8,6 +8,7 @@ import wuzu.ian.chaosket.entity.SoulFireflyEntity;
 import wuzu.ian.chaosket.entity.PinguinEntity;
 import wuzu.ian.chaosket.entity.Pauk2GODEntity;
 import wuzu.ian.chaosket.entity.FireflyEntity;
+import wuzu.ian.chaosket.entity.ArmorflyEntity;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -39,6 +40,8 @@ public class ChaosketModEntities {
 			EntityType.Builder.<PinguinEntity>of(PinguinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PinguinEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ArmorflyEntity>> ARMORFLY = register("armorfly",
+			EntityType.Builder.<ArmorflyEntity>of(ArmorflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(ArmorflyEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -51,6 +54,7 @@ public class ChaosketModEntities {
 			FireflyEntity.init();
 			SoulFireflyEntity.init();
 			PinguinEntity.init();
+			ArmorflyEntity.init();
 		});
 	}
 
@@ -60,5 +64,6 @@ public class ChaosketModEntities {
 		event.put(FIREFLY.get(), FireflyEntity.createAttributes().build());
 		event.put(SOUL_FIREFLY.get(), SoulFireflyEntity.createAttributes().build());
 		event.put(PINGUIN.get(), PinguinEntity.createAttributes().build());
+		event.put(ARMORFLY.get(), ArmorflyEntity.createAttributes().build());
 	}
 }
