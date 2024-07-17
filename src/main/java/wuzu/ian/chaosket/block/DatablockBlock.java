@@ -47,7 +47,7 @@ public class DatablockBlock extends Block {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return this.defaultBlockState().setValue(FACING, context.getNearestLookingDirection().getOpposite());
+		return this.defaultBlockState().setValue(FACING, context.getClickedFace());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {

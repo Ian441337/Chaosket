@@ -13,6 +13,7 @@ import wuzu.ian.chaosket.block.EndanchorBlock;
 import wuzu.ian.chaosket.block.DerHosenTeppichBlock;
 import wuzu.ian.chaosket.block.DatablockBlock;
 import wuzu.ian.chaosket.block.ChaosaltarBlock;
+import wuzu.ian.chaosket.block.CapsuelBlock;
 import wuzu.ian.chaosket.block.BasaltwithlightBlock;
 import wuzu.ian.chaosket.block.BasaltBlock;
 import wuzu.ian.chaosket.ChaosketMod;
@@ -36,4 +37,5 @@ public class ChaosketModBlocks {
 	public static final RegistryObject<Block> JAIL_DOOR = REGISTRY.register("jail_door", () -> new JailDoorBlock());
 	public static final RegistryObject<Block> LOSTSPACELASERBRIGE = REGISTRY.register("lostspacelaserbrige", () -> new LostspacelaserbrigeBlock());
 	public static final RegistryObject<Block> LASERBRIGE = REGISTRY.register("laserbrige", () -> new LaserbrigeBlock());
+	public static final RegistryObject<Block> CAPSUEL = REGISTRY.register("capsuel", () -> new CapsuelBlock());
 }

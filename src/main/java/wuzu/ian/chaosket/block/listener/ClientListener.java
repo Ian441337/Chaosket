@@ -2,6 +2,7 @@ package wuzu.ian.chaosket.block.listener;
 
 import wuzu.ian.chaosket.init.ChaosketModBlockEntities;
 import wuzu.ian.chaosket.block.renderer.ChaosaltarTileRenderer;
+import wuzu.ian.chaosket.block.renderer.CapsuelTileRenderer;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.fml.common.Mod;
@@ -16,5 +17,6 @@ public class ClientListener {
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(ChaosketModBlockEntities.CHAOSALTAR.get(), context -> new ChaosaltarTileRenderer());
+		event.registerBlockEntityRenderer(ChaosketModBlockEntities.CAPSUEL.get(), context -> new CapsuelTileRenderer());
 	}
 }

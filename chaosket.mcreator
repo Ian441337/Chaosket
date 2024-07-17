@@ -969,6 +969,29 @@
         ]
       },
       "path": "~/items"
+    },
+    {
+      "name": "Capsuel",
+      "type": "animatedblock",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsuel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaosket/blockstates/capsuel.json",
+          "src/main/resources/assets/chaosket/models/item/capsuel.json",
+          "src/main/java/wuzu/ian/chaosket/block/model/CapsuelBlockModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/CapsuelDisplayItemRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/block/model/CapsuelDisplayModel.java",
+          "src/main/java/wuzu/ian/chaosket/block/display/CapsuelDisplayItem.java",
+          "src/main/java/wuzu/ian/chaosket/block/CapsuelBlock.java",
+          "src/main/resources/assets/chaosket/models/custom/capsuel_particle.json",
+          "src/main/java/wuzu/ian/chaosket/block/renderer/CapsuelTileRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/block/entity/CapsuelTileEntity.java"
+        ]
+      },
+      "path": "~/blocks/capsuel"
     }
   ],
   "variable_elements": [],
@@ -1031,6 +1054,7 @@
       "entity.chaosket.pinguin": "Pinguin",
       "block.chaosket.jail_door": "Jail Door",
       "item.chaosket.soul_firefly_spawn_egg": "Firefly Spawn Egg",
+      "block.chaosket.capsuel": "Capsuel",
       "block.chaosket.endanchor": "Endanchor",
       "block.chaosket.der_hosen_teppich": "Der Hosen Teppich",
       "item.chaosket.firefly_spawn_egg": "Firefly Spawn Egg"
@@ -1068,6 +1092,10 @@
           },
           {
             "name": "doors",
+            "children": []
+          },
+          {
+            "name": "capsuel",
             "children": []
           }
         ]

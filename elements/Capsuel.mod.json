@@ -1,16 +1,15 @@
 {
   "_fv": 57,
-  "_type": "block",
+  "_type": "animatedblock",
   "definition": {
-    "texture": "datablock",
+    "texture": "capsuel",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 4,
+    "renderType": 0,
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Datablock",
+    "name": "Capsuel",
     "specialInformation": {
       "fixedValue": []
     },
@@ -54,9 +53,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -77,11 +76,12 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
+    "animationCount": 1,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -101,7 +101,13 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "isBonemealable": false,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -109,6 +115,7 @@
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
+    "generateFeature": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -119,17 +126,14 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 64,
+    "normal": "capsel.geo.json",
+    "displaySettings": "capsel.item.json"
   }
 }

@@ -12,6 +12,7 @@ import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.ItemcreativeTabItem;
 import wuzu.ian.chaosket.item.ImmerdabeiItem;
 import wuzu.ian.chaosket.block.display.ChaosaltarDisplayItem;
+import wuzu.ian.chaosket.block.display.CapsuelDisplayItem;
 import wuzu.ian.chaosket.ChaosketMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -49,6 +50,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> SIREN = REGISTRY.register("siren", () -> new SirenItem());
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
+	public static final RegistryObject<Item> CAPSUEL = REGISTRY.register(ChaosketModBlocks.CAPSUEL.getId().getPath(), () -> new CapsuelDisplayItem(ChaosketModBlocks.CAPSUEL.get(), new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
