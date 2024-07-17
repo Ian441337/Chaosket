@@ -20,7 +20,7 @@
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "CUTOUT",
-    "disableOffset": true,
+    "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
