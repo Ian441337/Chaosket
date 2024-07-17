@@ -1031,6 +1031,21 @@
         ]
       },
       "path": "~/blocks/capsuel"
+    },
+    {
+      "name": "Capsulgui",
+      "type": "gui",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsulgui",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/world/inventory/CapsulguiMenu.java",
+          "src/main/java/wuzu/ian/chaosket/client/gui/CapsulguiScreen.java"
+        ]
+      },
+      "path": "~/blocks/capsuel"
     }
   ],
   "variable_elements": [],
@@ -1067,6 +1082,7 @@
       "subtitles.laser": "",
       "painting.chaosket.wanted.title": "Wanted",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
+      "gui.chaosket.capsulgui.label_capsul": "Capsul",
       "block.chaosket.basalt": "Basalt",
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "block.chaosket.datablock": "Datablock",
