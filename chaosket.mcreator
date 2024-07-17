@@ -969,6 +969,18 @@
         ]
       },
       "path": "~/items"
+    },
+    {
+      "name": "N1",
+      "type": "painting",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "n_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/test"
     }
   ],
   "variable_elements": [],
@@ -1005,6 +1017,7 @@
       "subtitles.laser": "",
       "painting.chaosket.wanted.title": "Wanted",
       "block.chaosket.laserbrigeprojector": "Laserbrigeprojector",
+      "painting.chaosket.n_1.author": "v",
       "block.chaosket.basalt": "Basalt",
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "block.chaosket.datablock": "Datablock",
@@ -1024,6 +1037,7 @@
       "gui.chaosket.travelanchor.travel_anchor_name": "NAME",
       "painting.chaosket.wanted.author": "???",
       "subtitles.immer_dabei": "Paul2Craft KI Song by Ian1337",
+      "painting.chaosket.n_1.title": "N 1",
       "item.chaosket.itemcreative_tab": "Item.creative.tab",
       "painting.chaosket.ckowner.title": "Ckowner",
       "item.chaosket.immerdabei": "Immer Dabei",

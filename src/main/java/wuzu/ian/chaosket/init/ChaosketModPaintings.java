@@ -16,4 +16,5 @@ public class ChaosketModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, ChaosketMod.MODID);
 	public static final RegistryObject<PaintingVariant> CKOWNER = REGISTRY.register("ckowner", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> WANTED = REGISTRY.register("wanted", () -> new PaintingVariant(16, 32));
+	public static final RegistryObject<PaintingVariant> N_1 = REGISTRY.register("n_1", () -> new PaintingVariant(48, 32));
 }

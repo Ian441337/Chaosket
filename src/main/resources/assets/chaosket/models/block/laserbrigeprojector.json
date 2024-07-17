@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "chaosket:block/gray",
-    "up": "chaosket:block/gray",
-    "north": "chaosket:block/gray",
-    "east": "chaosket:block/gray",
-    "south": "chaosket:block/laserbrigeprojector",
-    "west": "chaosket:block/gray",
-    "particle": "chaosket:block/gray"
+    "down": "chaosket:block/laserprojector_side",
+    "up": "chaosket:block/laserprojector_side",
+    "north": "chaosket:block/laserprojector_side",
+    "east": "chaosket:block/laserprojector_side",
+    "south": "chaosket:block/laserprojector_front",
+    "west": "chaosket:block/laserprojector_side",
+    "particle": "chaosket:block/laserprojector_side"
   },
   "render_type": "solid"
 }
