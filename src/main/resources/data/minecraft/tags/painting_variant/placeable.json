@@ -3,6 +3,7 @@
   "values": [
     "chaosket:ckowner",
     "chaosket:wanted",
-    "chaosket:landscape"
+    "chaosket:landscape",
+    "chaosket:sky"
   ]
 }
