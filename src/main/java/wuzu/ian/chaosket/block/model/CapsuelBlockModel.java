@@ -19,6 +19,6 @@ public class CapsuelBlockModel extends GeoModel<CapsuelTileEntity> {
 
 	@Override
 	public ResourceLocation getTextureResource(CapsuelTileEntity entity) {
-		return new ResourceLocation("chaosket", "textures/block/capsuel.png");
+		return new ResourceLocation("chaosket", "textures/block/capsul.png");
 	}
 }

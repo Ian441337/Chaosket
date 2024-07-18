@@ -2,6 +2,6 @@
 {
   "parent": "chaosket:displaysettings/capsel.item",
   "textures": {
-    "particle": "chaosket:block/capsuel"
+    "particle": "chaosket:block/capsul"
   }
 }
