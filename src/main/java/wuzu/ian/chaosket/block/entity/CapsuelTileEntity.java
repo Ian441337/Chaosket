@@ -144,7 +144,7 @@ public class CapsuelTileEntity extends RandomizableContainerBlockEntity implemen
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Capsuel");
+		return Component.literal("Capsul");
 	}
 
 	@Override

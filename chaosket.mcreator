@@ -1070,6 +1070,70 @@
         "files": []
       },
       "path": "~/pictures"
+    },
+    {
+      "name": "CapsuelRedstoneOn",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsuel_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/CapsuelRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks/capsuel"
+    },
+    {
+      "name": "CapsuelRedstoneOff",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsuel_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/CapsuelRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks/capsuel"
     }
   ],
   "variable_elements": [],
@@ -1095,11 +1159,11 @@
     "en_us": {
       "block.chaosket.basaltwithlight": "Basaltwithlight",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
-      "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "subtitles.laser": "",
+      "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "gui.chaosket.capsulgui.label_capsul": "Capsul",
-      "subtitles.immerdabei": "",
       "block.chaosket.datablock": "Datablock",
+      "subtitles.immerdabei": "",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
       "block.chaosket.chaosaltar": "Chaosaltar",
@@ -1139,7 +1203,7 @@
       "entity.chaosket.pinguin": "Pinguin",
       "block.chaosket.jail_door": "Jail Door",
       "item.chaosket.soul_firefly_spawn_egg": "Firefly Spawn Egg",
-      "block.chaosket.capsuel": "Capsuel",
+      "block.chaosket.capsuel": "Capsul",
       "block.chaosket.der_hosen_teppich": "Der Hosen Teppich",
       "item.chaosket.firefly_spawn_egg": "Firefly Spawn Egg"
     }

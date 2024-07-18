@@ -2,6 +2,8 @@
 package wuzu.ian.chaosket.block;
 
 import wuzu.ian.chaosket.world.inventory.CapsulguiMenu;
+import wuzu.ian.chaosket.procedures.CapsuelRedstoneOnProcedure;
+import wuzu.ian.chaosket.procedures.CapsuelRedstoneOffProcedure;
 import wuzu.ian.chaosket.init.ChaosketModBlockEntities;
 import wuzu.ian.chaosket.block.entity.CapsuelTileEntity;
 
@@ -11,6 +13,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -29,6 +32,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
@@ -51,11 +55,11 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 public class CapsuelBlock extends BaseEntityBlock implements EntityBlock {
-	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
+	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 2);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public CapsuelBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.FIRE).sound(SoundType.METAL).strength(1.25f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -115,11 +119,28 @@ public class CapsuelBlock extends BaseEntityBlock implements EntityBlock {
 	}
 
 	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 2;
+		return false;
+	}
+
+	@Override
 	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		if (world.getBestNeighborSignal(pos) > 0) {
+			CapsuelRedstoneOnProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		} else {
+			CapsuelRedstoneOffProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
 	}
 
 	@Override
@@ -129,7 +150,7 @@ public class CapsuelBlock extends BaseEntityBlock implements EntityBlock {
 			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Capsuel");
+					return Component.literal("Capsul");
 				}
 
 				@Override
