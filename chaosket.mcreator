@@ -171,7 +171,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/test"
+      "path": "~/pictures"
     },
     {
       "name": "RedStrohhutHelmetTickEvent",
@@ -748,7 +748,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/test"
+      "path": "~/pictures"
     },
     {
       "name": "Datablock",
@@ -1046,6 +1046,18 @@
         ]
       },
       "path": "~/blocks/capsuel"
+    },
+    {
+      "name": "Landscape",
+      "type": "painting",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "landscape",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/pictures"
     }
   ],
   "variable_elements": [],
@@ -1069,6 +1081,7 @@
   ],
   "language_map": {
     "en_us": {
+      "painting.chaosket.landscape.author": "???",
       "block.chaosket.laserbrige": "Laserbrige",
       "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
@@ -1087,6 +1100,7 @@
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "block.chaosket.datablock": "Datablock",
       "subtitles.immerdabei": "",
+      "painting.chaosket.landscape.title": "Landscape",
       "block.chaosket.lostspacelaserbrige": "Laserbrige",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
@@ -1188,6 +1202,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "pictures",
+        "children": []
       }
     ]
   },
