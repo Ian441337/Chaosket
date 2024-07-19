@@ -14,7 +14,6 @@ import net.minecraft.world.entity.decoration.PaintingVariant;
 
 public class ChaosketModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, ChaosketMod.MODID);
-	public static final RegistryObject<PaintingVariant> CKOWNER = REGISTRY.register("ckowner", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> WANTED = REGISTRY.register("wanted", () -> new PaintingVariant(16, 32));
 	public static final RegistryObject<PaintingVariant> LANDSCAPE = REGISTRY.register("landscape", () -> new PaintingVariant(32, 32));
 	public static final RegistryObject<PaintingVariant> SKY = REGISTRY.register("sky", () -> new PaintingVariant(32, 32));

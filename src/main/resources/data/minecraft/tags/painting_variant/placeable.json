@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "chaosket:ckowner",
     "chaosket:wanted",
     "chaosket:landscape",
     "chaosket:sky",
