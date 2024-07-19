@@ -46,10 +46,10 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SOUL_FIREFLY_SPAWN_EGG = REGISTRY.register("soul_firefly_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.SOUL_FIREFLY, -10079488, -16711681, new Item.Properties()));
 	public static final RegistryObject<Item> PINGUIN_SPAWN_EGG = REGISTRY.register("pinguin_spawn_egg", () -> new ForgeSpawnEggItem(ChaosketModEntities.PINGUIN, -16764058, -3342337, new Item.Properties()));
 	public static final RegistryObject<Item> LOSTSPACELASERBRIGE = block(ChaosketModBlocks.LOSTSPACELASERBRIGE);
-	public static final RegistryObject<Item> LASERBRIGE = block(ChaosketModBlocks.LASERBRIGE);
 	public static final RegistryObject<Item> STOPSHADER = REGISTRY.register("stopshader", () -> new StopshaderItem());
 	public static final RegistryObject<Item> SOBEL = REGISTRY.register("sobel", () -> new SobelItem());
 	public static final RegistryObject<Item> SIREN = REGISTRY.register("siren", () -> new SirenItem());
+	public static final RegistryObject<Item> LASERBRIGE = block(ChaosketModBlocks.LASERBRIGE);
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

@@ -21,7 +21,7 @@
     {
       "name": "Travelanchor",
       "type": "gui",
-      "sortid": 25,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchor",
@@ -36,7 +36,7 @@
     {
       "name": "Travelanchordisplayblock",
       "type": "function",
-      "sortid": 26,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchordisplayblock",
@@ -50,7 +50,7 @@
     {
       "name": "TravelanchorblockUpdateTick",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchorblock_update_tick",
@@ -82,7 +82,7 @@
     {
       "name": "ChaosKet",
       "type": "tab",
-      "sortid": 28,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaos_ket",
@@ -93,7 +93,7 @@
     {
       "name": "Travelanchorblockdisplaykill",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchorblockdisplaykill",
@@ -125,7 +125,7 @@
     {
       "name": "Travelanchordirection",
       "type": "procedure",
-      "sortid": 30,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "travelanchordirection",
@@ -164,7 +164,7 @@
     {
       "name": "RedStrohhutHelmetTickEvent",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strohhut_helmet_tick_event",
@@ -213,7 +213,7 @@
     {
       "name": "RedStrohhutr",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_strohhutr",
@@ -227,7 +227,7 @@
     {
       "name": "Laserbrige",
       "type": "block",
-      "sortid": 19,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laserbrige",
@@ -261,7 +261,7 @@
     {
       "name": "LaserbrigeprojectorRedstoneOn",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laserbrigeprojector_redstone_on",
@@ -293,7 +293,7 @@
     {
       "name": "LaserbrigeprojectorRedstoneOff",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laserbrigeprojector_redstone_off",
@@ -325,7 +325,7 @@
     {
       "name": "StaffoftravelingRightclicked",
       "type": "procedure",
-      "sortid": 36,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staffoftraveling_rightclicked",
@@ -391,7 +391,7 @@
     {
       "name": "LaserbrigeUpdateTick",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laserbrige_update_tick",
@@ -440,7 +440,7 @@
     {
       "name": "EndanchorBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "endanchor_block_is_placed_by",
@@ -472,7 +472,7 @@
     {
       "name": "SobelRightclicked",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sobel_rightclicked",
@@ -496,7 +496,7 @@
     {
       "name": "StopshaderRightclicked",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stopshader_rightclicked",
@@ -520,7 +520,7 @@
     {
       "name": "Stopshader",
       "type": "item",
-      "sortid": 20,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stopshader",
@@ -535,7 +535,7 @@
     {
       "name": "Sobel",
       "type": "item",
-      "sortid": 21,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sobel",
@@ -550,7 +550,7 @@
     {
       "name": "Jaildoorr",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jaildoorr",
@@ -564,7 +564,7 @@
     {
       "name": "Chaosaltargui",
       "type": "gui",
-      "sortid": 42,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaosaltargui",
@@ -579,7 +579,7 @@
     {
       "name": "Armoredim",
       "type": "dimension",
-      "sortid": 23,
+      "sortid": 22,
       "compiles": true,
       "locked_code": true,
       "registry_name": "armoredim",
@@ -595,7 +595,7 @@
     {
       "name": "Armoredimskybox",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "armoredimskybox",
@@ -633,7 +633,7 @@
     {
       "name": "LostSpace",
       "type": "biome",
-      "sortid": 44,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lost_space",
@@ -649,7 +649,7 @@
     {
       "name": "Callanimationpaul2god",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "callanimationpaul_2god",
@@ -669,7 +669,7 @@
     {
       "name": "Pauk2GODRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pauk_2_god_right_clicked_on_entity",
@@ -729,7 +729,7 @@
     {
       "name": "Wanted",
       "type": "painting",
-      "sortid": 47,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wanted",
@@ -758,7 +758,7 @@
     {
       "name": "Datablockr",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "datablockr",
@@ -792,7 +792,7 @@
     {
       "name": "ItemcreativeTab",
       "type": "item",
-      "sortid": 49,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "itemcreative_tab",
@@ -824,7 +824,7 @@
     {
       "name": "Derhosentepichr",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "derhosentepichr",
@@ -838,7 +838,7 @@
     {
       "name": "Siren",
       "type": "item",
-      "sortid": 22,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "siren",
@@ -853,7 +853,7 @@
     {
       "name": "SirenRightclicked",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "siren_rightclicked",
@@ -932,7 +932,7 @@
     {
       "name": "Baslatlight",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baslatlight",
@@ -984,14 +984,14 @@
     {
       "name": "Armorfly",
       "type": "livingentity",
-      "sortid": 24,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "armorfly",
       "metadata": {
         "files": [
-          "src/main/java/wuzu/ian/chaosket/entity/ArmorflyEntity.java",
-          "src/main/java/wuzu/ian/chaosket/client/renderer/ArmorflyRenderer.java"
+          "src/main/java/wuzu/ian/chaosket/client/renderer/ArmorflyRenderer.java",
+          "src/main/java/wuzu/ian/chaosket/entity/ArmorflyEntity.java"
         ]
       },
       "path": "~/blocks/capsuel"
@@ -999,7 +999,7 @@
     {
       "name": "ArmorflyRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 53,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "armorfly_right_clicked_on_entity",
@@ -1023,7 +1023,7 @@
     {
       "name": "Capsulgui",
       "type": "gui",
-      "sortid": 54,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsulgui",
@@ -1038,7 +1038,7 @@
     {
       "name": "Landscape",
       "type": "painting",
-      "sortid": 55,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "landscape",
@@ -1050,7 +1050,7 @@
     {
       "name": "Sky",
       "type": "painting",
-      "sortid": 56,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sky",
@@ -1062,7 +1062,7 @@
     {
       "name": "CapsuelRedstoneOn",
       "type": "procedure",
-      "sortid": 57,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsuel_redstone_on",
@@ -1094,7 +1094,7 @@
     {
       "name": "CapsuelRedstoneOff",
       "type": "procedure",
-      "sortid": 58,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsuel_redstone_off",
@@ -1126,7 +1126,7 @@
     {
       "name": "Paul2micessen",
       "type": "painting",
-      "sortid": 59,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paul_2micessen",
@@ -1138,7 +1138,7 @@
     {
       "name": "Paul2Logo",
       "type": "painting",
-      "sortid": 60,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paul_2_logo",
@@ -1150,7 +1150,7 @@
     {
       "name": "Paul2Logo2",
       "type": "painting",
-      "sortid": 61,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paul_2_logo_2",
@@ -1162,7 +1162,7 @@
     {
       "name": "Basaltr",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "basaltr",
@@ -1176,7 +1176,7 @@
     {
       "name": "Laspro",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laspro",
@@ -1209,17 +1209,17 @@
   ],
   "language_map": {
     "en_us": {
-      "painting.chaosket.paul_2micessen.author": "Paul2Craft",
       "block.chaosket.basaltwithlight": "Basaltwithlight",
+      "painting.chaosket.paul_2micessen.author": "Paul2Craft",
       "subtitles.laser": "",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "gui.chaosket.capsulgui.label_capsul": "Capsul",
-      "subtitles.immerdabei": "",
       "block.chaosket.datablock": "Datablock",
+      "subtitles.immerdabei": "",
       "painting.chaosket.paul_2_logo_2.title": "Paul 2 Logo 2",
-      "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
-      "item.chaosket.sobel": "Sobel",
       "block.chaosket.chaosaltar": "Chaosaltar",
+      "item.chaosket.sobel": "Sobel",
+      "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
       "item_group.chaosket.chaos_ket": "Chaos Ket",
