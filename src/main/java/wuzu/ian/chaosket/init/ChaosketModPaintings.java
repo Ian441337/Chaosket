@@ -18,4 +18,5 @@ public class ChaosketModPaintings {
 	public static final RegistryObject<PaintingVariant> WANTED = REGISTRY.register("wanted", () -> new PaintingVariant(16, 32));
 	public static final RegistryObject<PaintingVariant> LANDSCAPE = REGISTRY.register("landscape", () -> new PaintingVariant(32, 32));
 	public static final RegistryObject<PaintingVariant> SKY = REGISTRY.register("sky", () -> new PaintingVariant(32, 32));
+	public static final RegistryObject<PaintingVariant> PAUL_2MICESSEN = REGISTRY.register("paul_2micessen", () -> new PaintingVariant(48, 32));
 }

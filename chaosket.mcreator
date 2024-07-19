@@ -1134,6 +1134,18 @@
         ]
       },
       "path": "~/blocks/capsuel"
+    },
+    {
+      "name": "Paul2micessen",
+      "type": "painting",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paul_2micessen",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/pictures"
     }
   ],
   "variable_elements": [],
@@ -1158,6 +1170,7 @@
   "language_map": {
     "en_us": {
       "block.chaosket.basaltwithlight": "Basaltwithlight",
+      "painting.chaosket.paul_2micessen.author": "Paul2Craft",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "subtitles.laser": "",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
@@ -1192,6 +1205,7 @@
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "painting.chaosket.landscape.title": "Landscape",
       "block.chaosket.lostspacelaserbrige": "Laserbrige",
+      "painting.chaosket.paul_2micessen.title": "Paul2micessen",
       "item.chaosket.siren": "siren",
       "biome.chaosket.lost_space": "Lost Space",
       "entity.chaosket.firefly": "Firefly",
