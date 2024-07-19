@@ -1146,6 +1146,30 @@
         "files": []
       },
       "path": "~/pictures"
+    },
+    {
+      "name": "Paul2Logo",
+      "type": "painting",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paul_2_logo",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/pictures"
+    },
+    {
+      "name": "Paul2Logo2",
+      "type": "painting",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paul_2_logo_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/pictures"
     }
   ],
   "variable_elements": [],
@@ -1169,14 +1193,15 @@
   ],
   "language_map": {
     "en_us": {
-      "block.chaosket.basaltwithlight": "Basaltwithlight",
       "painting.chaosket.paul_2micessen.author": "Paul2Craft",
+      "block.chaosket.basaltwithlight": "Basaltwithlight",
       "painting.chaosket.ckowner.author": "Wutzuket and Ian1337",
       "subtitles.laser": "",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
       "gui.chaosket.capsulgui.label_capsul": "Capsul",
-      "block.chaosket.datablock": "Datablock",
       "subtitles.immerdabei": "",
+      "block.chaosket.datablock": "Datablock",
+      "painting.chaosket.paul_2_logo_2.title": "Paul 2 Logo 2",
       "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "item.chaosket.sobel": "Sobel",
       "block.chaosket.chaosaltar": "Chaosaltar",
@@ -1195,6 +1220,7 @@
       "item.chaosket.stopshader": "Stopshader",
       "item.chaosket.red_strohhut_chestplate": "Red Strohhut Chestplate",
       "block.chaosket.travel_anchor_block": "Travel Anchor Block",
+      "painting.chaosket.paul_2_logo.author": "Paul2Craft",
       "entity.chaosket.soul_firefly": "Firefly",
       "item.chaosket.staffoftraveling": "Staff of Traveling",
       "item.chaosket.immerdabei.desc": "Paul2Craft KI Song by Ian1337",
@@ -1205,12 +1231,14 @@
       "item.chaosket.pauk_2_god_spawn_egg": "Pauk2GOD Spawn Egg",
       "painting.chaosket.landscape.title": "Landscape",
       "block.chaosket.lostspacelaserbrige": "Laserbrige",
+      "painting.chaosket.paul_2_logo.title": "Paul 2 Logo",
       "painting.chaosket.paul_2micessen.title": "Paul2micessen",
       "item.chaosket.siren": "siren",
       "biome.chaosket.lost_space": "Lost Space",
       "entity.chaosket.firefly": "Firefly",
       "item.chaosket.red_strohhut_helmet": "Red Strohhut",
       "item.chaosket.red_strohhut_boots": "Red Strohhut Boots",
+      "painting.chaosket.paul_2_logo_2.author": "Paul2Craft",
       "subtitles.immer_dabei": "Paul2Craft KI Song by Ian1337",
       "painting.chaosket.sky.author": "Skyblock",
       "item.chaosket.itemcreative_tab": "Item.creative.tab",
