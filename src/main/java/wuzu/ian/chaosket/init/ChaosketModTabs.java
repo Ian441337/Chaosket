@@ -36,7 +36,6 @@ public class ChaosketModTabs {
 				tabData.accept(ChaosketModItems.SOUL_FIREFLY_SPAWN_EGG.get());
 				tabData.accept(ChaosketModItems.PINGUIN_SPAWN_EGG.get());
 				tabData.accept(ChaosketModBlocks.LOSTSPACELASERBRIGE.get().asItem());
-				tabData.accept(ChaosketModBlocks.LASERBRIGE.get().asItem());
 				tabData.accept(ChaosketModItems.STOPSHADER.get());
 				tabData.accept(ChaosketModItems.SOBEL.get());
 				tabData.accept(ChaosketModItems.SIREN.get());
