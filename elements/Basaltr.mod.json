@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.CONCRETE_POWDER#15"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Basalt"
+    },
+    "name": "basaltr",
+    "namespace": "mod"
+  }
+}

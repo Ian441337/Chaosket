@@ -31,7 +31,7 @@
           "src/main/java/wuzu/ian/chaosket/world/inventory/TravelanchorMenu.java"
         ]
       },
-      "path": "~/dimension/travel_anchor"
+      "path": "~/blocks/travel_anchor"
     },
     {
       "name": "Travelanchordisplayblock",
@@ -45,7 +45,7 @@
           "src/main/resources/data/chaosket/functions/travelanchordisplayblock.mcfunction"
         ]
       },
-      "path": "~/dimension/travel_anchor"
+      "path": "~/blocks/travel_anchor"
     },
     {
       "name": "TravelanchorblockUpdateTick",
@@ -77,7 +77,7 @@
           }
         ]
       },
-      "path": "~/dimension/travel_anchor"
+      "path": "~/blocks/travel_anchor"
     },
     {
       "name": "ChaosKet",
@@ -120,7 +120,7 @@
           }
         ]
       },
-      "path": "~/dimension/travel_anchor"
+      "path": "~/blocks/travel_anchor"
     },
     {
       "name": "Travelanchordirection",
@@ -144,7 +144,7 @@
           }
         ]
       },
-      "path": "~/dimension/travel_anchor"
+      "path": "~/blocks/travel_anchor"
     },
     {
       "name": "Staffoftraveling",
@@ -159,7 +159,7 @@
           "src/main/java/wuzu/ian/chaosket/item/StaffoftravelingItem.java"
         ]
       },
-      "path": "~/dimension/travel_anchor"
+      "path": "~/blocks/travel_anchor"
     },
     {
       "name": "Ckowner",
@@ -356,7 +356,7 @@
           }
         ]
       },
-      "path": "~/dimension/travel_anchor"
+      "path": "~/blocks/travel_anchor"
     },
     {
       "name": "JailDoor",
@@ -398,7 +398,7 @@
           "src/main/resources/assets/chaosket/models/block/travel_anchorblock.json"
         ]
       },
-      "path": "~/dimension/travel_anchor"
+      "path": "~/blocks/travel_anchor"
     },
     {
       "name": "LaserbrigeUpdateTick",
@@ -1170,6 +1170,20 @@
         "files": []
       },
       "path": "~/pictures"
+    },
+    {
+      "name": "Basaltr",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basaltr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaosket/recipes/basaltr.json"
+        ]
+      },
+      "path": "~/recepi"
     }
   ],
   "variable_elements": [],
@@ -1263,10 +1277,6 @@
           {
             "name": "armoredim",
             "children": []
-          },
-          {
-            "name": "travel_anchor",
-            "children": []
           }
         ]
       },
@@ -1319,6 +1329,10 @@
           },
           {
             "name": "doors",
+            "children": []
+          },
+          {
+            "name": "travel_anchor",
             "children": []
           }
         ]
