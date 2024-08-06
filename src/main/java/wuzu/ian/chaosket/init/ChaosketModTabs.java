@@ -43,10 +43,4 @@ public class ChaosketModTabs {
 			})
 
 					.build());
-	public static final RegistryObject<CreativeModeTab> REWARDS = REGISTRY.register("rewards",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.rewards")).icon(() -> new ItemStack(ChaosketModItems.WHONEEDSSLEEP.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(ChaosketModItems.WHONEEDSSLEEP.get());
-			})
-
-					.build());
 }
