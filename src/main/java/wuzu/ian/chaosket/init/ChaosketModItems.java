@@ -8,6 +8,7 @@ import wuzu.ian.chaosket.item.StopshaderItem;
 import wuzu.ian.chaosket.item.StaffoftravelingItem;
 import wuzu.ian.chaosket.item.SobelItem;
 import wuzu.ian.chaosket.item.SirenItem;
+import wuzu.ian.chaosket.item.ScreenshakeItem;
 import wuzu.ian.chaosket.item.RedStrohhutItem;
 import wuzu.ian.chaosket.item.ItemcreativeTabItem;
 import wuzu.ian.chaosket.item.ImmerdabeiItem;
@@ -51,6 +52,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> SIREN = REGISTRY.register("siren", () -> new SirenItem());
 	public static final RegistryObject<Item> LASERBRIGE = block(ChaosketModBlocks.LASERBRIGE);
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
+	public static final RegistryObject<Item> SCREENSHAKE = REGISTRY.register("screenshake", () -> new ScreenshakeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
