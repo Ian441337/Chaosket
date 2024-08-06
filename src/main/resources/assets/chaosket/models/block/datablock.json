@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "chaosket:block/datablock",
-    "up": "chaosket:block/datablock",
-    "north": "chaosket:block/datablock",
-    "east": "chaosket:block/datablock",
-    "south": "chaosket:block/datablock",
-    "west": "chaosket:block/datablock",
+    "all": "chaosket:block/datablock",
     "particle": "chaosket:block/datablock"
   },
   "render_type": "solid"
