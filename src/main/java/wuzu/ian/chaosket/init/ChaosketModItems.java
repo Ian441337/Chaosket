@@ -4,6 +4,7 @@
  */
 package wuzu.ian.chaosket.init;
 
+import wuzu.ian.chaosket.item.WhoneedssleepItem;
 import wuzu.ian.chaosket.item.StopshaderItem;
 import wuzu.ian.chaosket.item.StaffoftravelingItem;
 import wuzu.ian.chaosket.item.SobelItem;
@@ -53,6 +54,7 @@ public class ChaosketModItems {
 	public static final RegistryObject<Item> LASERBRIGE = block(ChaosketModBlocks.LASERBRIGE);
 	public static final RegistryObject<Item> ITEMCREATIVE_TAB = REGISTRY.register("itemcreative_tab", () -> new ItemcreativeTabItem());
 	public static final RegistryObject<Item> SCREENSHAKE = REGISTRY.register("screenshake", () -> new ScreenshakeItem());
+	public static final RegistryObject<Item> WHONEEDSSLEEP = REGISTRY.register("whoneedssleep", () -> new WhoneedssleepItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
