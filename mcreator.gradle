@@ -126,8 +126,8 @@ repositories {
 }
 
 dependencies {
-  compileOnly fg.deobf("curse.maven:embeddium-908741:4984832")
-  runtimeOnly fg.deobf("curse.maven:embeddium-908741:4984832")
+  compileOnly fg.deobf("curse.maven:oculus-581495:4767500")
+  runtimeOnly fg.deobf("curse.maven:oculus-581495:4767500")
 }
   minecraft {
     runs {
@@ -156,8 +156,8 @@ repositories {
 }
 
 dependencies {
-  compileOnly fg.deobf("curse.maven:oculus-581495:4767500")
-  runtimeOnly fg.deobf("curse.maven:oculus-581495:4767500")
+  compileOnly fg.deobf("curse.maven:embeddium-908741:4984832")
+  runtimeOnly fg.deobf("curse.maven:embeddium-908741:4984832")
 }
   minecraft {
     runs {

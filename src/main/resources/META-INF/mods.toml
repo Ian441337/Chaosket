@@ -4,9 +4,9 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="chaosket"
-version="0.0.4"
+version="0.0.5"
 displayName="Chaosket"
-displayURL="https://de.paul2craft.de"
+displayURL="https://dc.paul2craft.de"
 logoFile="logo.png"
 credits="Hi"
 authors="Ian, Wuzuket"
@@ -46,13 +46,13 @@ description="Step into the realm of the Ethereal Forge, a comprehensive Minecraf
     ordering="NONE"
     side="BOTH"
 [[dependencies.chaosket]]
-    modId="embeddium"
+    modId="oculus"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.chaosket]]
-    modId="oculus"
+    modId="embeddium"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
