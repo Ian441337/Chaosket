@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chaosket:block/polished_limestone",
+    "particle": "chaosket:block/polished_limestone"
+  },
+  "render_type": "solid"
+}

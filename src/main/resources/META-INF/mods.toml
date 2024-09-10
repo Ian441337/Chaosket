@@ -40,12 +40,6 @@ description="Step into the realm of the Ethereal Forge, a comprehensive Minecraf
     ordering="NONE"
     side="BOTH"
 [[dependencies.chaosket]]
-    modId="create"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.chaosket]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"

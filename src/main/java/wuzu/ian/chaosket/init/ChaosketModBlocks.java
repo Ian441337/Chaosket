@@ -5,7 +5,10 @@
 package wuzu.ian.chaosket.init;
 
 import wuzu.ian.chaosket.block.TravelAnchorblockBlock;
+import wuzu.ian.chaosket.block.PolishedLimestoneBlock;
 import wuzu.ian.chaosket.block.LostspacelaserbrigeBlock;
+import wuzu.ian.chaosket.block.LimestonebricksBlock;
+import wuzu.ian.chaosket.block.LimestoneBlock;
 import wuzu.ian.chaosket.block.LaserbrigeprojectorBlock;
 import wuzu.ian.chaosket.block.LaserbrigeBlock;
 import wuzu.ian.chaosket.block.JailDoorBlock;
@@ -14,7 +17,6 @@ import wuzu.ian.chaosket.block.DerHosenTeppichBlock;
 import wuzu.ian.chaosket.block.DatablockBlock;
 import wuzu.ian.chaosket.block.ChaosaltarBlock;
 import wuzu.ian.chaosket.block.CapsuelBlock;
-import wuzu.ian.chaosket.block.BasaltwithlightBlock;
 import wuzu.ian.chaosket.block.BasaltBlock;
 import wuzu.ian.chaosket.ChaosketMod;
 
@@ -26,8 +28,10 @@ import net.minecraft.world.level.block.Block;
 
 public class ChaosketModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ChaosketMod.MODID);
+	public static final RegistryObject<Block> LIMESTONE = REGISTRY.register("limestone", () -> new LimestoneBlock());
+	public static final RegistryObject<Block> LIMESTONEBRICKS = REGISTRY.register("limestonebricks", () -> new LimestonebricksBlock());
+	public static final RegistryObject<Block> POLISHED_LIMESTONE = REGISTRY.register("polished_limestone", () -> new PolishedLimestoneBlock());
 	public static final RegistryObject<Block> BASALT = REGISTRY.register("basalt", () -> new BasaltBlock());
-	public static final RegistryObject<Block> BASALTWITHLIGHT = REGISTRY.register("basaltwithlight", () -> new BasaltwithlightBlock());
 	public static final RegistryObject<Block> DATABLOCK = REGISTRY.register("datablock", () -> new DatablockBlock());
 	public static final RegistryObject<Block> DER_HOSEN_TEPPICH = REGISTRY.register("der_hosen_teppich", () -> new DerHosenTeppichBlock());
 	public static final RegistryObject<Block> LASERBRIGEPROJECTOR = REGISTRY.register("laserbrigeprojector", () -> new LaserbrigeprojectorBlock());

@@ -18,8 +18,10 @@ public class ChaosketModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ChaosketMod.MODID);
 	public static final RegistryObject<CreativeModeTab> CHAOS_KET = REGISTRY.register("chaos_ket",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.chaosket.chaos_ket")).icon(() -> new ItemStack(ChaosketModItems.ITEMCREATIVE_TAB.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ChaosketModBlocks.LIMESTONE.get().asItem());
+				tabData.accept(ChaosketModBlocks.LIMESTONEBRICKS.get().asItem());
+				tabData.accept(ChaosketModBlocks.POLISHED_LIMESTONE.get().asItem());
 				tabData.accept(ChaosketModBlocks.BASALT.get().asItem());
-				tabData.accept(ChaosketModBlocks.BASALTWITHLIGHT.get().asItem());
 				tabData.accept(ChaosketModBlocks.DATABLOCK.get().asItem());
 				tabData.accept(ChaosketModBlocks.DER_HOSEN_TEPPICH.get().asItem());
 				tabData.accept(ChaosketModBlocks.LASERBRIGEPROJECTOR.get().asItem());
