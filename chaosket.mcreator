@@ -1266,6 +1266,29 @@
         ]
       },
       "path": "~/recepi"
+    },
+    {
+      "name": "Vev",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vev",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/chaosket/procedures/VevProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1290,15 +1313,15 @@
   "language_map": {
     "en_us": {
       "painting.chaosket.paul_2micessen.author": "Paul2Craft",
-      "subtitles.laser": "",
       "entity.chaosket.pauk_2_god": "Pauk2GOD",
+      "subtitles.laser": "",
       "gui.chaosket.capsulgui.label_capsul": "Capsul",
-      "subtitles.immerdabei": "",
       "block.chaosket.datablock": "Datablock",
+      "subtitles.immerdabei": "",
       "painting.chaosket.paul_2_logo_2.title": "Paul 2 Logo 2",
-      "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
-      "item.chaosket.sobel": "Sobel",
       "block.chaosket.chaosaltar": "Chaosaltar",
+      "item.chaosket.sobel": "Sobel",
+      "item.chaosket.pinguin_spawn_egg": "Pinguin Spawn Egg",
       "block.chaosket.travel_anchorblock": "Travel Anchor",
       "item.chaosket.red_strohhut_leggings": "Red Strohhut Leggings",
       "item_group.chaosket.chaos_ket": "Chaos Ket",

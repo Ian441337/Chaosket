@@ -35,10 +35,13 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "Vev"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
-      "value": "ProjectileBlood"
+      "value": "Arrow"
     },
     "isFood": false,
     "nutritionalValue": 4,
